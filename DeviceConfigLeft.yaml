@@ -83,7 +83,7 @@ robot_group:
         current_coeff: 7.0000000000000001e-03
         torque_coeff: 9.8600000000000007e-02
         torque_max: 6.9020000000000004e-01
-        sensor_coeff: 0.0000000000000000e+00
+        sensor_coeff: 1.0000000000000000e-03
         sensor_coeff2: 0.0000000000000000e+00
         encoder_ruler: 2.6214400000000000e+07
         encoder_ruler2: 0.0000000000000000e+00
@@ -141,7 +141,7 @@ robot_group:
         current_coeff: 7.0000000000000001e-03
         torque_coeff: 9.8600000000000007e-02
         torque_max: 6.9020000000000004e-01
-        sensor_coeff: 0.0000000000000000e+00
+        sensor_coeff: 1.0000000000000000e-03
         sensor_coeff2: 0.0000000000000000e+00
         encoder_ruler: 2.6214400000000000e+07
         encoder_ruler2: 0.0000000000000000e+00
@@ -199,7 +199,7 @@ robot_group:
         current_coeff: 5.6600000000000001e-03
         torque_coeff: 6.6000000000000003e-02
         torque_max: 3.6790000000000000e-01
-        sensor_coeff: 0.0000000000000000e+00
+        sensor_coeff: -1.0000000000000000e-03
         sensor_coeff2: 0.0000000000000000e+00
         encoder_ruler: 2.6214400000000000e+07
         encoder_ruler2: 0.0000000000000000e+00
@@ -257,7 +257,7 @@ robot_group:
         current_coeff: 5.6600000000000001e-03
         torque_coeff: 6.6000000000000003e-02
         torque_max: 3.6790000000000000e-01
-        sensor_coeff: 0.0000000000000000e+00
+        sensor_coeff: -1.0000000000000000e-03
         sensor_coeff2: 0.0000000000000000e+00
         encoder_ruler: 2.6214400000000000e+07
         encoder_ruler2: 0.0000000000000000e+00
@@ -315,7 +315,7 @@ robot_group:
         current_coeff: 5.6600000000000001e-03
         torque_coeff: 6.6000000000000003e-02
         torque_max: 3.6790000000000000e-01
-        sensor_coeff: 0.0000000000000000e+00
+        sensor_coeff: -1.0000000000000000e-03
         sensor_coeff2: 0.0000000000000000e+00
         encoder_ruler: 2.6214400000000000e+07
         encoder_ruler2: 0.0000000000000000e+00
@@ -373,7 +373,7 @@ robot_group:
         current_coeff: 5.6600000000000001e-03
         torque_coeff: 6.6000000000000003e-02
         torque_max: 3.6790000000000000e-01
-        sensor_coeff: 0.0000000000000000e+00
+        sensor_coeff: -1.0000000000000000e-03
         sensor_coeff2: 0.0000000000000000e+00
         encoder_ruler: 2.6214400000000000e+07
         encoder_ruler2: 0.0000000000000000e+00
@@ -431,7 +431,7 @@ robot_group:
         current_coeff: 1.4000000000000000e-03
         torque_coeff: 6.3570000000000002e-02
         torque_max: 8.8999999999999996e-02
-        sensor_coeff: 0.0000000000000000e+00
+        sensor_coeff: -1.0000000000000000e-03
         sensor_coeff2: 0.0000000000000000e+00
         encoder_ruler: 2.6476544000000000e+07
         encoder_ruler2: 0.0000000000000000e+00
