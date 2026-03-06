@@ -1,0 +1,655 @@
+INFO:2650-[20251224064025] verison: 12.2.1
+INFO:2650-[20251224064025] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2650-[20251224064025] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2650-[20251224064025] Start system initialize!
+INFO:2650-[20251224064025] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2650-[20251224064025] group init existing problem. Some fields are not found!
+WARNING:2650-[20251224064025] dof num is 7
+WARNING:2650-[20251224064025] control:7,state:7,mode:7
+WARNING:2650-[20251224064025] ac_position:7,ac_velocity:7,ac_torque:7,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_sensor_torque2:0,ac_mode:0,ErrorCode:7,FollowingErrorActualValue:0
+WARNING:2650-[20251224064025] position:7,velocity:7,torque:7,VelocityOffset:7,TorqueOffset:7,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:2650-[20251224064025] /////////////////////////////////////////////////////////////////
+INFO:2650-[20251224064025] fd_ecat_in_name: /ecat_in
+INFO:2650-[20251224064025] fd_ecat_out_name: /ecat_out
+INFO:2650-[20251224064025] /////////////////////////////////////////////////////////////////
+INFO:2650-[20251224064025] state: Statusword
+INFO:2650-[20251224064025] control: Controlword
+INFO:2650-[20251224064025] mode: Modes of Operation
+INFO:2650-[20251224064025] ac_position: Position Actual Value
+INFO:2650-[20251224064025] ac_velocity: Velocity Actual Value
+INFO:2650-[20251224064025] ac_torque: Torque Actual Value
+INFO:2650-[20251224064025] ac_position2: 
+INFO:2650-[20251224064025] ac_velocity2: 
+INFO:2650-[20251224064025] ac_sensor_torque: 
+INFO:2650-[20251224064025] ac_sensor_torque2: 
+INFO:2650-[20251224064025] ac_mode: Modes of Operation Display
+INFO:2650-[20251224064025] ErrorCode: Error Code
+INFO:2650-[20251224064025] FollowingErrorActualValue: 
+INFO:2650-[20251224064025] position: Target Position
+INFO:2650-[20251224064025] velocity: Target Velocity
+INFO:2650-[20251224064025] torque: Target Torque
+INFO:2650-[20251224064025] VelocityOffset: Velocity Offset
+INFO:2650-[20251224064025] TorqueOffset: Torque Offset
+INFO:2650-[20251224064025] TorqueMaxLimit: 
+INFO:2650-[20251224064025] TorqueMinLimit: 
+INFO:2650-[20251224064025] ec_di: 
+INFO:2650-[20251224064025] ec_do: 
+INFO:2650-[20251224064025] ec_ai: 
+INFO:2650-[20251224064025] ec_ao: 
+INFO:2650-[20251224064025] ec_li: 
+INFO:2650-[20251224064025] ec_lo: 
+INFO:2650-[20251224064025] Number of fields: 26
+INFO:2650-[20251224064025] busyTs: 1000000 ns
+INFO:2650-[20251224064025] /////////////////////////////////////////////////////////////////
+INFO:2650-[20251224064025] ec_device1/robot0: 
+INFO:2650-[20251224064025] DOF: 7
+INFO:2650-[20251224064025] 0_state: 80
+INFO:2650-[20251224064025] 0_control: 80
+INFO:2650-[20251224064025] 0_mode: 96
+INFO:2650-[20251224064025] 0_ac_position: 0
+INFO:2650-[20251224064025] 0_ac_velocity: 32
+INFO:2650-[20251224064025] 0_ac_torque: 64
+INFO:2650-[20251224064025] 0_ac_current: -999999
+INFO:2650-[20251224064025] 0_ac_position2: -999999
+INFO:2650-[20251224064025] 0_ac_velocity2: -999999
+INFO:2650-[20251224064025] 0_ac_sensor_torque: -999999
+INFO:2650-[20251224064025] 0_ac_sensor_torque2: -999999
+INFO:2650-[20251224064025] 0_ac_mode: -999999
+INFO:2650-[20251224064025] 0_ErrorCode: 96
+INFO:2650-[20251224064025] 0_FollowingErrorActualValue: -999999
+INFO:2650-[20251224064025] 0_position: 0
+INFO:2650-[20251224064025] 0_velocity: 32
+INFO:2650-[20251224064025] 0_torque: 64
+INFO:2650-[20251224064025] 0_VelocityOffset: 128
+INFO:2650-[20251224064025] 0_TorqueOffset: 112
+INFO:2650-[20251224064025] 0_TorqueMaxLimit: -999999
+INFO:2650-[20251224064025] 0_TorqueMinLimit: -999999
+INFO:2650-[20251224064025] 1_state: 192
+INFO:2650-[20251224064025] 1_control: 240
+INFO:2650-[20251224064025] 1_mode: 256
+INFO:2650-[20251224064025] 1_ac_position: 112
+INFO:2650-[20251224064025] 1_ac_velocity: 144
+INFO:2650-[20251224064025] 1_ac_torque: 176
+INFO:2650-[20251224064025] 1_ac_current: -999999
+INFO:2650-[20251224064025] 1_ac_position2: -999999
+INFO:2650-[20251224064025] 1_ac_velocity2: -999999
+INFO:2650-[20251224064025] 1_ac_sensor_torque: -999999
+INFO:2650-[20251224064025] 1_ac_sensor_torque2: -999999
+INFO:2650-[20251224064025] 1_ac_mode: -999999
+INFO:2650-[20251224064025] 1_ErrorCode: 208
+INFO:2650-[20251224064025] 1_FollowingErrorActualValue: -999999
+INFO:2650-[20251224064025] 1_position: 160
+INFO:2650-[20251224064025] 1_velocity: 192
+INFO:2650-[20251224064025] 1_torque: 224
+INFO:2650-[20251224064025] 1_VelocityOffset: 288
+INFO:2650-[20251224064025] 1_TorqueOffset: 272
+INFO:2650-[20251224064025] 1_TorqueMaxLimit: -999999
+INFO:2650-[20251224064025] 1_TorqueMinLimit: -999999
+INFO:2650-[20251224064025] 2_state: 304
+INFO:2650-[20251224064025] 2_control: 400
+INFO:2650-[20251224064025] 2_mode: 416
+INFO:2650-[20251224064025] 2_ac_position: 224
+INFO:2650-[20251224064025] 2_ac_velocity: 256
+INFO:2650-[20251224064025] 2_ac_torque: 288
+INFO:2650-[20251224064025] 2_ac_current: -999999
+INFO:2650-[20251224064025] 2_ac_position2: -999999
+INFO:2650-[20251224064025] 2_ac_velocity2: -999999
+INFO:2650-[20251224064025] 2_ac_sensor_torque: -999999
+INFO:2650-[20251224064025] 2_ac_sensor_torque2: -999999
+INFO:2650-[20251224064025] 2_ac_mode: -999999
+INFO:2650-[20251224064025] 2_ErrorCode: 320
+INFO:2650-[20251224064025] 2_FollowingErrorActualValue: -999999
+INFO:2650-[20251224064025] 2_position: 320
+INFO:2650-[20251224064025] 2_velocity: 352
+INFO:2650-[20251224064025] 2_torque: 384
+INFO:2650-[20251224064025] 2_VelocityOffset: 448
+INFO:2650-[20251224064025] 2_TorqueOffset: 432
+INFO:2650-[20251224064025] 2_TorqueMaxLimit: -999999
+INFO:2650-[20251224064025] 2_TorqueMinLimit: -999999
+INFO:2650-[20251224064025] 3_state: 416
+INFO:2650-[20251224064025] 3_control: 560
+INFO:2650-[20251224064025] 3_mode: 576
+INFO:2650-[20251224064025] 3_ac_position: 336
+INFO:2650-[20251224064025] 3_ac_velocity: 368
+INFO:2650-[20251224064025] 3_ac_torque: 400
+INFO:2650-[20251224064025] 3_ac_current: -999999
+INFO:2650-[20251224064025] 3_ac_position2: -999999
+INFO:2650-[20251224064025] 3_ac_velocity2: -999999
+INFO:2650-[20251224064025] 3_ac_sensor_torque: -999999
+INFO:2650-[20251224064025] 3_ac_sensor_torque2: -999999
+INFO:2650-[20251224064025] 3_ac_mode: -999999
+INFO:2650-[20251224064025] 3_ErrorCode: 432
+INFO:2650-[20251224064025] 3_FollowingErrorActualValue: -999999
+INFO:2650-[20251224064025] 3_position: 480
+INFO:2650-[20251224064025] 3_velocity: 512
+INFO:2650-[20251224064025] 3_torque: 544
+INFO:2650-[20251224064025] 3_VelocityOffset: 608
+INFO:2650-[20251224064025] 3_TorqueOffset: 592
+INFO:2650-[20251224064025] 3_TorqueMaxLimit: -999999
+INFO:2650-[20251224064025] 3_TorqueMinLimit: -999999
+INFO:2650-[20251224064025] 4_state: 528
+INFO:2650-[20251224064025] 4_control: 720
+INFO:2650-[20251224064025] 4_mode: 736
+INFO:2650-[20251224064025] 4_ac_position: 448
+INFO:2650-[20251224064025] 4_ac_velocity: 480
+INFO:2650-[20251224064025] 4_ac_torque: 512
+INFO:2650-[20251224064025] 4_ac_current: -999999
+INFO:2650-[20251224064025] 4_ac_position2: -999999
+INFO:2650-[20251224064025] 4_ac_velocity2: -999999
+INFO:2650-[20251224064025] 4_ac_sensor_torque: -999999
+INFO:2650-[20251224064025] 4_ac_sensor_torque2: -999999
+INFO:2650-[20251224064025] 4_ac_mode: -999999
+INFO:2650-[20251224064025] 4_ErrorCode: 544
+INFO:2650-[20251224064025] 4_FollowingErrorActualValue: -999999
+INFO:2650-[20251224064025] 4_position: 640
+INFO:2650-[20251224064025] 4_velocity: 672
+INFO:2650-[20251224064025] 4_torque: 704
+INFO:2650-[20251224064025] 4_VelocityOffset: 768
+INFO:2650-[20251224064025] 4_TorqueOffset: 752
+INFO:2650-[20251224064025] 4_TorqueMaxLimit: -999999
+INFO:2650-[20251224064025] 4_TorqueMinLimit: -999999
+INFO:2650-[20251224064025] 5_state: 640
+INFO:2650-[20251224064025] 5_control: 880
+INFO:2650-[20251224064025] 5_mode: 896
+INFO:2650-[20251224064025] 5_ac_position: 560
+INFO:2650-[20251224064025] 5_ac_velocity: 592
+INFO:2650-[20251224064025] 5_ac_torque: 624
+INFO:2650-[20251224064025] 5_ac_current: -999999
+INFO:2650-[20251224064025] 5_ac_position2: -999999
+INFO:2650-[20251224064025] 5_ac_velocity2: -999999
+INFO:2650-[20251224064025] 5_ac_sensor_torque: -999999
+INFO:2650-[20251224064025] 5_ac_sensor_torque2: -999999
+INFO:2650-[20251224064025] 5_ac_mode: -999999
+INFO:2650-[20251224064025] 5_ErrorCode: 656
+INFO:2650-[20251224064025] 5_FollowingErrorActualValue: -999999
+INFO:2650-[20251224064025] 5_position: 800
+INFO:2650-[20251224064025] 5_velocity: 832
+INFO:2650-[20251224064025] 5_torque: 864
+INFO:2650-[20251224064025] 5_VelocityOffset: 928
+INFO:2650-[20251224064025] 5_TorqueOffset: 912
+INFO:2650-[20251224064025] 5_TorqueMaxLimit: -999999
+INFO:2650-[20251224064025] 5_TorqueMinLimit: -999999
+INFO:2650-[20251224064025] 6_state: 752
+INFO:2650-[20251224064025] 6_control: 1040
+INFO:2650-[20251224064025] 6_mode: 1056
+INFO:2650-[20251224064025] 6_ac_position: 672
+INFO:2650-[20251224064025] 6_ac_velocity: 704
+INFO:2650-[20251224064025] 6_ac_torque: 736
+INFO:2650-[20251224064025] 6_ac_current: -999999
+INFO:2650-[20251224064025] 6_ac_position2: -999999
+INFO:2650-[20251224064025] 6_ac_velocity2: -999999
+INFO:2650-[20251224064025] 6_ac_sensor_torque: -999999
+INFO:2650-[20251224064025] 6_ac_sensor_torque2: -999999
+INFO:2650-[20251224064025] 6_ac_mode: -999999
+INFO:2650-[20251224064025] 6_ErrorCode: 768
+INFO:2650-[20251224064025] 6_FollowingErrorActualValue: -999999
+INFO:2650-[20251224064025] 6_position: 960
+INFO:2650-[20251224064025] 6_velocity: 992
+INFO:2650-[20251224064025] 6_torque: 1024
+INFO:2650-[20251224064025] 6_VelocityOffset: 1088
+INFO:2650-[20251224064025] 6_TorqueOffset: 1072
+INFO:2650-[20251224064025] 6_TorqueMaxLimit: -999999
+INFO:2650-[20251224064025] 6_TorqueMinLimit: -999999
+INFO:2650-[20251224064025] /////////////////////////////////////////////////////////////////
+INFO:2650-[20251224064025] /////////////////////////////////////////////////////////////////
+INFO:2650-[20251224064025] /////////////////////////////////////////////////////////////////
+INFO:2650-[20251224064025] system_init:simulation_switch
+NOTICE:2650-[20251224064025] Device is not run, start simulation timer
+INFO:2650-[20251224064025] system_init:GetRobotSimulationState
+INFO:2650-[20251224064025] system_init:initSystemTimer2
+INFO:2650-[20251224064025] InitRobot
+INFO:2650-[20251224064025] Hardware Match
+NOTICE:2650-[20251224064025] Unlicensed, stop controller after 30 minutes!
+NOTICE:2650-[20251224064025] Simulation running mode
+INFO:2650-[20251224064025] init_robot_teach
+INFO:2650-[20251224064025] set_robot_index
+INFO:2650-[20251224064025] set_addition_index
+INFO:2650-[20251224064025] get_addition_num
+INFO:2650-[20251224064025] get_robot_num
+INFO:2650-[20251224064025] start teach server port 6666
+INFO:2650-[20251224064025] start teach command server port 6667
+INFO:2650-[20251224064025] start teach feedback server port 6668
+INFO:2650-[20251224064025] UploadPlugIn: Plugin num:1, Start upload plugin
+INFO:2650-[20251224064025] UploadPlugIn: Upload Plugin "libJEServer.so"
+ERROR:2650-[20251224064025] UploadPlugIn: "libJEServer.so" dlopen failure, libJEServer.so: cannot open shared object file: No such file or directory
+INFO:2650-[20251224064025] initialize finish
+INFO:2650-[20251224064150] TCPConcurrentServer: client connect (47)
+INFO:2650-[20251224064150] TCPConcurrentServer: client connect (48)
+NOTICE:2650-[20251224064150] Teach feedback clock(0) cycle time is 200 ms
+INFO:2650-[20251224064151] get_data_robjoint_all
+INFO:2650-[20251224064151] get_data_robpose_all
+INFO:2650-[20251224064151] get_data_wobj_all
+INFO:2650-[20251224064151] get_data_zone_all
+INFO:2650-[20251224064151] get_data_tool_all
+INFO:2650-[20251224064151] get_data_payload_all
+INFO:2650-[20251224064151] get_data_user_all
+INFO:2650-[20251224064151] get_data_addition_all
+INFO:2650-[20251224064151] get_data_speed_all
+INFO:2650-[20251224064151] get_robot_data_path
+INFO:2650-[20251224064151] get_robot_index
+INFO:2650-[20251224064151] get_robot_run_type
+INFO:2650-[20251224064151] set_robot_run_type
+NOTICE:2650-[20251224064151] Device is not run, start simulation timer
+NOTICE:2650-[20251224064151] Simulation running mode
+INFO:2650-[20251224064151] get_robot_run_type
+INFO:2650-[20251224064151] get_teach_move_type
+INFO:2650-[20251224064152] get_robot_teach_velocity
+INFO:2650-[20251224064152] get_robot_tool
+INFO:2650-[20251224064152] get_robot_run_type
+INFO:2650-[20251224064152] get_robot_wobj
+INFO:2650-[20251224064152] get_robot_run_type
+INFO:2650-[20251224064152] get_robot_teach_velocity
+INFO:2650-[20251224064152] get_teach_move_type
+INFO:2650-[20251224064152] get_robot_teach_coordinate
+INFO:2650-[20251224064152] set_robot_index
+INFO:2650-[20251224064152] get_robot_tool
+INFO:2650-[20251224064152] get_robot_wobj
+INFO:2650-[20251224064204] device_teach_enable
+INFO:2650-[20251224064219] set_robot_teach_velocity
+INFO:2650-[20251224064220] get_robot_teach_velocity
+INFO:2650-[20251224064247] robot_teach_joint
+INFO:2650-[20251224064247] robot_teach_stop
+INFO:2650-[20251224064248] robot_teach_joint
+INFO:2650-[20251224064249] robot_teach_stop
+INFO:2650-[20251224064249] robot_teach_joint
+INFO:2650-[20251224064251] robot_teach_stop
+INFO:2650-[20251224064259] robot_teach_joint
+INFO:2650-[20251224064300] robot_teach_stop
+INFO:2650-[20251224064302] robot_teach_joint
+INFO:2650-[20251224064303] robot_teach_stop
+INFO:2650-[20251224064305] robot_teach_joint
+INFO:2650-[20251224064305] robot_teach_stop
+INFO:2650-[20251224064307] robot_teach_joint
+INFO:2650-[20251224064307] robot_teach_stop
+INFO:2650-[20251224064308] robot_teach_joint
+INFO:2650-[20251224064309] robot_teach_stop
+INFO:2650-[20251224064309] robot_teach_joint
+INFO:2650-[20251224064310] robot_teach_stop
+INFO:2650-[20251224064314] robot_teach_joint
+INFO:2650-[20251224064315] robot_teach_stop
+INFO:2650-[20251224064315] robot_teach_joint
+INFO:2650-[20251224064316] robot_teach_stop
+INFO:2650-[20251224064317] robot_teach_joint
+INFO:2650-[20251224064322] robot_teach_stop
+INFO:2650-[20251224064337] robot_teach_joint
+INFO:2650-[20251224064339] robot_teach_stop
+INFO:2650-[20251224064342] robot_goto_joint
+INFO:2650-[20251224064345] robot_teach_stop
+INFO:2650-[20251224064346] device_teach_disenable
+INFO:2650-[20251224064348] TCPConcurrentServer: client disconnect (47)
+INFO:2650-[20251224064348] TCPConcurrentServer: client disconnect (48)
+INFO:2650-[20251224064348] TCPConcurrentServer: client connect (47)
+INFO:2650-[20251224064348] TCPConcurrentServer: client connect (48)
+NOTICE:2650-[20251224064348] Teach feedback clock(0) cycle time is 200 ms
+INFO:2650-[20251224064349] device_error_clear
+INFO:2650-[20251224064354] set_robot_run_type
+NOTICE:2650-[20251224064354] Device is not run, start simulation timer
+NOTICE:2650-[20251224064354] Simulation running mode
+INFO:2650-[20251224064354] get_robot_run_type
+INFO:2650-[20251224064355] set_robot_run_type
+NOTICE:2650-[20251224064355] Device is not run, start simulation timer
+NOTICE:2650-[20251224064355] Simulation running mode
+INFO:2650-[20251224064355] get_robot_run_type
+INFO:2650-[20251224064401] robot_teach_joint
+ERROR:2650-[20251224064401] movej: robot not power, can't run
+INFO:2650-[20251224064401] robot_teach_stop
+INFO:2650-[20251224064402] device_teach_enable
+INFO:2650-[20251224064404] robot_teach_joint
+INFO:2650-[20251224064404] robot_teach_stop
+INFO:2650-[20251224064405] robot_teach_joint
+INFO:2650-[20251224064406] robot_teach_stop
+INFO:2650-[20251224064500] device_teach_disenable
+INFO:2650-[20251224064501] TCPConcurrentServer: client disconnect (48)
+INFO:2650-[20251224064501] TCPConcurrentServer: client disconnect (47)
+INFO:2650-[20251224064751] TCPConcurrentServer: client connect (47)
+INFO:2650-[20251224064751] TCPConcurrentServer: client connect (48)
+NOTICE:2650-[20251224064751] Teach feedback clock(0) cycle time is 200 ms
+INFO:2650-[20251224064752] get_data_robjoint_all
+INFO:2650-[20251224064752] get_data_tool_all
+INFO:2650-[20251224064752] get_data_wobj_all
+INFO:2650-[20251224064752] get_data_zone_all
+INFO:2650-[20251224064752] get_data_addition_all
+INFO:2650-[20251224064752] get_data_payload_all
+INFO:2650-[20251224064752] get_data_user_all
+INFO:2650-[20251224064752] get_data_robpose_all
+INFO:2650-[20251224064752] get_data_speed_all
+INFO:2650-[20251224064752] get_robot_data_path
+INFO:2650-[20251224064752] get_robot_index
+INFO:2650-[20251224064752] get_teach_move_type
+INFO:2650-[20251224064752] set_robot_run_type
+NOTICE:2650-[20251224064752] Device is not run, start simulation timer
+NOTICE:2650-[20251224064752] Simulation running mode
+INFO:2650-[20251224064752] get_robot_run_type
+INFO:2650-[20251224064752] get_robot_run_type
+INFO:2650-[20251224064752] get_robot_teach_velocity
+INFO:2650-[20251224064752] get_robot_tool
+INFO:2650-[20251224064752] get_robot_run_type
+INFO:2650-[20251224064752] get_robot_wobj
+INFO:2650-[20251224064752] get_robot_teach_coordinate
+INFO:2650-[20251224064752] get_robot_run_type
+INFO:2650-[20251224064752] get_robot_tool
+INFO:2650-[20251224064752] get_teach_move_type
+INFO:2650-[20251224064752] set_robot_index
+INFO:2650-[20251224064752] get_robot_teach_velocity
+INFO:2650-[20251224064752] get_robot_wobj
+INFO:2650-[20251224064810] device_teach_enable
+INFO:2650-[20251224064812] robot_teach_joint
+INFO:2650-[20251224064814] robot_teach_stop
+INFO:2650-[20251224064815] set_robot_teach_velocity
+INFO:2650-[20251224064815] get_robot_teach_velocity
+INFO:2650-[20251224064817] robot_teach_joint
+INFO:2650-[20251224064819] robot_teach_stop
+INFO:2650-[20251224064831] device_teach_disenable
+INFO:2650-[20251224064834] TCPConcurrentServer: client disconnect (47)
+INFO:2650-[20251224064834] TCPConcurrentServer: client disconnect (48)
+INFO:2650-[20251224064836] TCPConcurrentServer: client connect (47)
+INFO:2650-[20251224064836] TCPConcurrentServer: client connect (48)
+NOTICE:2650-[20251224064836] Teach feedback clock(0) cycle time is 200 ms
+INFO:2650-[20251224064837] get_data_robjoint_all
+INFO:2650-[20251224064837] get_data_tool_all
+INFO:2650-[20251224064837] get_data_wobj_all
+INFO:2650-[20251224064837] get_data_user_all
+INFO:2650-[20251224064837] get_data_addition_all
+INFO:2650-[20251224064837] get_data_payload_all
+INFO:2650-[20251224064838] get_data_zone_all
+INFO:2650-[20251224064838] get_data_robpose_all
+INFO:2650-[20251224064838] get_data_speed_all
+INFO:2650-[20251224064838] get_robot_data_path
+INFO:2650-[20251224064838] get_robot_index
+INFO:2650-[20251224064838] get_teach_move_type
+INFO:2650-[20251224064838] get_robot_run_type
+INFO:2650-[20251224064838] get_robot_teach_velocity
+INFO:2650-[20251224064838] get_teach_move_type
+INFO:2650-[20251224064838] get_robot_run_type
+INFO:2650-[20251224064838] get_robot_teach_velocity
+INFO:2650-[20251224064838] get_robot_run_type
+INFO:2650-[20251224064838] get_robot_tool
+INFO:2650-[20251224064838] get_robot_wobj
+INFO:2650-[20251224064838] get_robot_teach_coordinate
+INFO:2650-[20251224064838] set_robot_index
+INFO:2650-[20251224064838] get_robot_tool
+INFO:2650-[20251224064838] get_robot_wobj
+INFO:2650-[20251224064842] robot_teach_joint
+ERROR:2650-[20251224064842] movej: robot not power, can't run
+INFO:2650-[20251224064842] robot_teach_stop
+INFO:2650-[20251224064844] device_teach_enable
+INFO:2650-[20251224064844] robot_teach_joint
+INFO:2650-[20251224064845] robot_teach_stop
+INFO:2650-[20251224064846] robot_teach_joint
+INFO:2650-[20251224064847] robot_teach_stop
+INFO:2650-[20251224064852] robot_teach_joint
+INFO:2650-[20251224064854] robot_teach_stop
+INFO:2650-[20251224064855] robot_teach_joint
+INFO:2650-[20251224064855] robot_teach_stop
+INFO:2650-[20251224064857] robot_teach_joint
+INFO:2650-[20251224064858] robot_teach_stop
+INFO:2650-[20251224064859] robot_teach_joint
+INFO:2650-[20251224064901] robot_teach_stop
+INFO:2650-[20251224064901] robot_teach_joint
+INFO:2650-[20251224064903] robot_teach_stop
+INFO:2650-[20251224064903] robot_teach_joint
+INFO:2650-[20251224064904] robot_teach_stop
+INFO:2650-[20251224064905] robot_teach_joint
+INFO:2650-[20251224064906] robot_teach_stop
+INFO:2650-[20251224064906] robot_teach_joint
+INFO:2650-[20251224064908] robot_teach_stop
+INFO:2650-[20251224064911] device_teach_disenable
+INFO:2650-[20251224064920] TCPConcurrentServer: client disconnect (47)
+INFO:2650-[20251224064920] TCPConcurrentServer: client disconnect (48)
+INFO:2650-[20251224065103] TCPConcurrentServer: client connect (47)
+INFO:2650-[20251224065103] TCPConcurrentServer: client connect (48)
+NOTICE:2650-[20251224065103] Teach feedback clock(0) cycle time is 200 ms
+INFO:2650-[20251224065104] get_data_robjoint_all
+INFO:2650-[20251224065104] get_data_tool_all
+INFO:2650-[20251224065104] get_data_wobj_all
+INFO:2650-[20251224065104] get_data_user_all
+INFO:2650-[20251224065104] get_data_addition_all
+INFO:2650-[20251224065104] get_data_speed_all
+INFO:2650-[20251224065104] get_data_zone_all
+INFO:2650-[20251224065104] get_data_robpose_all
+INFO:2650-[20251224065104] get_data_payload_all
+INFO:2650-[20251224065104] get_robot_data_path
+INFO:2650-[20251224065104] get_robot_index
+INFO:2650-[20251224065104] get_teach_move_type
+INFO:2650-[20251224065104] set_robot_run_type
+NOTICE:2650-[20251224065104] Device is not run, start simulation timer
+NOTICE:2650-[20251224065104] Simulation running mode
+INFO:2650-[20251224065104] get_robot_teach_velocity
+INFO:2650-[20251224065104] get_robot_run_type
+INFO:2650-[20251224065104] get_robot_run_type
+INFO:2650-[20251224065104] get_robot_tool
+INFO:2650-[20251224065104] get_robot_run_type
+INFO:2650-[20251224065104] get_robot_wobj
+INFO:2650-[20251224065104] get_robot_run_type
+INFO:2650-[20251224065104] get_robot_teach_velocity
+INFO:2650-[20251224065104] get_teach_move_type
+INFO:2650-[20251224065104] get_robot_teach_coordinate
+INFO:2650-[20251224065105] set_robot_index
+INFO:2650-[20251224065105] get_robot_tool
+INFO:2650-[20251224065105] get_robot_wobj
+INFO:2650-[20251224065109] robot_teach_joint
+ERROR:2650-[20251224065109] movej: robot not power, can't run
+INFO:2650-[20251224065110] robot_teach_stop
+INFO:2650-[20251224065110] device_teach_enable
+INFO:2650-[20251224065114] robot_teach_joint
+INFO:2650-[20251224065116] robot_teach_stop
+INFO:2650-[20251224065127] device_teach_disenable
+INFO:2650-[20251224065128] TCPConcurrentServer: client disconnect (48)
+INFO:2650-[20251224065128] TCPConcurrentServer: client disconnect (47)
+INFO:2650-[20251224065138] TCPConcurrentServer: client connect (47)
+INFO:2650-[20251224065138] TCPConcurrentServer: client connect (48)
+NOTICE:2650-[20251224065138] Teach feedback clock(0) cycle time is 200 ms
+INFO:2650-[20251224065139] get_data_robjoint_all
+INFO:2650-[20251224065139] get_data_tool_all
+INFO:2650-[20251224065139] get_data_wobj_all
+INFO:2650-[20251224065139] get_data_user_all
+INFO:2650-[20251224065139] get_data_robpose_all
+INFO:2650-[20251224065139] get_data_payload_all
+INFO:2650-[20251224065139] get_data_zone_all
+INFO:2650-[20251224065139] get_data_addition_all
+INFO:2650-[20251224065139] get_data_speed_all
+INFO:2650-[20251224065139] get_robot_data_path
+INFO:2650-[20251224065139] get_robot_index
+INFO:2650-[20251224065139] get_teach_move_type
+INFO:2650-[20251224065139] set_robot_run_type
+NOTICE:2650-[20251224065139] Device is not run, start simulation timer
+NOTICE:2650-[20251224065139] Simulation running mode
+INFO:2650-[20251224065139] get_robot_teach_velocity
+INFO:2650-[20251224065139] get_robot_run_type
+INFO:2650-[20251224065139] get_robot_run_type
+INFO:2650-[20251224065139] get_robot_tool
+INFO:2650-[20251224065139] get_robot_run_type
+INFO:2650-[20251224065139] get_robot_wobj
+INFO:2650-[20251224065139] get_robot_run_type
+INFO:2650-[20251224065139] get_robot_teach_velocity
+INFO:2650-[20251224065139] get_teach_move_type
+INFO:2650-[20251224065139] get_robot_teach_coordinate
+INFO:2650-[20251224065139] set_robot_index
+INFO:2650-[20251224065139] get_robot_tool
+INFO:2650-[20251224065139] get_robot_wobj
+INFO:2650-[20251224065144] device_teach_enable
+INFO:2650-[20251224065146] robot_teach_joint
+INFO:2650-[20251224065147] robot_teach_stop
+INFO:2650-[20251224065151] device_teach_disenable
+INFO:2650-[20251224065152] TCPConcurrentServer: client disconnect (47)
+INFO:2650-[20251224065152] TCPConcurrentServer: client disconnect (48)
+INFO:2650-[20251224065155] TCPConcurrentServer: client connect (47)
+INFO:2650-[20251224065155] TCPConcurrentServer: client connect (48)
+NOTICE:2650-[20251224065155] Teach feedback clock(0) cycle time is 200 ms
+INFO:2650-[20251224065156] get_data_robjoint_all
+INFO:2650-[20251224065156] get_data_tool_all
+INFO:2650-[20251224065156] get_data_wobj_all
+INFO:2650-[20251224065156] get_data_user_all
+INFO:2650-[20251224065156] get_data_addition_all
+INFO:2650-[20251224065156] get_data_payload_all
+INFO:2650-[20251224065156] get_data_zone_all
+INFO:2650-[20251224065156] get_data_robpose_all
+INFO:2650-[20251224065156] get_data_speed_all
+INFO:2650-[20251224065156] get_robot_data_path
+INFO:2650-[20251224065156] get_robot_index
+INFO:2650-[20251224065156] get_teach_move_type
+INFO:2650-[20251224065156] get_robot_run_type
+INFO:2650-[20251224065156] get_robot_teach_velocity
+INFO:2650-[20251224065156] get_robot_run_type
+INFO:2650-[20251224065156] get_robot_run_type
+INFO:2650-[20251224065156] get_robot_teach_velocity
+INFO:2650-[20251224065156] get_teach_move_type
+INFO:2650-[20251224065156] get_robot_tool
+INFO:2650-[20251224065156] get_robot_wobj
+INFO:2650-[20251224065156] get_robot_teach_coordinate
+INFO:2650-[20251224065156] set_robot_index
+INFO:2650-[20251224065156] get_robot_tool
+INFO:2650-[20251224065156] get_robot_wobj
+INFO:2650-[20251224065504] TCPConcurrentServer: client disconnect (47)
+INFO:2650-[20251224065504] TCPConcurrentServer: client disconnect (48)
+INFO:2650-[20251224065506] TCPConcurrentServer: client connect (47)
+INFO:2650-[20251224065506] TCPConcurrentServer: client connect (48)
+NOTICE:2650-[20251224065506] Teach feedback clock(0) cycle time is 200 ms
+INFO:2650-[20251224065507] get_data_robjoint_all
+INFO:2650-[20251224065507] get_data_robpose_all
+INFO:2650-[20251224065507] get_data_wobj_all
+INFO:2650-[20251224065507] get_data_user_all
+INFO:2650-[20251224065507] get_data_tool_all
+INFO:2650-[20251224065507] get_data_payload_all
+INFO:2650-[20251224065507] get_data_zone_all
+INFO:2650-[20251224065507] get_data_addition_all
+INFO:2650-[20251224065507] get_data_speed_all
+INFO:2650-[20251224065507] get_robot_data_path
+INFO:2650-[20251224065507] get_robot_index
+INFO:2650-[20251224065507] get_teach_move_type
+INFO:2650-[20251224065507] get_robot_run_type
+INFO:2650-[20251224065507] get_robot_teach_velocity
+INFO:2650-[20251224065507] get_teach_move_type
+INFO:2650-[20251224065507] get_robot_run_type
+INFO:2650-[20251224065507] get_robot_teach_velocity
+INFO:2650-[20251224065507] get_robot_run_type
+INFO:2650-[20251224065507] get_robot_tool
+INFO:2650-[20251224065507] get_robot_wobj
+INFO:2650-[20251224065507] get_robot_teach_coordinate
+INFO:2650-[20251224065507] set_robot_index
+INFO:2650-[20251224065507] get_robot_tool
+INFO:2650-[20251224065507] get_robot_wobj
+INFO:2650-[20251224065511] TCPConcurrentServer: client disconnect (47)
+INFO:2650-[20251224065511] TCPConcurrentServer: client disconnect (48)
+INFO:2650-[20251224065626] TCPConcurrentServer: client connect (47)
+INFO:2650-[20251224065626] TCPConcurrentServer: client connect (48)
+NOTICE:2650-[20251224065626] Teach feedback clock(0) cycle time is 200 ms
+INFO:2650-[20251224065627] get_data_robjoint_all
+INFO:2650-[20251224065627] get_data_tool_all
+INFO:2650-[20251224065627] get_data_wobj_all
+INFO:2650-[20251224065627] get_data_user_all
+INFO:2650-[20251224065627] get_data_robpose_all
+INFO:2650-[20251224065627] get_data_payload_all
+INFO:2650-[20251224065627] get_data_zone_all
+INFO:2650-[20251224065627] get_data_addition_all
+INFO:2650-[20251224065627] get_data_speed_all
+INFO:2650-[20251224065627] get_robot_data_path
+INFO:2650-[20251224065627] get_robot_index
+INFO:2650-[20251224065627] get_robot_run_type
+INFO:2650-[20251224065627] get_robot_run_type
+INFO:2650-[20251224065627] get_robot_teach_velocity
+INFO:2650-[20251224065627] get_teach_move_type
+INFO:2650-[20251224065627] get_robot_run_type
+INFO:2650-[20251224065627] get_robot_teach_velocity
+INFO:2650-[20251224065627] get_teach_move_type
+INFO:2650-[20251224065627] get_robot_tool
+INFO:2650-[20251224065627] get_robot_wobj
+INFO:2650-[20251224065627] get_robot_teach_coordinate
+INFO:2650-[20251224065627] set_robot_index
+INFO:2650-[20251224065627] get_robot_tool
+INFO:2650-[20251224065627] get_robot_wobj
+INFO:2650-[20251224065633] device_teach_enable
+INFO:2650-[20251224065634] robot_teach_joint
+INFO:2650-[20251224065637] robot_teach_stop
+INFO:2650-[20251224065744] robot_teach_joint
+INFO:2650-[20251224065745] robot_teach_stop
+INFO:2650-[20251224065746] robot_teach_joint
+INFO:2650-[20251224065747] robot_teach_stop
+INFO:2650-[20251224065748] robot_teach_joint
+INFO:2650-[20251224065748] robot_teach_stop
+INFO:2650-[20251224065758] robot_teach_joint
+INFO:2650-[20251224065759] robot_teach_stop
+INFO:2650-[20251224065759] robot_teach_joint
+INFO:2650-[20251224065800] robot_teach_stop
+INFO:2650-[20251224065811] robot_teach_joint
+INFO:2650-[20251224065811] robot_teach_stop
+INFO:2650-[20251224065817] robot_teach_joint
+INFO:2650-[20251224065818] robot_teach_stop
+INFO:2650-[20251224065819] robot_teach_joint
+INFO:2650-[20251224065824] robot_teach_stop
+INFO:2650-[20251224065837] robot_teach_joint
+INFO:2650-[20251224065838] robot_teach_stop
+INFO:2650-[20251224065839] robot_teach_joint
+INFO:2650-[20251224065839] robot_teach_stop
+INFO:2650-[20251224065940] set_robot_teach_coordinate
+INFO:2650-[20251224065948] robot_teach_cartesian
+INFO:2650-[20251224065948] robot_teach_stop
+INFO:2650-[20251224065949] robot_teach_cartesian
+INFO:2650-[20251224065949] robot_teach_stop
+INFO:2650-[20251224065950] robot_teach_cartesian
+INFO:2650-[20251224065951] robot_teach_stop
+INFO:2650-[20251224065952] robot_teach_cartesian
+INFO:2650-[20251224065952] robot_teach_stop
+INFO:2650-[20251224065956] robot_teach_cartesian
+INFO:2650-[20251224065956] robot_teach_stop
+INFO:2650-[20251224070000] robot_teach_cartesian
+INFO:2650-[20251224070000] robot_teach_stop
+INFO:2650-[20251224070001] robot_teach_cartesian
+INFO:2650-[20251224070002] robot_teach_stop
+INFO:2650-[20251224070012] robot_teach_cartesian
+INFO:2650-[20251224070012] robot_teach_stop
+INFO:2650-[20251224070013] robot_teach_cartesian
+INFO:2650-[20251224070013] robot_teach_stop
+INFO:2650-[20251224070014] robot_teach_cartesian
+INFO:2650-[20251224070015] robot_teach_stop
+INFO:2650-[20251224070051] robot_teach_cartesian
+INFO:2650-[20251224070052] robot_teach_stop
+INFO:2650-[20251224070053] robot_teach_cartesian
+INFO:2650-[20251224070053] robot_teach_stop
+INFO:2650-[20251224070056] robot_teach_cartesian
+INFO:2650-[20251224070057] robot_teach_stop
+INFO:2650-[20251224070058] robot_teach_cartesian
+INFO:2650-[20251224070059] robot_teach_stop
+INFO:2650-[20251224070102] robot_teach_cartesian
+INFO:2650-[20251224070103] robot_teach_stop
+INFO:2650-[20251224070104] robot_teach_cartesian
+INFO:2650-[20251224070104] robot_teach_stop
+INFO:2650-[20251224070114] robot_teach_cartesian
+INFO:2650-[20251224070115] robot_teach_stop
+INFO:2650-[20251224070115] robot_teach_cartesian
+INFO:2650-[20251224070116] robot_teach_stop
+INFO:2650-[20251224070117] robot_teach_cartesian
+INFO:2650-[20251224070118] robot_teach_stop
+INFO:2650-[20251224070119] robot_teach_cartesian
+INFO:2650-[20251224070119] robot_teach_stop
+INFO:2650-[20251224070120] robot_teach_cartesian
+INFO:2650-[20251224070121] robot_teach_stop
+INFO:2650-[20251224070126] robot_teach_cartesian
+INFO:2650-[20251224070127] robot_teach_stop
+INFO:2650-[20251224070128] robot_teach_cartesian
+INFO:2650-[20251224070129] robot_teach_stop
+INFO:2650-[20251224070132] robot_teach_cartesian
+INFO:2650-[20251224070133] robot_teach_stop
+INFO:2650-[20251224070138] robot_teach_cartesian
+INFO:2650-[20251224070138] robot_teach_stop
+INFO:2650-[20251224070139] robot_teach_cartesian
+INFO:2650-[20251224070140] robot_teach_stop
+INFO:2650-[20251224070141] robot_teach_cartesian
+INFO:2650-[20251224070141] robot_teach_stop
+INFO:2650-[20251224070147] robot_teach_cartesian
+INFO:2650-[20251224070148] robot_teach_stop
+INFO:2650-[20251224070148] robot_teach_cartesian
+INFO:2650-[20251224070149] robot_teach_stop
+INFO:2650-[20251224070151] robot_teach_cartesian
+INFO:2650-[20251224070151] robot_teach_stop
+INFO:2650-[20251224070152] robot_teach_cartesian
+INFO:2650-[20251224070153] robot_teach_stop
+INFO:2650-[20251224070159] robot_teach_cartesian
+INFO:2650-[20251224070200] robot_teach_stop
+INFO:2650-[20251224070201] robot_teach_cartesian
+INFO:2650-[20251224070201] robot_teach_stop
+INFO:2650-[20251224070206] robot_teach_cartesian
+INFO:2650-[20251224070206] robot_teach_stop
+INFO:2650-[20251224070209] device_teach_disenable
+INFO:2650-[20251224070323] TCPConcurrentServer: client disconnect (48)
+INFO:2650-[20251224070323] TCPConcurrentServer: client disconnect (47)

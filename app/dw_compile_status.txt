@@ -1,0 +1,8 @@
+/home/robot/Work/system/robot_config/app/dw.c: In function ‘MainModule’:
+/home/robot/Work/system/robot_config/app/dw.c:15:3: warning: implicit declaration of function ‘dynamics_direct_teach_start’; did you mean ‘robot_dynamics_direct_teach_start’? [-Wimplicit-function-declaration]
+   15 |   dynamics_direct_teach_start(StabilGain,BoundGain,friction_die,fv_compensation,fc_positive_compensation,fc_negative_compensation,angle_constraint,velocity_constraint,torque_constraint,select_axis,NULL,NULL,0);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |   robot_dynamics_direct_teach_start
+/home/robot/Work/system/robot_config/app/dw.c:18:10: warning: overflow in conversion from ‘long int’ to ‘int’ changes value from ‘20000000000’ to ‘-1474836480’ [-Woverflow]
+   18 |   Rsleep(20000000000);
+      |          ^~~~~~~~~~~

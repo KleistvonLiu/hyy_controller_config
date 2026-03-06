@@ -1,0 +1,792 @@
+INFO:9052-[20260118204537] verison: 12.2.1
+INFO:9052-[20260118204537] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:9052-[20260118204537] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:9052-[20260118204537] Start system initialize!
+INFO:9052-[20260118204537] USE JOINT SENSOR
+INFO:9052-[20260118204537] OUT MULTITURN ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:9052-[20260118204537] group init existing problem. Some fields are not found!
+WARNING:9052-[20260118204537] dof num is 14
+WARNING:9052-[20260118204537] control:14,state:14,mode:14
+WARNING:9052-[20260118204537] ac_position:14,ac_velocity:14,ac_torque:14,ac_position2:0,ac_velocity2:0,ac_sensor_torque:14,ac_sensor_torque2:0,ac_mode:0,ErrorCode:14,FollowingErrorActualValue:0
+WARNING:9052-[20260118204537] position:14,velocity:14,torque:14,VelocityOffset:14,TorqueOffset:14,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:9052-[20260118204537] /////////////////////////////////////////////////////////////////
+INFO:9052-[20260118204537] fd_ecat_in_name: /ecat_in
+INFO:9052-[20260118204537] fd_ecat_out_name: /ecat_out
+INFO:9052-[20260118204537] /////////////////////////////////////////////////////////////////
+INFO:9052-[20260118204537] state: Statusword
+INFO:9052-[20260118204537] control: Controlword
+INFO:9052-[20260118204537] mode: Modes of Operation
+INFO:9052-[20260118204537] ac_position: Position Actual Value
+INFO:9052-[20260118204537] ac_velocity: Velocity Actual Value
+INFO:9052-[20260118204537] ac_torque: Torque Actual Value
+INFO:9052-[20260118204537] ac_position2: 
+INFO:9052-[20260118204537] ac_velocity2: 
+INFO:9052-[20260118204537] ac_sensor_torque: Torque sensor
+INFO:9052-[20260118204537] ac_sensor_torque2: 
+INFO:9052-[20260118204537] ac_mode: Modes of Operation Display
+INFO:9052-[20260118204537] ErrorCode: Error Code
+INFO:9052-[20260118204537] FollowingErrorActualValue: 
+INFO:9052-[20260118204537] position: Target Position
+INFO:9052-[20260118204537] velocity: Target Velocity
+INFO:9052-[20260118204537] torque: Target Torque
+INFO:9052-[20260118204537] VelocityOffset: Velocity Offset
+INFO:9052-[20260118204537] TorqueOffset: Torque Offset
+INFO:9052-[20260118204537] TorqueMaxLimit: 
+INFO:9052-[20260118204537] TorqueMinLimit: 
+INFO:9052-[20260118204537] ec_di: 
+INFO:9052-[20260118204537] ec_do: 
+INFO:9052-[20260118204537] ec_ai: 
+INFO:9052-[20260118204537] ec_ao: 
+INFO:9052-[20260118204537] ec_li: 
+INFO:9052-[20260118204537] ec_lo: 
+INFO:9052-[20260118204537] Number of fields: 26
+INFO:9052-[20260118204537] busyTs: 1000000 ns
+INFO:9052-[20260118204537] /////////////////////////////////////////////////////////////////
+INFO:9052-[20260118204537] ec_device1/robot0: 
+INFO:9052-[20260118204537] DOF: 7
+INFO:9052-[20260118204537] 0_state: 80
+INFO:9052-[20260118204537] 0_control: 80
+INFO:9052-[20260118204537] 0_mode: 96
+INFO:9052-[20260118204537] 0_ac_position: 0
+INFO:9052-[20260118204537] 0_ac_velocity: 32
+INFO:9052-[20260118204537] 0_ac_torque: 64
+INFO:9052-[20260118204537] 0_ac_current: -999999
+INFO:9052-[20260118204537] 0_ac_position2: -999999
+INFO:9052-[20260118204537] 0_ac_velocity2: -999999
+INFO:9052-[20260118204537] 0_ac_sensor_torque: 112
+INFO:9052-[20260118204537] 0_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 0_ac_mode: -999999
+INFO:9052-[20260118204537] 0_ErrorCode: 96
+INFO:9052-[20260118204537] 0_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 0_position: 0
+INFO:9052-[20260118204537] 0_velocity: 32
+INFO:9052-[20260118204537] 0_torque: 64
+INFO:9052-[20260118204537] 0_VelocityOffset: 128
+INFO:9052-[20260118204537] 0_TorqueOffset: 112
+INFO:9052-[20260118204537] 0_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 0_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 1_state: 224
+INFO:9052-[20260118204537] 1_control: 240
+INFO:9052-[20260118204537] 1_mode: 256
+INFO:9052-[20260118204537] 1_ac_position: 144
+INFO:9052-[20260118204537] 1_ac_velocity: 176
+INFO:9052-[20260118204537] 1_ac_torque: 208
+INFO:9052-[20260118204537] 1_ac_current: -999999
+INFO:9052-[20260118204537] 1_ac_position2: -999999
+INFO:9052-[20260118204537] 1_ac_velocity2: -999999
+INFO:9052-[20260118204537] 1_ac_sensor_torque: 256
+INFO:9052-[20260118204537] 1_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 1_ac_mode: -999999
+INFO:9052-[20260118204537] 1_ErrorCode: 240
+INFO:9052-[20260118204537] 1_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 1_position: 160
+INFO:9052-[20260118204537] 1_velocity: 192
+INFO:9052-[20260118204537] 1_torque: 224
+INFO:9052-[20260118204537] 1_VelocityOffset: 288
+INFO:9052-[20260118204537] 1_TorqueOffset: 272
+INFO:9052-[20260118204537] 1_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 1_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 2_state: 368
+INFO:9052-[20260118204537] 2_control: 400
+INFO:9052-[20260118204537] 2_mode: 416
+INFO:9052-[20260118204537] 2_ac_position: 288
+INFO:9052-[20260118204537] 2_ac_velocity: 320
+INFO:9052-[20260118204537] 2_ac_torque: 352
+INFO:9052-[20260118204537] 2_ac_current: -999999
+INFO:9052-[20260118204537] 2_ac_position2: -999999
+INFO:9052-[20260118204537] 2_ac_velocity2: -999999
+INFO:9052-[20260118204537] 2_ac_sensor_torque: 400
+INFO:9052-[20260118204537] 2_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 2_ac_mode: -999999
+INFO:9052-[20260118204537] 2_ErrorCode: 384
+INFO:9052-[20260118204537] 2_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 2_position: 320
+INFO:9052-[20260118204537] 2_velocity: 352
+INFO:9052-[20260118204537] 2_torque: 384
+INFO:9052-[20260118204537] 2_VelocityOffset: 448
+INFO:9052-[20260118204537] 2_TorqueOffset: 432
+INFO:9052-[20260118204537] 2_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 2_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 3_state: 512
+INFO:9052-[20260118204537] 3_control: 560
+INFO:9052-[20260118204537] 3_mode: 576
+INFO:9052-[20260118204537] 3_ac_position: 432
+INFO:9052-[20260118204537] 3_ac_velocity: 464
+INFO:9052-[20260118204537] 3_ac_torque: 496
+INFO:9052-[20260118204537] 3_ac_current: -999999
+INFO:9052-[20260118204537] 3_ac_position2: -999999
+INFO:9052-[20260118204537] 3_ac_velocity2: -999999
+INFO:9052-[20260118204537] 3_ac_sensor_torque: 544
+INFO:9052-[20260118204537] 3_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 3_ac_mode: -999999
+INFO:9052-[20260118204537] 3_ErrorCode: 528
+INFO:9052-[20260118204537] 3_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 3_position: 480
+INFO:9052-[20260118204537] 3_velocity: 512
+INFO:9052-[20260118204537] 3_torque: 544
+INFO:9052-[20260118204537] 3_VelocityOffset: 608
+INFO:9052-[20260118204537] 3_TorqueOffset: 592
+INFO:9052-[20260118204537] 3_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 3_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 4_state: 656
+INFO:9052-[20260118204537] 4_control: 720
+INFO:9052-[20260118204537] 4_mode: 736
+INFO:9052-[20260118204537] 4_ac_position: 576
+INFO:9052-[20260118204537] 4_ac_velocity: 608
+INFO:9052-[20260118204537] 4_ac_torque: 640
+INFO:9052-[20260118204537] 4_ac_current: -999999
+INFO:9052-[20260118204537] 4_ac_position2: -999999
+INFO:9052-[20260118204537] 4_ac_velocity2: -999999
+INFO:9052-[20260118204537] 4_ac_sensor_torque: 688
+INFO:9052-[20260118204537] 4_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 4_ac_mode: -999999
+INFO:9052-[20260118204537] 4_ErrorCode: 672
+INFO:9052-[20260118204537] 4_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 4_position: 640
+INFO:9052-[20260118204537] 4_velocity: 672
+INFO:9052-[20260118204537] 4_torque: 704
+INFO:9052-[20260118204537] 4_VelocityOffset: 768
+INFO:9052-[20260118204537] 4_TorqueOffset: 752
+INFO:9052-[20260118204537] 4_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 4_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 5_state: 800
+INFO:9052-[20260118204537] 5_control: 880
+INFO:9052-[20260118204537] 5_mode: 896
+INFO:9052-[20260118204537] 5_ac_position: 720
+INFO:9052-[20260118204537] 5_ac_velocity: 752
+INFO:9052-[20260118204537] 5_ac_torque: 784
+INFO:9052-[20260118204537] 5_ac_current: -999999
+INFO:9052-[20260118204537] 5_ac_position2: -999999
+INFO:9052-[20260118204537] 5_ac_velocity2: -999999
+INFO:9052-[20260118204537] 5_ac_sensor_torque: 832
+INFO:9052-[20260118204537] 5_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 5_ac_mode: -999999
+INFO:9052-[20260118204537] 5_ErrorCode: 816
+INFO:9052-[20260118204537] 5_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 5_position: 800
+INFO:9052-[20260118204537] 5_velocity: 832
+INFO:9052-[20260118204537] 5_torque: 864
+INFO:9052-[20260118204537] 5_VelocityOffset: 928
+INFO:9052-[20260118204537] 5_TorqueOffset: 912
+INFO:9052-[20260118204537] 5_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 5_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 6_state: 944
+INFO:9052-[20260118204537] 6_control: 1040
+INFO:9052-[20260118204537] 6_mode: 1056
+INFO:9052-[20260118204537] 6_ac_position: 864
+INFO:9052-[20260118204537] 6_ac_velocity: 896
+INFO:9052-[20260118204537] 6_ac_torque: 928
+INFO:9052-[20260118204537] 6_ac_current: -999999
+INFO:9052-[20260118204537] 6_ac_position2: -999999
+INFO:9052-[20260118204537] 6_ac_velocity2: -999999
+INFO:9052-[20260118204537] 6_ac_sensor_torque: 976
+INFO:9052-[20260118204537] 6_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 6_ac_mode: -999999
+INFO:9052-[20260118204537] 6_ErrorCode: 960
+INFO:9052-[20260118204537] 6_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 6_position: 960
+INFO:9052-[20260118204537] 6_velocity: 992
+INFO:9052-[20260118204537] 6_torque: 1024
+INFO:9052-[20260118204537] 6_VelocityOffset: 1088
+INFO:9052-[20260118204537] 6_TorqueOffset: 1072
+INFO:9052-[20260118204537] 6_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 6_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] ec_device1/robot1: 
+INFO:9052-[20260118204537] DOF: 7
+INFO:9052-[20260118204537] 0_state: 1088
+INFO:9052-[20260118204537] 0_control: 1200
+INFO:9052-[20260118204537] 0_mode: 1216
+INFO:9052-[20260118204537] 0_ac_position: 1008
+INFO:9052-[20260118204537] 0_ac_velocity: 1040
+INFO:9052-[20260118204537] 0_ac_torque: 1072
+INFO:9052-[20260118204537] 0_ac_current: -999999
+INFO:9052-[20260118204537] 0_ac_position2: -999999
+INFO:9052-[20260118204537] 0_ac_velocity2: -999999
+INFO:9052-[20260118204537] 0_ac_sensor_torque: 1120
+INFO:9052-[20260118204537] 0_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 0_ac_mode: -999999
+INFO:9052-[20260118204537] 0_ErrorCode: 1104
+INFO:9052-[20260118204537] 0_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 0_position: 1120
+INFO:9052-[20260118204537] 0_velocity: 1152
+INFO:9052-[20260118204537] 0_torque: 1184
+INFO:9052-[20260118204537] 0_VelocityOffset: 1248
+INFO:9052-[20260118204537] 0_TorqueOffset: 1232
+INFO:9052-[20260118204537] 0_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 0_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 1_state: 1232
+INFO:9052-[20260118204537] 1_control: 1360
+INFO:9052-[20260118204537] 1_mode: 1376
+INFO:9052-[20260118204537] 1_ac_position: 1152
+INFO:9052-[20260118204537] 1_ac_velocity: 1184
+INFO:9052-[20260118204537] 1_ac_torque: 1216
+INFO:9052-[20260118204537] 1_ac_current: -999999
+INFO:9052-[20260118204537] 1_ac_position2: -999999
+INFO:9052-[20260118204537] 1_ac_velocity2: -999999
+INFO:9052-[20260118204537] 1_ac_sensor_torque: 1264
+INFO:9052-[20260118204537] 1_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 1_ac_mode: -999999
+INFO:9052-[20260118204537] 1_ErrorCode: 1248
+INFO:9052-[20260118204537] 1_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 1_position: 1280
+INFO:9052-[20260118204537] 1_velocity: 1312
+INFO:9052-[20260118204537] 1_torque: 1344
+INFO:9052-[20260118204537] 1_VelocityOffset: 1408
+INFO:9052-[20260118204537] 1_TorqueOffset: 1392
+INFO:9052-[20260118204537] 1_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 1_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 2_state: 1376
+INFO:9052-[20260118204537] 2_control: 1520
+INFO:9052-[20260118204537] 2_mode: 1536
+INFO:9052-[20260118204537] 2_ac_position: 1296
+INFO:9052-[20260118204537] 2_ac_velocity: 1328
+INFO:9052-[20260118204537] 2_ac_torque: 1360
+INFO:9052-[20260118204537] 2_ac_current: -999999
+INFO:9052-[20260118204537] 2_ac_position2: -999999
+INFO:9052-[20260118204537] 2_ac_velocity2: -999999
+INFO:9052-[20260118204537] 2_ac_sensor_torque: 1408
+INFO:9052-[20260118204537] 2_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 2_ac_mode: -999999
+INFO:9052-[20260118204537] 2_ErrorCode: 1392
+INFO:9052-[20260118204537] 2_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 2_position: 1440
+INFO:9052-[20260118204537] 2_velocity: 1472
+INFO:9052-[20260118204537] 2_torque: 1504
+INFO:9052-[20260118204537] 2_VelocityOffset: 1568
+INFO:9052-[20260118204537] 2_TorqueOffset: 1552
+INFO:9052-[20260118204537] 2_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 2_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 3_state: 1520
+INFO:9052-[20260118204537] 3_control: 1680
+INFO:9052-[20260118204537] 3_mode: 1696
+INFO:9052-[20260118204537] 3_ac_position: 1440
+INFO:9052-[20260118204537] 3_ac_velocity: 1472
+INFO:9052-[20260118204537] 3_ac_torque: 1504
+INFO:9052-[20260118204537] 3_ac_current: -999999
+INFO:9052-[20260118204537] 3_ac_position2: -999999
+INFO:9052-[20260118204537] 3_ac_velocity2: -999999
+INFO:9052-[20260118204537] 3_ac_sensor_torque: 1552
+INFO:9052-[20260118204537] 3_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 3_ac_mode: -999999
+INFO:9052-[20260118204537] 3_ErrorCode: 1536
+INFO:9052-[20260118204537] 3_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 3_position: 1600
+INFO:9052-[20260118204537] 3_velocity: 1632
+INFO:9052-[20260118204537] 3_torque: 1664
+INFO:9052-[20260118204537] 3_VelocityOffset: 1728
+INFO:9052-[20260118204537] 3_TorqueOffset: 1712
+INFO:9052-[20260118204537] 3_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 3_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 4_state: 1664
+INFO:9052-[20260118204537] 4_control: 1840
+INFO:9052-[20260118204537] 4_mode: 1856
+INFO:9052-[20260118204537] 4_ac_position: 1584
+INFO:9052-[20260118204537] 4_ac_velocity: 1616
+INFO:9052-[20260118204537] 4_ac_torque: 1648
+INFO:9052-[20260118204537] 4_ac_current: -999999
+INFO:9052-[20260118204537] 4_ac_position2: -999999
+INFO:9052-[20260118204537] 4_ac_velocity2: -999999
+INFO:9052-[20260118204537] 4_ac_sensor_torque: 1696
+INFO:9052-[20260118204537] 4_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 4_ac_mode: -999999
+INFO:9052-[20260118204537] 4_ErrorCode: 1680
+INFO:9052-[20260118204537] 4_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 4_position: 1760
+INFO:9052-[20260118204537] 4_velocity: 1792
+INFO:9052-[20260118204537] 4_torque: 1824
+INFO:9052-[20260118204537] 4_VelocityOffset: 1888
+INFO:9052-[20260118204537] 4_TorqueOffset: 1872
+INFO:9052-[20260118204537] 4_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 4_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 5_state: 1808
+INFO:9052-[20260118204537] 5_control: 2000
+INFO:9052-[20260118204537] 5_mode: 2016
+INFO:9052-[20260118204537] 5_ac_position: 1728
+INFO:9052-[20260118204537] 5_ac_velocity: 1760
+INFO:9052-[20260118204537] 5_ac_torque: 1792
+INFO:9052-[20260118204537] 5_ac_current: -999999
+INFO:9052-[20260118204537] 5_ac_position2: -999999
+INFO:9052-[20260118204537] 5_ac_velocity2: -999999
+INFO:9052-[20260118204537] 5_ac_sensor_torque: 1840
+INFO:9052-[20260118204537] 5_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 5_ac_mode: -999999
+INFO:9052-[20260118204537] 5_ErrorCode: 1824
+INFO:9052-[20260118204537] 5_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 5_position: 1920
+INFO:9052-[20260118204537] 5_velocity: 1952
+INFO:9052-[20260118204537] 5_torque: 1984
+INFO:9052-[20260118204537] 5_VelocityOffset: 2048
+INFO:9052-[20260118204537] 5_TorqueOffset: 2032
+INFO:9052-[20260118204537] 5_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 5_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] 6_state: 1952
+INFO:9052-[20260118204537] 6_control: 2160
+INFO:9052-[20260118204537] 6_mode: 2176
+INFO:9052-[20260118204537] 6_ac_position: 1872
+INFO:9052-[20260118204537] 6_ac_velocity: 1904
+INFO:9052-[20260118204537] 6_ac_torque: 1936
+INFO:9052-[20260118204537] 6_ac_current: -999999
+INFO:9052-[20260118204537] 6_ac_position2: -999999
+INFO:9052-[20260118204537] 6_ac_velocity2: -999999
+INFO:9052-[20260118204537] 6_ac_sensor_torque: 1984
+INFO:9052-[20260118204537] 6_ac_sensor_torque2: -999999
+INFO:9052-[20260118204537] 6_ac_mode: -999999
+INFO:9052-[20260118204537] 6_ErrorCode: 1968
+INFO:9052-[20260118204537] 6_FollowingErrorActualValue: -999999
+INFO:9052-[20260118204537] 6_position: 2080
+INFO:9052-[20260118204537] 6_velocity: 2112
+INFO:9052-[20260118204537] 6_torque: 2144
+INFO:9052-[20260118204537] 6_VelocityOffset: 2208
+INFO:9052-[20260118204537] 6_TorqueOffset: 2192
+INFO:9052-[20260118204537] 6_TorqueMaxLimit: -999999
+INFO:9052-[20260118204537] 6_TorqueMinLimit: -999999
+INFO:9052-[20260118204537] /////////////////////////////////////////////////////////////////
+INFO:9052-[20260118204537] /////////////////////////////////////////////////////////////////
+INFO:9052-[20260118204537] /////////////////////////////////////////////////////////////////
+INFO:9052-[20260118204537] system_init:simulation_switch
+NOTICE:9052-[20260118204537] Device is not run, start simulation timer
+INFO:9052-[20260118204537] system_init:GetRobotSimulationState
+INFO:9052-[20260118204537] system_init:initSystemTimer2
+INFO:9052-[20260118204537] InitRobot
+INFO:9052-[20260118204537] Hardware Match
+NOTICE:9052-[20260118204537] Simulation running mode
+NOTICE:9052-[20260118204537] Simulation running mode
+INFO:9052-[20260118204537] init_robot_teach
+INFO:9052-[20260118204537] set_robot_index
+INFO:9052-[20260118204537] set_addition_index
+INFO:9052-[20260118204537] get_addition_num
+INFO:9052-[20260118204537] get_robot_num
+INFO:9052-[20260118204537] start teach server port 6666
+INFO:9052-[20260118204537] start teach command server port 6667
+INFO:9052-[20260118204537] start teach feedback server port 6668
+INFO:9052-[20260118204537] UploadPlugIn: Plugin num:1, Start upload plugin
+INFO:9052-[20260118204537] UploadPlugIn: Upload Plugin "libJEServer.so"
+INFO:9052-[20260118204537] UploadPlugIn: Upload Plugin"libJEServer.so" finish
+INFO:9052-[20260118204537] initialize finish
+INFO:9052-[20260118204548] TCPConcurrentServer: client connect (56)
+INFO:9052-[20260118204548] TCPConcurrentServer: client connect (57)
+NOTICE:9052-[20260118204548] Teach feedback clock(0) cycle time is 200 ms
+INFO:9052-[20260118204549] get_data_robjoint_all
+INFO:9052-[20260118204549] get_data_robpose_all
+INFO:9052-[20260118204549] get_data_speed_all
+INFO:9052-[20260118204549] get_data_zone_all
+INFO:9052-[20260118204549] get_data_addition_all
+INFO:9052-[20260118204549] get_data_payload_all
+INFO:9052-[20260118204549] get_data_user_all
+INFO:9052-[20260118204549] get_data_tool_all
+INFO:9052-[20260118204549] get_data_wobj_all
+INFO:9052-[20260118204549] get_robot_data_path
+INFO:9052-[20260118204549] get_robot_index
+INFO:9052-[20260118204549] get_teach_move_type
+INFO:9052-[20260118204549] get_robot_run_type
+INFO:9052-[20260118204550] get_robot_teach_velocity
+INFO:9052-[20260118204550] get_robot_run_type
+INFO:9052-[20260118204550] get_robot_tool
+INFO:9052-[20260118204550] get_robot_wobj
+INFO:9052-[20260118204550] get_robot_teach_coordinate
+INFO:9052-[20260118204550] get_robot_run_type
+INFO:9052-[20260118204550] set_robot_index
+INFO:9052-[20260118204550] get_teach_move_type
+INFO:9052-[20260118204550] get_robot_teach_velocity
+INFO:9052-[20260118204550] get_robot_tool
+INFO:9052-[20260118204550] get_robot_wobj
+ERROR:9052-[20260118204647]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204647] Kine_Inverse2: singularity
+WARNING:9052-[20260118204647] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204647]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204647] Kine_Inverse2: singularity
+WARNING:9052-[20260118204647] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204647]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204647] Kine_Inverse2: singularity
+WARNING:9052-[20260118204647] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204647]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204647] Kine_Inverse2: singularity
+WARNING:9052-[20260118204647] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204647]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204647] Kine_Inverse2: singularity
+WARNING:9052-[20260118204647] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204647]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204647] Kine_Inverse2: singularity
+WARNING:9052-[20260118204647] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204647]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204647] Kine_Inverse2: singularity
+WARNING:9052-[20260118204647] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204647]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204647] Kine_Inverse2: singularity
+WARNING:9052-[20260118204647] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204648]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204648] Kine_Inverse2: singularity
+WARNING:9052-[20260118204648] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204649]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204649] Kine_Inverse2: singularity
+WARNING:9052-[20260118204649] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204650]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204650] Kine_Inverse2: singularity
+WARNING:9052-[20260118204650] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204651]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204651] Kine_Inverse2: singularity
+WARNING:9052-[20260118204651] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204652]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204652] Kine_Inverse2: singularity
+WARNING:9052-[20260118204652] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204652]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204652] Kine_Inverse2: singularity
+WARNING:9052-[20260118204652] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204652]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204652] Kine_Inverse2: singularity
+WARNING:9052-[20260118204652] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204652]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204652] Kine_Inverse2: singularity
+WARNING:9052-[20260118204652] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+ERROR:9052-[20260118204652]      |-->isPositionLimit: axis index(1), -1.650000 < -52.467377 <1.650000
+ERROR:9052-[20260118204652] Kine_Inverse2: singularity
+WARNING:9052-[20260118204652] ServoCartesian: robot(0) Kine_Inverse failure(-115)
+INFO:9052-[20260118204705] Controller stop run!

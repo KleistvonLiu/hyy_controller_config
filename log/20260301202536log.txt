@@ -1,0 +1,19 @@
+INFO:2229-[20260301202536] verison: 12.2.1
+INFO:2229-[20260301202536] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2229-[20260301202537] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2229-[20260301202537] Start system initialize!
+INFO:2229-[20260301202537] USE JOINT SENSOR
+INFO:2229-[20260301202537] OUT MULTITURN ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2229-[20260301202537] group init existing problem. Some fields are not found!
+WARNING:2229-[20260301202537] dof num is 7
+WARNING:2229-[20260301202537] control:7,state:7,mode:7
+WARNING:2229-[20260301202537] ac_position:7,ac_velocity:7,ac_torque:7,ac_position2:0,ac_velocity2:0,ac_sensor_torque:7,ac_sensor_torque2:0,ac_mode:0,ErrorCode:7,FollowingErrorActualValue:0
+WARNING:2229-[20260301202537] position:7,velocity:7,torque:7,VelocityOffset:7,TorqueOffset:7,TorqueMaxLimit:0,TorqueMinLimit:0
+ERROR:2229-[20260301202537] ethercat slave station number is differernt configure file!,slave number: 7<configure number: 14
+ERROR:2229-[20260301202537] ec_deviceInit: ec_device_handleInit failure
+ERROR:2229-[20260301202537] EC_device_init2: ec_deviceInit failure
+ERROR:2229-[20260301202537] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:2229-[20260301202537] FindEC_device: ec_device1 is not exist!
+INFO:2229-[20260301202537] EC_device is NULL
+ERROR:2229-[20260301202537] system_init: Init_device failure, err=-149
+ERROR:2229-[20260301202537] system initialize failure

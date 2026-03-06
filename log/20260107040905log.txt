@@ -1,0 +1,1169 @@
+INFO:8777-[20260107040905] verison: 12.2.1
+INFO:8777-[20260107040905] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:8777-[20260107040905] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:8777-[20260107040905] Start system initialize!
+INFO:8777-[20260107040905] OUT MULTITURN ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:8777-[20260107040905] group init existing problem. Some fields are not found!
+WARNING:8777-[20260107040905] dof num is 7
+WARNING:8777-[20260107040905] control:7,state:7,mode:7
+WARNING:8777-[20260107040905] ac_position:7,ac_velocity:7,ac_torque:7,ac_position2:0,ac_velocity2:0,ac_sensor_torque:7,ac_sensor_torque2:0,ac_mode:0,ErrorCode:7,FollowingErrorActualValue:0
+WARNING:8777-[20260107040905] position:7,velocity:7,torque:7,VelocityOffset:7,TorqueOffset:7,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:8777-[20260107040905] /////////////////////////////////////////////////////////////////
+INFO:8777-[20260107040905] fd_ecat_in_name: /ecat_in
+INFO:8777-[20260107040905] fd_ecat_out_name: /ecat_out
+INFO:8777-[20260107040905] /////////////////////////////////////////////////////////////////
+INFO:8777-[20260107040905] state: Statusword
+INFO:8777-[20260107040905] control: Controlword
+INFO:8777-[20260107040905] mode: Modes of Operation
+INFO:8777-[20260107040905] ac_position: Position Actual Value
+INFO:8777-[20260107040905] ac_velocity: Velocity Actual Value
+INFO:8777-[20260107040905] ac_torque: Torque Actual Value
+INFO:8777-[20260107040905] ac_position2: 
+INFO:8777-[20260107040905] ac_velocity2: 
+INFO:8777-[20260107040905] ac_sensor_torque: Torque sensor
+INFO:8777-[20260107040905] ac_sensor_torque2: 
+INFO:8777-[20260107040905] ac_mode: Modes of Operation Display
+INFO:8777-[20260107040905] ErrorCode: Error Code
+INFO:8777-[20260107040905] FollowingErrorActualValue: 
+INFO:8777-[20260107040905] position: Target Position
+INFO:8777-[20260107040905] velocity: Target Velocity
+INFO:8777-[20260107040905] torque: Target Torque
+INFO:8777-[20260107040905] VelocityOffset: Velocity Offset
+INFO:8777-[20260107040905] TorqueOffset: Torque Offset
+INFO:8777-[20260107040905] TorqueMaxLimit: 
+INFO:8777-[20260107040905] TorqueMinLimit: 
+INFO:8777-[20260107040905] ec_di: 
+INFO:8777-[20260107040905] ec_do: 
+INFO:8777-[20260107040905] ec_ai: 
+INFO:8777-[20260107040905] ec_ao: 
+INFO:8777-[20260107040905] ec_li: 
+INFO:8777-[20260107040905] ec_lo: 
+INFO:8777-[20260107040905] Number of fields: 26
+INFO:8777-[20260107040905] busyTs: 1000000 ns
+INFO:8777-[20260107040905] /////////////////////////////////////////////////////////////////
+INFO:8777-[20260107040905] ec_device1/robot0: 
+INFO:8777-[20260107040905] DOF: 7
+INFO:8777-[20260107040905] 0_state: 80
+INFO:8777-[20260107040905] 0_control: 80
+INFO:8777-[20260107040905] 0_mode: 96
+INFO:8777-[20260107040905] 0_ac_position: 0
+INFO:8777-[20260107040905] 0_ac_velocity: 32
+INFO:8777-[20260107040905] 0_ac_torque: 64
+INFO:8777-[20260107040905] 0_ac_current: -999999
+INFO:8777-[20260107040905] 0_ac_position2: -999999
+INFO:8777-[20260107040905] 0_ac_velocity2: -999999
+INFO:8777-[20260107040905] 0_ac_sensor_torque: 112
+INFO:8777-[20260107040905] 0_ac_sensor_torque2: -999999
+INFO:8777-[20260107040905] 0_ac_mode: -999999
+INFO:8777-[20260107040905] 0_ErrorCode: 96
+INFO:8777-[20260107040905] 0_FollowingErrorActualValue: -999999
+INFO:8777-[20260107040905] 0_position: 0
+INFO:8777-[20260107040905] 0_velocity: 32
+INFO:8777-[20260107040905] 0_torque: 64
+INFO:8777-[20260107040905] 0_VelocityOffset: 128
+INFO:8777-[20260107040905] 0_TorqueOffset: 112
+INFO:8777-[20260107040905] 0_TorqueMaxLimit: -999999
+INFO:8777-[20260107040905] 0_TorqueMinLimit: -999999
+INFO:8777-[20260107040905] 1_state: 224
+INFO:8777-[20260107040905] 1_control: 240
+INFO:8777-[20260107040905] 1_mode: 256
+INFO:8777-[20260107040905] 1_ac_position: 144
+INFO:8777-[20260107040905] 1_ac_velocity: 176
+INFO:8777-[20260107040905] 1_ac_torque: 208
+INFO:8777-[20260107040905] 1_ac_current: -999999
+INFO:8777-[20260107040905] 1_ac_position2: -999999
+INFO:8777-[20260107040905] 1_ac_velocity2: -999999
+INFO:8777-[20260107040905] 1_ac_sensor_torque: 256
+INFO:8777-[20260107040905] 1_ac_sensor_torque2: -999999
+INFO:8777-[20260107040905] 1_ac_mode: -999999
+INFO:8777-[20260107040905] 1_ErrorCode: 240
+INFO:8777-[20260107040905] 1_FollowingErrorActualValue: -999999
+INFO:8777-[20260107040905] 1_position: 160
+INFO:8777-[20260107040905] 1_velocity: 192
+INFO:8777-[20260107040905] 1_torque: 224
+INFO:8777-[20260107040905] 1_VelocityOffset: 288
+INFO:8777-[20260107040905] 1_TorqueOffset: 272
+INFO:8777-[20260107040905] 1_TorqueMaxLimit: -999999
+INFO:8777-[20260107040905] 1_TorqueMinLimit: -999999
+INFO:8777-[20260107040905] 2_state: 368
+INFO:8777-[20260107040905] 2_control: 400
+INFO:8777-[20260107040905] 2_mode: 416
+INFO:8777-[20260107040905] 2_ac_position: 288
+INFO:8777-[20260107040905] 2_ac_velocity: 320
+INFO:8777-[20260107040905] 2_ac_torque: 352
+INFO:8777-[20260107040905] 2_ac_current: -999999
+INFO:8777-[20260107040905] 2_ac_position2: -999999
+INFO:8777-[20260107040905] 2_ac_velocity2: -999999
+INFO:8777-[20260107040905] 2_ac_sensor_torque: 400
+INFO:8777-[20260107040905] 2_ac_sensor_torque2: -999999
+INFO:8777-[20260107040905] 2_ac_mode: -999999
+INFO:8777-[20260107040905] 2_ErrorCode: 384
+INFO:8777-[20260107040905] 2_FollowingErrorActualValue: -999999
+INFO:8777-[20260107040905] 2_position: 320
+INFO:8777-[20260107040905] 2_velocity: 352
+INFO:8777-[20260107040905] 2_torque: 384
+INFO:8777-[20260107040905] 2_VelocityOffset: 448
+INFO:8777-[20260107040905] 2_TorqueOffset: 432
+INFO:8777-[20260107040905] 2_TorqueMaxLimit: -999999
+INFO:8777-[20260107040905] 2_TorqueMinLimit: -999999
+INFO:8777-[20260107040905] 3_state: 512
+INFO:8777-[20260107040905] 3_control: 560
+INFO:8777-[20260107040905] 3_mode: 576
+INFO:8777-[20260107040905] 3_ac_position: 432
+INFO:8777-[20260107040905] 3_ac_velocity: 464
+INFO:8777-[20260107040905] 3_ac_torque: 496
+INFO:8777-[20260107040905] 3_ac_current: -999999
+INFO:8777-[20260107040905] 3_ac_position2: -999999
+INFO:8777-[20260107040905] 3_ac_velocity2: -999999
+INFO:8777-[20260107040905] 3_ac_sensor_torque: 544
+INFO:8777-[20260107040905] 3_ac_sensor_torque2: -999999
+INFO:8777-[20260107040905] 3_ac_mode: -999999
+INFO:8777-[20260107040905] 3_ErrorCode: 528
+INFO:8777-[20260107040905] 3_FollowingErrorActualValue: -999999
+INFO:8777-[20260107040905] 3_position: 480
+INFO:8777-[20260107040905] 3_velocity: 512
+INFO:8777-[20260107040905] 3_torque: 544
+INFO:8777-[20260107040905] 3_VelocityOffset: 608
+INFO:8777-[20260107040905] 3_TorqueOffset: 592
+INFO:8777-[20260107040905] 3_TorqueMaxLimit: -999999
+INFO:8777-[20260107040905] 3_TorqueMinLimit: -999999
+INFO:8777-[20260107040905] 4_state: 656
+INFO:8777-[20260107040905] 4_control: 720
+INFO:8777-[20260107040905] 4_mode: 736
+INFO:8777-[20260107040905] 4_ac_position: 576
+INFO:8777-[20260107040905] 4_ac_velocity: 608
+INFO:8777-[20260107040905] 4_ac_torque: 640
+INFO:8777-[20260107040905] 4_ac_current: -999999
+INFO:8777-[20260107040905] 4_ac_position2: -999999
+INFO:8777-[20260107040905] 4_ac_velocity2: -999999
+INFO:8777-[20260107040905] 4_ac_sensor_torque: 688
+INFO:8777-[20260107040905] 4_ac_sensor_torque2: -999999
+INFO:8777-[20260107040905] 4_ac_mode: -999999
+INFO:8777-[20260107040905] 4_ErrorCode: 672
+INFO:8777-[20260107040905] 4_FollowingErrorActualValue: -999999
+INFO:8777-[20260107040905] 4_position: 640
+INFO:8777-[20260107040905] 4_velocity: 672
+INFO:8777-[20260107040905] 4_torque: 704
+INFO:8777-[20260107040905] 4_VelocityOffset: 768
+INFO:8777-[20260107040905] 4_TorqueOffset: 752
+INFO:8777-[20260107040905] 4_TorqueMaxLimit: -999999
+INFO:8777-[20260107040905] 4_TorqueMinLimit: -999999
+INFO:8777-[20260107040905] 5_state: 800
+INFO:8777-[20260107040905] 5_control: 880
+INFO:8777-[20260107040905] 5_mode: 896
+INFO:8777-[20260107040905] 5_ac_position: 720
+INFO:8777-[20260107040905] 5_ac_velocity: 752
+INFO:8777-[20260107040905] 5_ac_torque: 784
+INFO:8777-[20260107040905] 5_ac_current: -999999
+INFO:8777-[20260107040905] 5_ac_position2: -999999
+INFO:8777-[20260107040905] 5_ac_velocity2: -999999
+INFO:8777-[20260107040905] 5_ac_sensor_torque: 832
+INFO:8777-[20260107040905] 5_ac_sensor_torque2: -999999
+INFO:8777-[20260107040905] 5_ac_mode: -999999
+INFO:8777-[20260107040905] 5_ErrorCode: 816
+INFO:8777-[20260107040905] 5_FollowingErrorActualValue: -999999
+INFO:8777-[20260107040905] 5_position: 800
+INFO:8777-[20260107040905] 5_velocity: 832
+INFO:8777-[20260107040905] 5_torque: 864
+INFO:8777-[20260107040905] 5_VelocityOffset: 928
+INFO:8777-[20260107040905] 5_TorqueOffset: 912
+INFO:8777-[20260107040905] 5_TorqueMaxLimit: -999999
+INFO:8777-[20260107040905] 5_TorqueMinLimit: -999999
+INFO:8777-[20260107040905] 6_state: 944
+INFO:8777-[20260107040905] 6_control: 1040
+INFO:8777-[20260107040905] 6_mode: 1056
+INFO:8777-[20260107040905] 6_ac_position: 864
+INFO:8777-[20260107040905] 6_ac_velocity: 896
+INFO:8777-[20260107040905] 6_ac_torque: 928
+INFO:8777-[20260107040905] 6_ac_current: -999999
+INFO:8777-[20260107040905] 6_ac_position2: -999999
+INFO:8777-[20260107040905] 6_ac_velocity2: -999999
+INFO:8777-[20260107040905] 6_ac_sensor_torque: 976
+INFO:8777-[20260107040905] 6_ac_sensor_torque2: -999999
+INFO:8777-[20260107040905] 6_ac_mode: -999999
+INFO:8777-[20260107040905] 6_ErrorCode: 960
+INFO:8777-[20260107040905] 6_FollowingErrorActualValue: -999999
+INFO:8777-[20260107040905] 6_position: 960
+INFO:8777-[20260107040905] 6_velocity: 992
+INFO:8777-[20260107040905] 6_torque: 1024
+INFO:8777-[20260107040905] 6_VelocityOffset: 1088
+INFO:8777-[20260107040905] 6_TorqueOffset: 1072
+INFO:8777-[20260107040905] 6_TorqueMaxLimit: -999999
+INFO:8777-[20260107040905] 6_TorqueMinLimit: -999999
+INFO:8777-[20260107040905] /////////////////////////////////////////////////////////////////
+INFO:8777-[20260107040905] /////////////////////////////////////////////////////////////////
+INFO:8777-[20260107040905] /////////////////////////////////////////////////////////////////
+INFO:8777-[20260107040905] system_init:simulation_switch
+NOTICE:8777-[20260107040905] Device is not run, start simulation timer
+INFO:8777-[20260107040905] system_init:GetRobotSimulationState
+INFO:8777-[20260107040905] system_init:initSystemTimer2
+INFO:8777-[20260107040905] InitRobot
+INFO:8777-[20260107040905] Hardware Match
+NOTICE:8777-[20260107040905] Simulation running mode
+INFO:8777-[20260107040905] init_robot_teach
+INFO:8777-[20260107040905] set_robot_index
+INFO:8777-[20260107040905] set_addition_index
+INFO:8777-[20260107040905] get_addition_num
+INFO:8777-[20260107040905] get_robot_num
+INFO:8777-[20260107040905] start teach server port 6666
+INFO:8777-[20260107040905] start teach command server port 6667
+INFO:8777-[20260107040905] start teach feedback server port 6668
+INFO:8777-[20260107040905] UploadPlugIn: Plugin num:1, Start upload plugin
+INFO:8777-[20260107040905] UploadPlugIn: Upload Plugin "libJEServer.so"
+INFO:8777-[20260107040905] UploadPlugIn: Upload Plugin"libJEServer.so" finish
+INFO:8777-[20260107040905] initialize finish
+INFO:8777-[20260107040917] TCPConcurrentServer: client connect (58)
+INFO:8777-[20260107040917] TCPConcurrentServer: client connect (59)
+NOTICE:8777-[20260107040917] Teach feedback clock(0) cycle time is 200 ms
+INFO:8777-[20260107040918] get_data_robjoint_all
+INFO:8777-[20260107040918] get_data_tool_all
+INFO:8777-[20260107040918] get_data_wobj_all
+INFO:8777-[20260107040918] get_data_zone_all
+INFO:8777-[20260107040918] get_data_addition_all
+INFO:8777-[20260107040918] get_data_speed_all
+INFO:8777-[20260107040918] get_data_user_all
+INFO:8777-[20260107040918] get_data_robpose_all
+INFO:8777-[20260107040918] get_data_payload_all
+INFO:8777-[20260107040918] get_robot_data_path
+INFO:8777-[20260107040919] get_robot_index
+INFO:8777-[20260107040919] get_robot_run_type
+INFO:8777-[20260107040919] get_robot_run_type
+INFO:8777-[20260107040919] get_robot_teach_velocity
+INFO:8777-[20260107040919] get_teach_move_type
+INFO:8777-[20260107040919] get_robot_run_type
+INFO:8777-[20260107040919] get_robot_teach_velocity
+INFO:8777-[20260107040919] get_teach_move_type
+INFO:8777-[20260107040919] get_robot_tool
+INFO:8777-[20260107040919] get_robot_wobj
+INFO:8777-[20260107040919] get_robot_teach_coordinate
+INFO:8777-[20260107040919] set_robot_index
+INFO:8777-[20260107040919] get_robot_tool
+INFO:8777-[20260107040919] get_robot_wobj
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040946] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040947] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040948] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040949] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040950] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040951] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040952] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040953] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107040954] Kine_Inverse2: singularity
+WARNING:8777-[20260107040954] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.236292 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.240687 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.245643 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.250783 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.253205 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.258345 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.261626 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.265660 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.269600 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.273362 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.276292 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.277886 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.279385 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.280476 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.283611 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.287356 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.290961 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.294637 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.298865 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.305440 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.308789 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.312077 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.314773 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.317781 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.319892 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.322181 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.323053 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.322091 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.320949 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.319739 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.318496 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.316820 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.314006 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.310219 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.306368 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.304483 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.302983 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.299706 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.295491 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.289753 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.284335 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.279605 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.275270 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.271452 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.266068 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.259244 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.252915 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.247592 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.244198 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041010]      |-->isPositionLimit: axis index(3), -2.233000 < -2.237656 <1.743000
+WARNING:8777-[20260107041010] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.239077 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.247577 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.258264 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.271179 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.284768 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.297327 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.308944 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.319065 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.328525 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.339621 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.351404 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.362984 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.373228 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.382896 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.392116 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.400761 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.408813 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.414964 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.420614 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.426900 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.431657 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.436321 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.441316 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041013]      |-->isPositionLimit: axis index(3), -2.233000 < -2.447153 <1.743000
+WARNING:8777-[20260107041013] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.451578 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.454586 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.457433 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.459079 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.461874 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.463179 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.463586 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.463532 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.463058 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.462466 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.461745 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.461429 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.460196 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.458498 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.456477 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.455045 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.453872 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.452418 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.451555 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.450788 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.450394 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.449125 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.448700 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.446056 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.443660 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.442192 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.440769 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.439352 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.437511 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.434825 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.431511 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.426950 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.421111 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.412462 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.401941 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.390194 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.376593 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.361611 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.343937 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.298253 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.274424 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041014]      |-->isPositionLimit: axis index(3), -2.233000 < -2.250358 <1.743000
+WARNING:8777-[20260107041014] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041019]      |-->isVelocityLimit: axis index(6), -5.860059 < -5.890488 <5.860059
+ERROR:8777-[20260107041019] servo_execution: robot(0) IsRobotVelocityLimit!
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041019] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.661244 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.857248 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.844263 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.776042 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.723594 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.747628 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.773365 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.779349 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.762629 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.728872 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041020]      |-->isPositionLimit: axis index(1), -1.650000 < -1.711558 <1.650000
+WARNING:8777-[20260107041020] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -1.712756 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -1.711397 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -1.709165 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -1.711304 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -1.696847 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(2), -2.960000 < -3.002474 <2.960000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(3), -2.233000 < -3.984760 <1.743000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(3), -2.233000 < -4.091223 <1.743000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(3), -2.233000 < -4.485087 <1.743000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(3), -2.233000 < -4.651692 <1.743000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(3), -2.233000 < -4.677850 <1.743000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(3), -2.233000 < -4.976477 <1.743000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(3), -2.233000 < -5.631160 <1.743000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(3), -2.233000 < -4.660031 <1.743000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -1.665692 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -1.683463 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -1.685472 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -1.667485 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -2.006476 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < -4.145560 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(2), -2.960000 < -5.384702 <2.960000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(2), -2.960000 < -4.712314 <2.960000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 5.177015 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(1), -1.650000 < 1.796868 <1.650000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 5.955992 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 5.258672 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 7.141305 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 8.816258 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 5.213958 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 14.215796 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 9.059209 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 8.960893 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041021]      |-->isPositionLimit: axis index(0), -5.140000 < 8.874911 <5.140000
+WARNING:8777-[20260107041021] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041022]      |-->isPositionLimit: axis index(0), -5.140000 < 14.101420 <5.140000
+WARNING:8777-[20260107041022] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041022]      |-->isPositionLimit: axis index(2), -2.960000 < -6.202680 <2.960000
+WARNING:8777-[20260107041022] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041022]      |-->isPositionLimit: axis index(0), -5.140000 < 15.289743 <5.140000
+WARNING:8777-[20260107041022] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041022]      |-->isPositionLimit: axis index(0), -5.140000 < 14.235910 <5.140000
+WARNING:8777-[20260107041022] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041022]      |-->isPositionLimit: axis index(2), -2.960000 < -6.188778 <2.960000
+WARNING:8777-[20260107041022] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041022]      |-->isPositionLimit: axis index(0), -5.140000 < 5.220093 <5.140000
+WARNING:8777-[20260107041022] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041022]      |-->isPositionLimit: axis index(0), -5.140000 < 11.491473 <5.140000
+WARNING:8777-[20260107041022] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041022]      |-->isPositionLimit: axis index(0), -5.140000 < 7.977604 <5.140000
+WARNING:8777-[20260107041022] ServoCartesian: Kine_Inverse failure
+ERROR:8777-[20260107041022]      |-->isPositionLimit: axis index(0), -5.140000 < 7.804292 <5.140000
+WARNING:8777-[20260107041022] ServoCartesian: Kine_Inverse failure
+INFO:8777-[20260107041427] device_error_clear
+INFO:8777-[20260107041429] robot_goto_joint
+INFO:8777-[20260107041430] robot_teach_stop
+INFO:8777-[20260107041431] set_robot_teach_velocity
+INFO:8777-[20260107041431] get_robot_teach_velocity
+INFO:8777-[20260107041432] robot_goto_joint
+INFO:8777-[20260107041441] robot_teach_stop
+INFO:8777-[20260107041446] robot_teach_joint
+INFO:8777-[20260107041446] robot_teach_stop
+INFO:8777-[20260107041447] robot_teach_joint
+INFO:8777-[20260107041447] robot_teach_stop
+INFO:8777-[20260107041448] robot_teach_joint
+INFO:8777-[20260107041449] robot_teach_stop
+INFO:8777-[20260107041450] robot_teach_joint
+INFO:8777-[20260107041452] robot_teach_stop
+INFO:8777-[20260107041453] robot_teach_joint
+INFO:8777-[20260107041453] robot_teach_stop
+INFO:8777-[20260107041509] set_robot_teach_coordinate
+INFO:8777-[20260107041511] robot_teach_cartesian
+INFO:8777-[20260107041511] robot_teach_stop
+INFO:8777-[20260107041513] robot_teach_cartesian
+INFO:8777-[20260107041513] robot_teach_stop
+INFO:8777-[20260107041519] robot_teach_cartesian
+INFO:8777-[20260107041519] robot_teach_stop
+INFO:8777-[20260107041521] robot_teach_cartesian
+INFO:8777-[20260107041521] robot_teach_stop
+INFO:8777-[20260107041521] robot_teach_cartesian
+INFO:8777-[20260107041522] robot_teach_stop
+INFO:8777-[20260107041522] robot_teach_cartesian
+INFO:8777-[20260107041522] robot_teach_stop
+INFO:8777-[20260107041529] robot_teach_cartesian
+INFO:8777-[20260107041529] robot_teach_stop
+INFO:8777-[20260107041531] robot_teach_cartesian
+INFO:8777-[20260107041531] robot_teach_stop
+INFO:8777-[20260107041534] robot_teach_cartesian
+INFO:8777-[20260107041534] robot_teach_stop
+INFO:8777-[20260107041536] robot_teach_cartesian
+INFO:8777-[20260107041536] robot_teach_stop
+INFO:8777-[20260107041537] robot_teach_cartesian
+INFO:8777-[20260107041537] robot_teach_stop
+INFO:8777-[20260107041537] robot_teach_cartesian
+INFO:8777-[20260107041537] robot_teach_stop
+INFO:8777-[20260107041538] robot_teach_cartesian
+INFO:8777-[20260107041538] robot_teach_stop
+INFO:8777-[20260107041538] robot_teach_cartesian
+INFO:8777-[20260107041538] robot_teach_stop
+INFO:8777-[20260107041538] robot_teach_cartesian
+INFO:8777-[20260107041538] robot_teach_stop
+INFO:8777-[20260107041538] robot_teach_cartesian
+INFO:8777-[20260107041538] robot_teach_stop
+INFO:8777-[20260107041545] robot_teach_cartesian
+INFO:8777-[20260107041545] robot_teach_stop
+INFO:8777-[20260107041545] robot_teach_cartesian
+INFO:8777-[20260107041546] robot_teach_stop
+INFO:8777-[20260107041546] robot_teach_cartesian
+INFO:8777-[20260107041546] robot_teach_stop
+INFO:8777-[20260107041548] robot_teach_cartesian
+INFO:8777-[20260107041548] robot_teach_stop
+INFO:8777-[20260107041548] robot_teach_cartesian
+INFO:8777-[20260107041548] robot_teach_stop
+INFO:8777-[20260107041554] robot_teach_cartesian
+INFO:8777-[20260107041554] robot_teach_stop
+INFO:8777-[20260107041555] robot_teach_cartesian
+INFO:8777-[20260107041555] robot_teach_stop
+INFO:8777-[20260107041556] robot_teach_cartesian
+INFO:8777-[20260107041557] robot_teach_stop
+INFO:8777-[20260107041557] robot_teach_cartesian
+INFO:8777-[20260107041557] robot_teach_stop
+INFO:8777-[20260107041558] robot_teach_cartesian
+INFO:8777-[20260107041558] robot_teach_stop
+INFO:8777-[20260107041601] robot_teach_cartesian
+INFO:8777-[20260107041601] robot_teach_stop
+INFO:8777-[20260107041606] robot_teach_cartesian
+INFO:8777-[20260107041606] robot_teach_stop
+INFO:8777-[20260107041607] robot_teach_cartesian
+INFO:8777-[20260107041607] robot_teach_stop
+INFO:8777-[20260107041609] robot_teach_cartesian
+INFO:8777-[20260107041610] robot_teach_stop
+INFO:8777-[20260107041610] robot_teach_cartesian
+INFO:8777-[20260107041611] robot_teach_stop
+INFO:8777-[20260107041614] robot_goto_joint
+INFO:8777-[20260107041620] robot_teach_stop
+INFO:8777-[20260107044500] device_teach_disenable
+INFO:8777-[20260107044504] TCPConcurrentServer: client disconnect (58)
+INFO:8777-[20260107044504] TCPConcurrentServer: client disconnect (59)

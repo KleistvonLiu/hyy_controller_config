@@ -65,7 +65,7 @@ robot_group:
         jm: 0.0000000000000000e+00
       axis:
         id: 0
-        initial_offset: 1.4482696113625342e+00
+        initial_offset: 3.1478004820907750e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
@@ -123,15 +123,15 @@ robot_group:
         jm: 0.0000000000000000e+00
       axis:
         id: 1
-        initial_offset: 1.0353171895737565e+00
+        initial_offset: -1.5592675024359470e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
         sigma: revolute
         direction: false
         direction2: true
-        smin: -1.6500000000000001e+00
-        smax: 1.6500000000000001e+00
+        smin: -1.8600000000000001e+00
+        smax: 1.8200000000000001e+00
         vmin: -3.9800000000000000e+00
         vmax: 3.9800000000000000e+00
         amin: -3.9799999999999997e+01
@@ -181,7 +181,7 @@ robot_group:
         jm: -9.6516255932483006e-05
       axis:
         id: 2
-        initial_offset: 4.8607297162632044e+00
+        initial_offset: 3.1051845783273269e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
@@ -239,15 +239,15 @@ robot_group:
         jm: -2.8221865941293237e-02
       axis:
         id: 3
-        initial_offset: 8.5663239623488971e-02
+        initial_offset: 3.1224418621910406e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
         sigma: revolute
         direction: true
         direction2: true
-        smin: -2.2330000000000001e+00
-        smax: 1.7430000000000001e+00
+        smin: -2.2730000000000001e+00
+        smax: 1.8000000000000001e+00
         vmin: -5.5499999999999998e+00
         vmax: 5.5499999999999998e+00
         amin: -5.5500000000000000e+01
@@ -297,7 +297,7 @@ robot_group:
         jm: -3.9514408509191572e-02
       axis:
         id: 4
-        initial_offset: 6.0525608831009183e+00
+        initial_offset: 3.1418083696380967e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
@@ -355,15 +355,15 @@ robot_group:
         jm: -1.1228968600881292e-02
       axis:
         id: 5
-        initial_offset: 1.0689928615578086e-01
+        initial_offset: 3.2428339474832644e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
         sigma: revolute
         direction: true
         direction2: true
-        smin: -1.5329999999999999e+00
-        smax: 1.4830000000000001e+00
+        smin: -1.6029999999999999e+00
+        smax: 1.5500000000000001e+00
         vmin: -5.5499999999999998e+00
         vmax: 5.5499999999999998e+00
         amin: -5.5500000000000000e+01
@@ -413,7 +413,7 @@ robot_group:
         jm: -1.8859582318202475e-03
       axis:
         id: 6
-        initial_offset: -1.7260639446687003e+00
+        initial_offset: -3.0946384604106130e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00

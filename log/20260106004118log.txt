@@ -1,0 +1,8 @@
+INFO:4555-[20260106004118] verison: 12.2.1
+INFO:4555-[20260106004118] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:4555-[20260106004118] load_configure_data: load_device_config failure
+ERROR:4555-[20260106004118] common_init: load_configure_data failure, err=-146
+INFO:4558-[20260106004118] verison: 12.2.1
+INFO:4558-[20260106004118] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:4558-[20260106004118] load_configure_data: load_device_config failure
+ERROR:4558-[20260106004118] common_init: load_configure_data failure, err=-146

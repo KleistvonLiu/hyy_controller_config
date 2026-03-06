@@ -1,0 +1,4 @@
+INFO:4549-[20260106004019] verison: 12.2.1
+INFO:4549-[20260106004019] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:4549-[20260106004019] load_configure_data: load_device_config failure
+ERROR:4549-[20260106004019] common_init: load_configure_data failure, err=-146

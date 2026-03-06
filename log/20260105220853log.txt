@@ -1,0 +1,533 @@
+INFO:2115-[20260105220853] verison: 12.2.1
+INFO:2115-[20260105220853] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2115-[20260105220853] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2115-[20260105220853] Start system initialize!
+INFO:2115-[20260105220853] OUT MULTITURN ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2115-[20260105220853] group init existing problem. Some fields are not found!
+WARNING:2115-[20260105220853] dof num is 7
+WARNING:2115-[20260105220853] control:7,state:7,mode:7
+WARNING:2115-[20260105220853] ac_position:7,ac_velocity:7,ac_torque:7,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_sensor_torque2:0,ac_mode:0,ErrorCode:7,FollowingErrorActualValue:0
+WARNING:2115-[20260105220853] position:7,velocity:7,torque:7,VelocityOffset:7,TorqueOffset:7,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:2115-[20260105220853] /////////////////////////////////////////////////////////////////
+INFO:2115-[20260105220853] fd_ecat_in_name: /ecat_in
+INFO:2115-[20260105220853] fd_ecat_out_name: /ecat_out
+INFO:2115-[20260105220853] /////////////////////////////////////////////////////////////////
+INFO:2115-[20260105220853] state: Statusword
+INFO:2115-[20260105220853] control: Controlword
+INFO:2115-[20260105220853] mode: Modes of Operation
+INFO:2115-[20260105220853] ac_position: Position Actual Value
+INFO:2115-[20260105220853] ac_velocity: Velocity Actual Value
+INFO:2115-[20260105220853] ac_torque: Torque Actual Value
+INFO:2115-[20260105220853] ac_position2: 
+INFO:2115-[20260105220853] ac_velocity2: 
+INFO:2115-[20260105220853] ac_sensor_torque: Torque sensor
+INFO:2115-[20260105220853] ac_sensor_torque2: 
+INFO:2115-[20260105220853] ac_mode: Modes of Operation Display
+INFO:2115-[20260105220853] ErrorCode: Error Code
+INFO:2115-[20260105220853] FollowingErrorActualValue: 
+INFO:2115-[20260105220853] position: Target Position
+INFO:2115-[20260105220853] velocity: Target Velocity
+INFO:2115-[20260105220853] torque: Target Torque
+INFO:2115-[20260105220853] VelocityOffset: Velocity Offset
+INFO:2115-[20260105220853] TorqueOffset: Torque Offset
+INFO:2115-[20260105220853] TorqueMaxLimit: 
+INFO:2115-[20260105220853] TorqueMinLimit: 
+INFO:2115-[20260105220853] ec_di: 
+INFO:2115-[20260105220853] ec_do: 
+INFO:2115-[20260105220853] ec_ai: 
+INFO:2115-[20260105220853] ec_ao: 
+INFO:2115-[20260105220853] ec_li: 
+INFO:2115-[20260105220853] ec_lo: 
+INFO:2115-[20260105220853] Number of fields: 26
+INFO:2115-[20260105220853] busyTs: 1000000 ns
+INFO:2115-[20260105220853] /////////////////////////////////////////////////////////////////
+INFO:2115-[20260105220853] ec_device1/robot0: 
+INFO:2115-[20260105220853] DOF: 7
+INFO:2115-[20260105220853] 0_state: 80
+INFO:2115-[20260105220853] 0_control: 80
+INFO:2115-[20260105220853] 0_mode: 96
+INFO:2115-[20260105220853] 0_ac_position: 0
+INFO:2115-[20260105220853] 0_ac_velocity: 32
+INFO:2115-[20260105220853] 0_ac_torque: 64
+INFO:2115-[20260105220853] 0_ac_current: -999999
+INFO:2115-[20260105220853] 0_ac_position2: -999999
+INFO:2115-[20260105220853] 0_ac_velocity2: -999999
+INFO:2115-[20260105220853] 0_ac_sensor_torque: -999999
+INFO:2115-[20260105220853] 0_ac_sensor_torque2: -999999
+INFO:2115-[20260105220853] 0_ac_mode: -999999
+INFO:2115-[20260105220853] 0_ErrorCode: 96
+INFO:2115-[20260105220853] 0_FollowingErrorActualValue: -999999
+INFO:2115-[20260105220853] 0_position: 0
+INFO:2115-[20260105220853] 0_velocity: 32
+INFO:2115-[20260105220853] 0_torque: 64
+INFO:2115-[20260105220853] 0_VelocityOffset: 128
+INFO:2115-[20260105220853] 0_TorqueOffset: 112
+INFO:2115-[20260105220853] 0_TorqueMaxLimit: -999999
+INFO:2115-[20260105220853] 0_TorqueMinLimit: -999999
+INFO:2115-[20260105220853] 1_state: 192
+INFO:2115-[20260105220853] 1_control: 240
+INFO:2115-[20260105220853] 1_mode: 256
+INFO:2115-[20260105220853] 1_ac_position: 112
+INFO:2115-[20260105220853] 1_ac_velocity: 144
+INFO:2115-[20260105220853] 1_ac_torque: 176
+INFO:2115-[20260105220853] 1_ac_current: -999999
+INFO:2115-[20260105220853] 1_ac_position2: -999999
+INFO:2115-[20260105220853] 1_ac_velocity2: -999999
+INFO:2115-[20260105220853] 1_ac_sensor_torque: -999999
+INFO:2115-[20260105220853] 1_ac_sensor_torque2: -999999
+INFO:2115-[20260105220853] 1_ac_mode: -999999
+INFO:2115-[20260105220853] 1_ErrorCode: 208
+INFO:2115-[20260105220853] 1_FollowingErrorActualValue: -999999
+INFO:2115-[20260105220853] 1_position: 160
+INFO:2115-[20260105220853] 1_velocity: 192
+INFO:2115-[20260105220853] 1_torque: 224
+INFO:2115-[20260105220853] 1_VelocityOffset: 288
+INFO:2115-[20260105220853] 1_TorqueOffset: 272
+INFO:2115-[20260105220853] 1_TorqueMaxLimit: -999999
+INFO:2115-[20260105220853] 1_TorqueMinLimit: -999999
+INFO:2115-[20260105220853] 2_state: 304
+INFO:2115-[20260105220853] 2_control: 400
+INFO:2115-[20260105220853] 2_mode: 416
+INFO:2115-[20260105220853] 2_ac_position: 224
+INFO:2115-[20260105220853] 2_ac_velocity: 256
+INFO:2115-[20260105220853] 2_ac_torque: 288
+INFO:2115-[20260105220853] 2_ac_current: -999999
+INFO:2115-[20260105220853] 2_ac_position2: -999999
+INFO:2115-[20260105220853] 2_ac_velocity2: -999999
+INFO:2115-[20260105220853] 2_ac_sensor_torque: -999999
+INFO:2115-[20260105220853] 2_ac_sensor_torque2: -999999
+INFO:2115-[20260105220853] 2_ac_mode: -999999
+INFO:2115-[20260105220853] 2_ErrorCode: 320
+INFO:2115-[20260105220853] 2_FollowingErrorActualValue: -999999
+INFO:2115-[20260105220853] 2_position: 320
+INFO:2115-[20260105220853] 2_velocity: 352
+INFO:2115-[20260105220853] 2_torque: 384
+INFO:2115-[20260105220853] 2_VelocityOffset: 448
+INFO:2115-[20260105220853] 2_TorqueOffset: 432
+INFO:2115-[20260105220853] 2_TorqueMaxLimit: -999999
+INFO:2115-[20260105220853] 2_TorqueMinLimit: -999999
+INFO:2115-[20260105220853] 3_state: 416
+INFO:2115-[20260105220853] 3_control: 560
+INFO:2115-[20260105220853] 3_mode: 576
+INFO:2115-[20260105220853] 3_ac_position: 336
+INFO:2115-[20260105220853] 3_ac_velocity: 368
+INFO:2115-[20260105220853] 3_ac_torque: 400
+INFO:2115-[20260105220853] 3_ac_current: -999999
+INFO:2115-[20260105220853] 3_ac_position2: -999999
+INFO:2115-[20260105220853] 3_ac_velocity2: -999999
+INFO:2115-[20260105220853] 3_ac_sensor_torque: -999999
+INFO:2115-[20260105220853] 3_ac_sensor_torque2: -999999
+INFO:2115-[20260105220853] 3_ac_mode: -999999
+INFO:2115-[20260105220853] 3_ErrorCode: 432
+INFO:2115-[20260105220853] 3_FollowingErrorActualValue: -999999
+INFO:2115-[20260105220853] 3_position: 480
+INFO:2115-[20260105220853] 3_velocity: 512
+INFO:2115-[20260105220853] 3_torque: 544
+INFO:2115-[20260105220853] 3_VelocityOffset: 608
+INFO:2115-[20260105220853] 3_TorqueOffset: 592
+INFO:2115-[20260105220853] 3_TorqueMaxLimit: -999999
+INFO:2115-[20260105220853] 3_TorqueMinLimit: -999999
+INFO:2115-[20260105220853] 4_state: 528
+INFO:2115-[20260105220853] 4_control: 720
+INFO:2115-[20260105220853] 4_mode: 736
+INFO:2115-[20260105220853] 4_ac_position: 448
+INFO:2115-[20260105220853] 4_ac_velocity: 480
+INFO:2115-[20260105220853] 4_ac_torque: 512
+INFO:2115-[20260105220853] 4_ac_current: -999999
+INFO:2115-[20260105220853] 4_ac_position2: -999999
+INFO:2115-[20260105220853] 4_ac_velocity2: -999999
+INFO:2115-[20260105220853] 4_ac_sensor_torque: -999999
+INFO:2115-[20260105220853] 4_ac_sensor_torque2: -999999
+INFO:2115-[20260105220853] 4_ac_mode: -999999
+INFO:2115-[20260105220853] 4_ErrorCode: 544
+INFO:2115-[20260105220853] 4_FollowingErrorActualValue: -999999
+INFO:2115-[20260105220853] 4_position: 640
+INFO:2115-[20260105220853] 4_velocity: 672
+INFO:2115-[20260105220853] 4_torque: 704
+INFO:2115-[20260105220853] 4_VelocityOffset: 768
+INFO:2115-[20260105220853] 4_TorqueOffset: 752
+INFO:2115-[20260105220853] 4_TorqueMaxLimit: -999999
+INFO:2115-[20260105220853] 4_TorqueMinLimit: -999999
+INFO:2115-[20260105220853] 5_state: 640
+INFO:2115-[20260105220853] 5_control: 880
+INFO:2115-[20260105220853] 5_mode: 896
+INFO:2115-[20260105220853] 5_ac_position: 560
+INFO:2115-[20260105220853] 5_ac_velocity: 592
+INFO:2115-[20260105220853] 5_ac_torque: 624
+INFO:2115-[20260105220853] 5_ac_current: -999999
+INFO:2115-[20260105220853] 5_ac_position2: -999999
+INFO:2115-[20260105220853] 5_ac_velocity2: -999999
+INFO:2115-[20260105220853] 5_ac_sensor_torque: -999999
+INFO:2115-[20260105220853] 5_ac_sensor_torque2: -999999
+INFO:2115-[20260105220853] 5_ac_mode: -999999
+INFO:2115-[20260105220853] 5_ErrorCode: 656
+INFO:2115-[20260105220853] 5_FollowingErrorActualValue: -999999
+INFO:2115-[20260105220853] 5_position: 800
+INFO:2115-[20260105220853] 5_velocity: 832
+INFO:2115-[20260105220853] 5_torque: 864
+INFO:2115-[20260105220853] 5_VelocityOffset: 928
+INFO:2115-[20260105220853] 5_TorqueOffset: 912
+INFO:2115-[20260105220853] 5_TorqueMaxLimit: -999999
+INFO:2115-[20260105220853] 5_TorqueMinLimit: -999999
+INFO:2115-[20260105220853] 6_state: 752
+INFO:2115-[20260105220853] 6_control: 1040
+INFO:2115-[20260105220853] 6_mode: 1056
+INFO:2115-[20260105220853] 6_ac_position: 672
+INFO:2115-[20260105220853] 6_ac_velocity: 704
+INFO:2115-[20260105220853] 6_ac_torque: 736
+INFO:2115-[20260105220853] 6_ac_current: -999999
+INFO:2115-[20260105220853] 6_ac_position2: -999999
+INFO:2115-[20260105220853] 6_ac_velocity2: -999999
+INFO:2115-[20260105220853] 6_ac_sensor_torque: -999999
+INFO:2115-[20260105220853] 6_ac_sensor_torque2: -999999
+INFO:2115-[20260105220853] 6_ac_mode: -999999
+INFO:2115-[20260105220853] 6_ErrorCode: 768
+INFO:2115-[20260105220853] 6_FollowingErrorActualValue: -999999
+INFO:2115-[20260105220853] 6_position: 960
+INFO:2115-[20260105220853] 6_velocity: 992
+INFO:2115-[20260105220853] 6_torque: 1024
+INFO:2115-[20260105220853] 6_VelocityOffset: 1088
+INFO:2115-[20260105220853] 6_TorqueOffset: 1072
+INFO:2115-[20260105220853] 6_TorqueMaxLimit: -999999
+INFO:2115-[20260105220853] 6_TorqueMinLimit: -999999
+INFO:2115-[20260105220853] /////////////////////////////////////////////////////////////////
+INFO:2115-[20260105220853] /////////////////////////////////////////////////////////////////
+INFO:2115-[20260105220853] /////////////////////////////////////////////////////////////////
+INFO:2115-[20260105220853] system_init:simulation_switch
+NOTICE:2115-[20260105220853] Device is running
+INFO:2115-[20260105220853] system_init:GetRobotSimulationState
+INFO:2115-[20260105220853] system_init:initSystemTimer2
+INFO:2115-[20260105220853] InitRobot
+INFO:2115-[20260105220853] Hardware Match
+NOTICE:2115-[20260105220853] Real machine running mode
+INFO:2115-[20260105220853] init_robot_teach
+INFO:2115-[20260105220853] set_robot_index
+INFO:2115-[20260105220853] set_addition_index
+INFO:2115-[20260105220853] get_addition_num
+INFO:2115-[20260105220853] get_robot_num
+INFO:2115-[20260105220853] start teach server port 6666
+INFO:2115-[20260105220853] start teach command server port 6667
+INFO:2115-[20260105220853] start teach feedback server port 6668
+INFO:2115-[20260105220853] UploadPlugIn: Plugin num:1, Start upload plugin
+INFO:2115-[20260105220853] UploadPlugIn: Upload Plugin "libJEServer.so"
+INFO:2115-[20260105220853] UploadPlugIn: Upload Plugin"libJEServer.so" finish
+INFO:2115-[20260105220853] initialize finish
+INFO:2115-[20260105220859] TCPConcurrentServer: client connect (56)
+INFO:2115-[20260105220859] TCPConcurrentServer: client connect (57)
+NOTICE:2115-[20260105220859] Teach feedback clock(0) cycle time is 200 ms
+INFO:2115-[20260105220900] get_data_robjoint_all
+INFO:2115-[20260105220900] get_data_robpose_all
+INFO:2115-[20260105220900] get_data_wobj_all
+INFO:2115-[20260105220900] get_data_zone_all
+INFO:2115-[20260105220900] get_data_tool_all
+INFO:2115-[20260105220900] get_data_payload_all
+INFO:2115-[20260105220900] get_data_user_all
+INFO:2115-[20260105220900] get_data_addition_all
+INFO:2115-[20260105220900] get_data_speed_all
+INFO:2115-[20260105220900] get_robot_data_path
+INFO:2115-[20260105220900] get_robot_index
+INFO:2115-[20260105220900] get_teach_move_type
+INFO:2115-[20260105220900] set_robot_run_type
+NOTICE:2115-[20260105220900] Device is running
+NOTICE:2115-[20260105220900] Real machine running mode
+INFO:2115-[20260105220900] get_robot_run_type
+INFO:2115-[20260105220900] get_robot_run_type
+INFO:2115-[20260105220900] get_robot_teach_velocity
+INFO:2115-[20260105220900] get_robot_tool
+INFO:2115-[20260105220900] get_robot_run_type
+INFO:2115-[20260105220901] get_robot_wobj
+INFO:2115-[20260105220901] get_robot_run_type
+INFO:2115-[20260105220901] get_robot_teach_velocity
+INFO:2115-[20260105220901] get_teach_move_type
+INFO:2115-[20260105220901] get_robot_teach_coordinate
+INFO:2115-[20260105220901] set_robot_index
+INFO:2115-[20260105220901] get_robot_tool
+INFO:2115-[20260105220901] get_robot_wobj
+INFO:2115-[20260105220908] device_teach_enable
+INFO:2115-[20260105220911] set_robot_teach_velocity
+INFO:2115-[20260105220911] get_robot_teach_velocity
+INFO:2115-[20260105220951] delete_data_robjoint name:R0_RH_HOME
+INFO:2115-[20260105220953] delete_data_robjoint name:R0_RH_LHOME
+INFO:2115-[20260105221018] save_robot_current_joint_data "R0_RH_HOME"
+INFO:2115-[20260105221047] delete_data_robjoint name:R0_RH_HOME
+INFO:2115-[20260105221100] save_robot_current_joint_data "R0_RH_LHOME"
+INFO:2115-[20260105221106] robot_goto_joint
+INFO:2115-[20260105221106] robot_teach_stop
+INFO:2115-[20260105221107] robot_goto_joint
+INFO:2115-[20260105221107] robot_teach_stop
+INFO:2115-[20260105221108] robot_goto_joint
+INFO:2115-[20260105221108] robot_teach_stop
+INFO:2115-[20260105221117] robot_teach_joint
+INFO:2115-[20260105221117] robot_teach_stop
+INFO:2115-[20260105221117] robot_teach_joint
+INFO:2115-[20260105221124] robot_teach_stop
+INFO:2115-[20260105221125] robot_teach_joint
+INFO:2115-[20260105221126] robot_teach_stop
+INFO:2115-[20260105221126] robot_teach_joint
+INFO:2115-[20260105221127] robot_teach_stop
+INFO:2115-[20260105221128] robot_teach_joint
+INFO:2115-[20260105221128] robot_teach_stop
+INFO:2115-[20260105221129] robot_teach_joint
+INFO:2115-[20260105221129] robot_teach_stop
+INFO:2115-[20260105221132] robot_teach_joint
+INFO:2115-[20260105221132] robot_teach_stop
+INFO:2115-[20260105221133] robot_teach_joint
+INFO:2115-[20260105221133] robot_teach_stop
+INFO:2115-[20260105221135] robot_teach_joint
+INFO:2115-[20260105221135] robot_teach_stop
+INFO:2115-[20260105221140] set_robot_teach_velocity
+INFO:2115-[20260105221140] get_robot_teach_velocity
+INFO:2115-[20260105221141] robot_teach_joint
+INFO:2115-[20260105221141] robot_teach_stop
+INFO:2115-[20260105221154] save_robot_current_joint_data "R0_RH_HOME"
+INFO:2115-[20260105221203] set_robot_teach_velocity
+INFO:2115-[20260105221203] get_robot_teach_velocity
+INFO:2115-[20260105221204] set_robot_teach_velocity
+INFO:2115-[20260105221204] get_robot_teach_velocity
+INFO:2115-[20260105221205] robot_goto_joint
+INFO:2115-[20260105221214] robot_teach_stop
+INFO:2115-[20260105221234] robot_goto_joint
+INFO:2115-[20260105221238] robot_teach_stop
+INFO:2115-[20260105221246] robot_goto_joint
+INFO:2115-[20260105221247] robot_teach_stop
+INFO:2115-[20260105221249] robot_teach_joint
+INFO:2115-[20260105221251] robot_teach_stop
+INFO:2115-[20260105221252] robot_teach_joint
+INFO:2115-[20260105221253] robot_teach_stop
+INFO:2115-[20260105221254] robot_teach_joint
+INFO:2115-[20260105221257] robot_teach_stop
+INFO:2115-[20260105221259] robot_teach_joint
+INFO:2115-[20260105221259] robot_teach_stop
+INFO:2115-[20260105221300] robot_teach_joint
+INFO:2115-[20260105221300] robot_teach_stop
+INFO:2115-[20260105221302] robot_teach_joint
+INFO:2115-[20260105221302] robot_teach_stop
+INFO:2115-[20260105221302] robot_teach_joint
+INFO:2115-[20260105221303] robot_teach_stop
+INFO:2115-[20260105221322] robot_goto_joint
+INFO:2115-[20260105221328] robot_teach_stop
+INFO:2115-[20260105221333] device_teach_disenable
+INFO:2115-[20260105221337] TCPConcurrentServer: client disconnect (57)
+INFO:2115-[20260105221337] TCPConcurrentServer: client disconnect (56)
+INFO:2115-[20260105221540] TCPConcurrentServer: client connect (56)
+INFO:2115-[20260105221540] TCPConcurrentServer: client connect (57)
+NOTICE:2115-[20260105221540] Teach feedback clock(0) cycle time is 200 ms
+INFO:2115-[20260105221541] get_data_robjoint_all
+INFO:2115-[20260105221541] get_data_robpose_all
+INFO:2115-[20260105221541] get_data_wobj_all
+INFO:2115-[20260105221541] get_data_user_all
+INFO:2115-[20260105221541] get_data_addition_all
+INFO:2115-[20260105221542] get_data_speed_all
+INFO:2115-[20260105221542] get_data_zone_all
+INFO:2115-[20260105221542] get_data_tool_all
+INFO:2115-[20260105221542] get_data_payload_all
+INFO:2115-[20260105221542] get_robot_data_path
+INFO:2115-[20260105221542] get_robot_index
+INFO:2115-[20260105221542] get_robot_run_type
+INFO:2115-[20260105221542] set_robot_run_type
+NOTICE:2115-[20260105221542] Device is running
+NOTICE:2115-[20260105221542] Real machine running mode
+INFO:2115-[20260105221542] get_robot_teach_velocity
+INFO:2115-[20260105221542] get_teach_move_type
+INFO:2115-[20260105221542] get_robot_run_type
+INFO:2115-[20260105221542] get_robot_tool
+INFO:2115-[20260105221542] get_robot_run_type
+INFO:2115-[20260105221542] get_robot_wobj
+INFO:2115-[20260105221542] get_robot_teach_coordinate
+INFO:2115-[20260105221542] get_robot_run_type
+INFO:2115-[20260105221542] get_robot_teach_velocity
+INFO:2115-[20260105221542] get_teach_move_type
+INFO:2115-[20260105221542] set_robot_index
+INFO:2115-[20260105221542] get_robot_tool
+INFO:2115-[20260105221542] get_robot_wobj
+INFO:2115-[20260105221553] robot_goto_joint
+ERROR:2115-[20260105221553] movej: robot not power, can't run
+INFO:2115-[20260105221554] robot_teach_stop
+INFO:2115-[20260105221555] device_teach_enable
+INFO:2115-[20260105221557] robot_goto_joint
+INFO:2115-[20260105221557] robot_teach_stop
+INFO:2115-[20260105221558] robot_goto_joint
+INFO:2115-[20260105221601] robot_teach_stop
+INFO:2115-[20260105221603] robot_goto_joint
+INFO:2115-[20260105221604] robot_teach_stop
+INFO:2115-[20260105221607] robot_teach_joint
+INFO:2115-[20260105221607] robot_teach_stop
+INFO:2115-[20260105221608] robot_teach_joint
+INFO:2115-[20260105221609] robot_teach_stop
+INFO:2115-[20260105221610] robot_teach_joint
+INFO:2115-[20260105221612] robot_teach_stop
+INFO:2115-[20260105221613] robot_teach_joint
+INFO:2115-[20260105221614] robot_teach_stop
+INFO:2115-[20260105221616] robot_teach_joint
+INFO:2115-[20260105221616] robot_teach_stop
+INFO:2115-[20260105221618] robot_teach_joint
+INFO:2115-[20260105221619] robot_teach_stop
+INFO:2115-[20260105221619] robot_teach_joint
+INFO:2115-[20260105221620] robot_teach_stop
+INFO:2115-[20260105221621] robot_teach_joint
+INFO:2115-[20260105221621] robot_teach_stop
+INFO:2115-[20260105221622] robot_teach_joint
+INFO:2115-[20260105221622] robot_teach_stop
+INFO:2115-[20260105221624] robot_teach_joint
+INFO:2115-[20260105221624] robot_teach_stop
+INFO:2115-[20260105221625] robot_teach_joint
+INFO:2115-[20260105221625] robot_teach_stop
+INFO:2115-[20260105221626] robot_teach_joint
+INFO:2115-[20260105221627] robot_teach_stop
+INFO:2115-[20260105221627] robot_teach_joint
+INFO:2115-[20260105221628] robot_teach_stop
+INFO:2115-[20260105221629] robot_teach_joint
+INFO:2115-[20260105221629] robot_teach_stop
+INFO:2115-[20260105221630] robot_teach_joint
+INFO:2115-[20260105221630] robot_teach_stop
+INFO:2115-[20260105221633] robot_goto_joint
+INFO:2115-[20260105221637] robot_teach_stop
+INFO:2115-[20260105221644] robot_teach_joint
+INFO:2115-[20260105221644] robot_teach_stop
+INFO:2115-[20260105221645] robot_teach_joint
+INFO:2115-[20260105221646] robot_teach_stop
+INFO:2115-[20260105221647] robot_teach_joint
+INFO:2115-[20260105221649] robot_teach_stop
+INFO:2115-[20260105221650] robot_teach_joint
+INFO:2115-[20260105221651] robot_teach_stop
+INFO:2115-[20260105221655] robot_teach_joint
+INFO:2115-[20260105221656] robot_teach_stop
+INFO:2115-[20260105221658] robot_teach_joint
+INFO:2115-[20260105221659] robot_teach_stop
+INFO:2115-[20260105221704] set_robot_teach_coordinate
+INFO:2115-[20260105221712] set_robot_teach_velocity
+INFO:2115-[20260105221712] get_robot_teach_velocity
+INFO:2115-[20260105221717] set_robot_teach_coordinate
+INFO:2115-[20260105221721] robot_teach_joint
+INFO:2115-[20260105221721] robot_teach_stop
+INFO:2115-[20260105221723] robot_teach_joint
+INFO:2115-[20260105221723] robot_teach_stop
+INFO:2115-[20260105221724] robot_teach_joint
+INFO:2115-[20260105221740] robot_teach_stop
+INFO:2115-[20260105221741] robot_teach_joint
+INFO:2115-[20260105221742] robot_teach_stop
+INFO:2115-[20260105221743] robot_teach_joint
+INFO:2115-[20260105221744] robot_teach_stop
+INFO:2115-[20260105221744] robot_teach_joint
+INFO:2115-[20260105221745] robot_teach_stop
+INFO:2115-[20260105221745] robot_teach_joint
+INFO:2115-[20260105221745] robot_teach_stop
+INFO:2115-[20260105221746] robot_teach_joint
+INFO:2115-[20260105221746] robot_teach_stop
+INFO:2115-[20260105221746] robot_teach_joint
+INFO:2115-[20260105221746] robot_teach_stop
+INFO:2115-[20260105221747] robot_teach_joint
+INFO:2115-[20260105221747] robot_teach_stop
+INFO:2115-[20260105221748] robot_teach_joint
+INFO:2115-[20260105221748] robot_teach_stop
+INFO:2115-[20260105221749] robot_teach_joint
+INFO:2115-[20260105221749] robot_teach_stop
+INFO:2115-[20260105221750] robot_teach_joint
+INFO:2115-[20260105221756] robot_teach_stop
+INFO:2115-[20260105221758] set_robot_teach_velocity
+INFO:2115-[20260105221758] get_robot_teach_velocity
+INFO:2115-[20260105221759] robot_teach_joint
+INFO:2115-[20260105221808] robot_teach_stop
+INFO:2115-[20260105221813] set_robot_teach_coordinate
+INFO:2115-[20260105221821] robot_teach_cartesian
+INFO:2115-[20260105221821] robot_teach_stop
+INFO:2115-[20260105221822] robot_teach_cartesian
+INFO:2115-[20260105221822] robot_teach_stop
+INFO:2115-[20260105221823] robot_teach_cartesian
+INFO:2115-[20260105221823] robot_teach_stop
+INFO:2115-[20260105221824] robot_teach_cartesian
+INFO:2115-[20260105221825] robot_teach_stop
+INFO:2115-[20260105221825] robot_teach_cartesian
+INFO:2115-[20260105221825] robot_teach_stop
+INFO:2115-[20260105221830] robot_teach_cartesian
+INFO:2115-[20260105221830] robot_teach_stop
+INFO:2115-[20260105221830] robot_teach_cartesian
+INFO:2115-[20260105221830] robot_teach_stop
+INFO:2115-[20260105221832] robot_teach_cartesian
+INFO:2115-[20260105221832] robot_teach_stop
+INFO:2115-[20260105222033] robot_teach_cartesian
+INFO:2115-[20260105222033] robot_teach_stop
+INFO:2115-[20260105222035] robot_teach_cartesian
+INFO:2115-[20260105222035] robot_teach_stop
+INFO:2115-[20260105222036] robot_teach_cartesian
+INFO:2115-[20260105222037] robot_teach_stop
+INFO:2115-[20260105222040] robot_teach_cartesian
+INFO:2115-[20260105222040] robot_teach_stop
+INFO:2115-[20260105222040] robot_teach_cartesian
+INFO:2115-[20260105222040] robot_teach_stop
+INFO:2115-[20260105222041] robot_teach_cartesian
+INFO:2115-[20260105222041] robot_teach_stop
+INFO:2115-[20260105222042] robot_teach_cartesian
+INFO:2115-[20260105222042] robot_teach_stop
+INFO:2115-[20260105222043] robot_teach_cartesian
+INFO:2115-[20260105222043] robot_teach_stop
+INFO:2115-[20260105222045] robot_teach_cartesian
+INFO:2115-[20260105222045] robot_teach_stop
+INFO:2115-[20260105222045] robot_teach_cartesian
+INFO:2115-[20260105222046] robot_teach_stop
+INFO:2115-[20260105222046] robot_teach_cartesian
+INFO:2115-[20260105222046] robot_teach_stop
+INFO:2115-[20260105222047] robot_teach_cartesian
+INFO:2115-[20260105222047] robot_teach_stop
+INFO:2115-[20260105222048] robot_teach_cartesian
+INFO:2115-[20260105222049] robot_teach_stop
+INFO:2115-[20260105222049] robot_teach_cartesian
+INFO:2115-[20260105222049] robot_teach_stop
+INFO:2115-[20260105222050] robot_teach_cartesian
+INFO:2115-[20260105222050] robot_teach_stop
+INFO:2115-[20260105222054] robot_teach_cartesian
+INFO:2115-[20260105222054] robot_teach_stop
+INFO:2115-[20260105222056] robot_teach_cartesian
+INFO:2115-[20260105222056] robot_teach_stop
+INFO:2115-[20260105222057] robot_teach_cartesian
+INFO:2115-[20260105222057] robot_teach_stop
+INFO:2115-[20260105222104] robot_teach_cartesian
+INFO:2115-[20260105222104] robot_teach_stop
+INFO:2115-[20260105222105] robot_teach_cartesian
+INFO:2115-[20260105222105] robot_teach_stop
+INFO:2115-[20260105222145] robot_goto_joint
+INFO:2115-[20260105222153] robot_teach_stop
+INFO:2115-[20260105222354] set_robot_teach_coordinate
+INFO:2115-[20260105222355] robot_teach_joint
+INFO:2115-[20260105222356] robot_teach_stop
+INFO:2115-[20260105222356] robot_teach_joint
+INFO:2115-[20260105222359] robot_teach_stop
+INFO:2115-[20260105222400] robot_teach_joint
+INFO:2115-[20260105222402] robot_teach_stop
+INFO:2115-[20260105222406] robot_teach_joint
+INFO:2115-[20260105222407] robot_teach_stop
+INFO:2115-[20260105222425] robot_teach_joint
+INFO:2115-[20260105222425] robot_teach_stop
+INFO:2115-[20260105222426] robot_teach_joint
+INFO:2115-[20260105222426] robot_teach_stop
+INFO:2115-[20260105222427] robot_teach_joint
+INFO:2115-[20260105222429] robot_teach_stop
+INFO:2115-[20260105222429] robot_teach_joint
+INFO:2115-[20260105222430] robot_teach_stop
+INFO:2115-[20260105222430] robot_teach_joint
+INFO:2115-[20260105222430] robot_teach_stop
+INFO:2115-[20260105222513] set_robot_teach_coordinate
+INFO:2115-[20260105222515] robot_teach_cartesian
+INFO:2115-[20260105222515] robot_teach_stop
+INFO:2115-[20260105222517] robot_teach_cartesian
+INFO:2115-[20260105222517] robot_teach_stop
+INFO:2115-[20260105222518] robot_teach_cartesian
+INFO:2115-[20260105222518] robot_teach_stop
+INFO:2115-[20260105222519] robot_teach_cartesian
+INFO:2115-[20260105222519] robot_teach_stop
+INFO:2115-[20260105222526] robot_teach_cartesian
+INFO:2115-[20260105222526] robot_teach_stop
+INFO:2115-[20260105222527] robot_teach_cartesian
+INFO:2115-[20260105222527] robot_teach_stop
+INFO:2115-[20260105222535] robot_teach_cartesian
+INFO:2115-[20260105222535] robot_teach_stop
+INFO:2115-[20260105222536] robot_teach_cartesian
+INFO:2115-[20260105222536] robot_teach_stop
+INFO:2115-[20260105222537] robot_teach_cartesian
+INFO:2115-[20260105222537] robot_teach_stop
+INFO:2115-[20260105222539] robot_goto_joint
+INFO:2115-[20260105222546] robot_teach_stop
+INFO:2115-[20260105222550] device_teach_disenable
+INFO:2115-[20260105222556] TCPConcurrentServer: client disconnect (57)
+INFO:2115-[20260105222556] TCPConcurrentServer: client disconnect (56)
+INFO:2115-[20260105222607] Controller stop run!

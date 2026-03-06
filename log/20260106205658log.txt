@@ -1,0 +1,418 @@
+INFO:3915-[20260106205658] verison: 12.2.1
+INFO:3915-[20260106205658] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:3915-[20260106205658] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:3915-[20260106205658] Start system initialize!
+INFO:3915-[20260106205658] OUT MULTITURN ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:3915-[20260106205658] group init existing problem. Some fields are not found!
+WARNING:3915-[20260106205658] dof num is 7
+WARNING:3915-[20260106205658] control:7,state:7,mode:7
+WARNING:3915-[20260106205658] ac_position:7,ac_velocity:7,ac_torque:7,ac_position2:0,ac_velocity2:0,ac_sensor_torque:7,ac_sensor_torque2:0,ac_mode:0,ErrorCode:7,FollowingErrorActualValue:0
+WARNING:3915-[20260106205658] position:7,velocity:7,torque:7,VelocityOffset:7,TorqueOffset:7,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:3915-[20260106205658] /////////////////////////////////////////////////////////////////
+INFO:3915-[20260106205658] fd_ecat_in_name: /ecat_in
+INFO:3915-[20260106205658] fd_ecat_out_name: /ecat_out
+INFO:3915-[20260106205658] /////////////////////////////////////////////////////////////////
+INFO:3915-[20260106205658] state: Statusword
+INFO:3915-[20260106205658] control: Controlword
+INFO:3915-[20260106205658] mode: Modes of Operation
+INFO:3915-[20260106205658] ac_position: Position Actual Value
+INFO:3915-[20260106205658] ac_velocity: Velocity Actual Value
+INFO:3915-[20260106205658] ac_torque: Torque Actual Value
+INFO:3915-[20260106205658] ac_position2: 
+INFO:3915-[20260106205658] ac_velocity2: 
+INFO:3915-[20260106205658] ac_sensor_torque: Torque sensor
+INFO:3915-[20260106205658] ac_sensor_torque2: 
+INFO:3915-[20260106205658] ac_mode: Modes of Operation Display
+INFO:3915-[20260106205658] ErrorCode: Error Code
+INFO:3915-[20260106205658] FollowingErrorActualValue: 
+INFO:3915-[20260106205658] position: Target Position
+INFO:3915-[20260106205658] velocity: Target Velocity
+INFO:3915-[20260106205658] torque: Target Torque
+INFO:3915-[20260106205658] VelocityOffset: Velocity Offset
+INFO:3915-[20260106205658] TorqueOffset: Torque Offset
+INFO:3915-[20260106205658] TorqueMaxLimit: 
+INFO:3915-[20260106205658] TorqueMinLimit: 
+INFO:3915-[20260106205658] ec_di: 
+INFO:3915-[20260106205658] ec_do: 
+INFO:3915-[20260106205658] ec_ai: 
+INFO:3915-[20260106205658] ec_ao: 
+INFO:3915-[20260106205658] ec_li: 
+INFO:3915-[20260106205658] ec_lo: 
+INFO:3915-[20260106205658] Number of fields: 26
+INFO:3915-[20260106205658] busyTs: 1000000 ns
+INFO:3915-[20260106205658] /////////////////////////////////////////////////////////////////
+INFO:3915-[20260106205658] ec_device1/robot0: 
+INFO:3915-[20260106205658] DOF: 7
+INFO:3915-[20260106205658] 0_state: 80
+INFO:3915-[20260106205658] 0_control: 80
+INFO:3915-[20260106205658] 0_mode: 96
+INFO:3915-[20260106205658] 0_ac_position: 0
+INFO:3915-[20260106205658] 0_ac_velocity: 32
+INFO:3915-[20260106205658] 0_ac_torque: 64
+INFO:3915-[20260106205658] 0_ac_current: -999999
+INFO:3915-[20260106205658] 0_ac_position2: -999999
+INFO:3915-[20260106205658] 0_ac_velocity2: -999999
+INFO:3915-[20260106205658] 0_ac_sensor_torque: 112
+INFO:3915-[20260106205658] 0_ac_sensor_torque2: -999999
+INFO:3915-[20260106205658] 0_ac_mode: -999999
+INFO:3915-[20260106205658] 0_ErrorCode: 96
+INFO:3915-[20260106205658] 0_FollowingErrorActualValue: -999999
+INFO:3915-[20260106205658] 0_position: 0
+INFO:3915-[20260106205658] 0_velocity: 32
+INFO:3915-[20260106205658] 0_torque: 64
+INFO:3915-[20260106205658] 0_VelocityOffset: 128
+INFO:3915-[20260106205658] 0_TorqueOffset: 112
+INFO:3915-[20260106205658] 0_TorqueMaxLimit: -999999
+INFO:3915-[20260106205658] 0_TorqueMinLimit: -999999
+INFO:3915-[20260106205658] 1_state: 224
+INFO:3915-[20260106205658] 1_control: 240
+INFO:3915-[20260106205658] 1_mode: 256
+INFO:3915-[20260106205658] 1_ac_position: 144
+INFO:3915-[20260106205658] 1_ac_velocity: 176
+INFO:3915-[20260106205658] 1_ac_torque: 208
+INFO:3915-[20260106205658] 1_ac_current: -999999
+INFO:3915-[20260106205658] 1_ac_position2: -999999
+INFO:3915-[20260106205658] 1_ac_velocity2: -999999
+INFO:3915-[20260106205658] 1_ac_sensor_torque: 256
+INFO:3915-[20260106205658] 1_ac_sensor_torque2: -999999
+INFO:3915-[20260106205658] 1_ac_mode: -999999
+INFO:3915-[20260106205658] 1_ErrorCode: 240
+INFO:3915-[20260106205658] 1_FollowingErrorActualValue: -999999
+INFO:3915-[20260106205658] 1_position: 160
+INFO:3915-[20260106205658] 1_velocity: 192
+INFO:3915-[20260106205658] 1_torque: 224
+INFO:3915-[20260106205658] 1_VelocityOffset: 288
+INFO:3915-[20260106205658] 1_TorqueOffset: 272
+INFO:3915-[20260106205658] 1_TorqueMaxLimit: -999999
+INFO:3915-[20260106205658] 1_TorqueMinLimit: -999999
+INFO:3915-[20260106205658] 2_state: 368
+INFO:3915-[20260106205658] 2_control: 400
+INFO:3915-[20260106205658] 2_mode: 416
+INFO:3915-[20260106205658] 2_ac_position: 288
+INFO:3915-[20260106205658] 2_ac_velocity: 320
+INFO:3915-[20260106205658] 2_ac_torque: 352
+INFO:3915-[20260106205658] 2_ac_current: -999999
+INFO:3915-[20260106205658] 2_ac_position2: -999999
+INFO:3915-[20260106205658] 2_ac_velocity2: -999999
+INFO:3915-[20260106205658] 2_ac_sensor_torque: 400
+INFO:3915-[20260106205658] 2_ac_sensor_torque2: -999999
+INFO:3915-[20260106205658] 2_ac_mode: -999999
+INFO:3915-[20260106205658] 2_ErrorCode: 384
+INFO:3915-[20260106205658] 2_FollowingErrorActualValue: -999999
+INFO:3915-[20260106205658] 2_position: 320
+INFO:3915-[20260106205658] 2_velocity: 352
+INFO:3915-[20260106205658] 2_torque: 384
+INFO:3915-[20260106205658] 2_VelocityOffset: 448
+INFO:3915-[20260106205658] 2_TorqueOffset: 432
+INFO:3915-[20260106205658] 2_TorqueMaxLimit: -999999
+INFO:3915-[20260106205658] 2_TorqueMinLimit: -999999
+INFO:3915-[20260106205658] 3_state: 512
+INFO:3915-[20260106205658] 3_control: 560
+INFO:3915-[20260106205658] 3_mode: 576
+INFO:3915-[20260106205658] 3_ac_position: 432
+INFO:3915-[20260106205658] 3_ac_velocity: 464
+INFO:3915-[20260106205658] 3_ac_torque: 496
+INFO:3915-[20260106205658] 3_ac_current: -999999
+INFO:3915-[20260106205658] 3_ac_position2: -999999
+INFO:3915-[20260106205658] 3_ac_velocity2: -999999
+INFO:3915-[20260106205658] 3_ac_sensor_torque: 544
+INFO:3915-[20260106205658] 3_ac_sensor_torque2: -999999
+INFO:3915-[20260106205658] 3_ac_mode: -999999
+INFO:3915-[20260106205658] 3_ErrorCode: 528
+INFO:3915-[20260106205658] 3_FollowingErrorActualValue: -999999
+INFO:3915-[20260106205658] 3_position: 480
+INFO:3915-[20260106205658] 3_velocity: 512
+INFO:3915-[20260106205658] 3_torque: 544
+INFO:3915-[20260106205658] 3_VelocityOffset: 608
+INFO:3915-[20260106205658] 3_TorqueOffset: 592
+INFO:3915-[20260106205658] 3_TorqueMaxLimit: -999999
+INFO:3915-[20260106205658] 3_TorqueMinLimit: -999999
+INFO:3915-[20260106205658] 4_state: 656
+INFO:3915-[20260106205658] 4_control: 720
+INFO:3915-[20260106205658] 4_mode: 736
+INFO:3915-[20260106205658] 4_ac_position: 576
+INFO:3915-[20260106205658] 4_ac_velocity: 608
+INFO:3915-[20260106205658] 4_ac_torque: 640
+INFO:3915-[20260106205658] 4_ac_current: -999999
+INFO:3915-[20260106205658] 4_ac_position2: -999999
+INFO:3915-[20260106205658] 4_ac_velocity2: -999999
+INFO:3915-[20260106205658] 4_ac_sensor_torque: 688
+INFO:3915-[20260106205658] 4_ac_sensor_torque2: -999999
+INFO:3915-[20260106205658] 4_ac_mode: -999999
+INFO:3915-[20260106205658] 4_ErrorCode: 672
+INFO:3915-[20260106205658] 4_FollowingErrorActualValue: -999999
+INFO:3915-[20260106205658] 4_position: 640
+INFO:3915-[20260106205658] 4_velocity: 672
+INFO:3915-[20260106205658] 4_torque: 704
+INFO:3915-[20260106205658] 4_VelocityOffset: 768
+INFO:3915-[20260106205658] 4_TorqueOffset: 752
+INFO:3915-[20260106205658] 4_TorqueMaxLimit: -999999
+INFO:3915-[20260106205658] 4_TorqueMinLimit: -999999
+INFO:3915-[20260106205658] 5_state: 800
+INFO:3915-[20260106205658] 5_control: 880
+INFO:3915-[20260106205658] 5_mode: 896
+INFO:3915-[20260106205658] 5_ac_position: 720
+INFO:3915-[20260106205658] 5_ac_velocity: 752
+INFO:3915-[20260106205658] 5_ac_torque: 784
+INFO:3915-[20260106205658] 5_ac_current: -999999
+INFO:3915-[20260106205658] 5_ac_position2: -999999
+INFO:3915-[20260106205658] 5_ac_velocity2: -999999
+INFO:3915-[20260106205658] 5_ac_sensor_torque: 832
+INFO:3915-[20260106205658] 5_ac_sensor_torque2: -999999
+INFO:3915-[20260106205658] 5_ac_mode: -999999
+INFO:3915-[20260106205658] 5_ErrorCode: 816
+INFO:3915-[20260106205658] 5_FollowingErrorActualValue: -999999
+INFO:3915-[20260106205658] 5_position: 800
+INFO:3915-[20260106205658] 5_velocity: 832
+INFO:3915-[20260106205658] 5_torque: 864
+INFO:3915-[20260106205658] 5_VelocityOffset: 928
+INFO:3915-[20260106205658] 5_TorqueOffset: 912
+INFO:3915-[20260106205658] 5_TorqueMaxLimit: -999999
+INFO:3915-[20260106205658] 5_TorqueMinLimit: -999999
+INFO:3915-[20260106205658] 6_state: 944
+INFO:3915-[20260106205658] 6_control: 1040
+INFO:3915-[20260106205658] 6_mode: 1056
+INFO:3915-[20260106205658] 6_ac_position: 864
+INFO:3915-[20260106205658] 6_ac_velocity: 896
+INFO:3915-[20260106205658] 6_ac_torque: 928
+INFO:3915-[20260106205658] 6_ac_current: -999999
+INFO:3915-[20260106205658] 6_ac_position2: -999999
+INFO:3915-[20260106205658] 6_ac_velocity2: -999999
+INFO:3915-[20260106205658] 6_ac_sensor_torque: 976
+INFO:3915-[20260106205658] 6_ac_sensor_torque2: -999999
+INFO:3915-[20260106205658] 6_ac_mode: -999999
+INFO:3915-[20260106205658] 6_ErrorCode: 960
+INFO:3915-[20260106205658] 6_FollowingErrorActualValue: -999999
+INFO:3915-[20260106205658] 6_position: 960
+INFO:3915-[20260106205658] 6_velocity: 992
+INFO:3915-[20260106205658] 6_torque: 1024
+INFO:3915-[20260106205658] 6_VelocityOffset: 1088
+INFO:3915-[20260106205658] 6_TorqueOffset: 1072
+INFO:3915-[20260106205658] 6_TorqueMaxLimit: -999999
+INFO:3915-[20260106205658] 6_TorqueMinLimit: -999999
+INFO:3915-[20260106205658] /////////////////////////////////////////////////////////////////
+INFO:3915-[20260106205658] /////////////////////////////////////////////////////////////////
+INFO:3915-[20260106205658] /////////////////////////////////////////////////////////////////
+INFO:3915-[20260106205658] system_init:simulation_switch
+NOTICE:3915-[20260106205658] Device is not run, start simulation timer
+INFO:3915-[20260106205658] system_init:GetRobotSimulationState
+INFO:3915-[20260106205658] system_init:initSystemTimer2
+INFO:3915-[20260106205658] InitRobot
+INFO:3915-[20260106205658] Hardware Match
+NOTICE:3915-[20260106205658] Simulation running mode
+INFO:3915-[20260106205658] init_robot_teach
+INFO:3915-[20260106205658] set_robot_index
+INFO:3915-[20260106205658] set_addition_index
+INFO:3915-[20260106205658] get_addition_num
+INFO:3915-[20260106205658] get_robot_num
+INFO:3915-[20260106205658] start teach server port 6666
+INFO:3915-[20260106205658] start teach command server port 6667
+INFO:3915-[20260106205658] start teach feedback server port 6668
+INFO:3915-[20260106205658] UploadPlugIn: Plugin num:1, Start upload plugin
+INFO:3915-[20260106205658] UploadPlugIn: Upload Plugin "libJEServer.so"
+INFO:3915-[20260106205658] UploadPlugIn: Upload Plugin"libJEServer.so" finish
+INFO:3915-[20260106205658] initialize finish
+INFO:3915-[20260106205709] TCPConcurrentServer: client connect (56)
+INFO:3915-[20260106205709] TCPConcurrentServer: client connect (57)
+NOTICE:3915-[20260106205709] Teach feedback clock(0) cycle time is 200 ms
+INFO:3915-[20260106205711] get_data_robjoint_all
+INFO:3915-[20260106205711] get_data_robpose_all
+INFO:3915-[20260106205711] get_data_wobj_all
+INFO:3915-[20260106205711] get_data_zone_all
+INFO:3915-[20260106205711] get_data_addition_all
+INFO:3915-[20260106205711] get_data_payload_all
+INFO:3915-[20260106205711] get_data_user_all
+INFO:3915-[20260106205711] get_data_tool_all
+INFO:3915-[20260106205711] get_data_speed_all
+INFO:3915-[20260106205711] get_robot_data_path
+INFO:3915-[20260106205711] get_robot_index
+INFO:3915-[20260106205711] get_robot_run_type
+INFO:3915-[20260106205711] get_robot_run_type
+INFO:3915-[20260106205711] get_robot_teach_velocity
+INFO:3915-[20260106205711] get_teach_move_type
+INFO:3915-[20260106205711] get_robot_tool
+INFO:3915-[20260106205711] get_robot_wobj
+INFO:3915-[20260106205711] get_robot_teach_coordinate
+INFO:3915-[20260106205711] get_robot_run_type
+INFO:3915-[20260106205711] get_robot_teach_velocity
+INFO:3915-[20260106205711] get_teach_move_type
+INFO:3915-[20260106205711] set_robot_index
+INFO:3915-[20260106205711] get_robot_tool
+INFO:3915-[20260106205712] get_robot_wobj
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.534578 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.544855 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.545301 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.543266 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.545818 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.559588 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.559199 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.558629 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.565301 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.565301 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.584724 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.587015 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.588206 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210116]      |-->isPositionLimit: axis index(5), -1.533000 < -1.591124 <1.483000
+WARNING:3915-[20260106210116] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.599359 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.600218 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.601658 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.603924 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.603015 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.600494 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.598402 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.599126 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.601891 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.612537 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.627161 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.642108 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.651682 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.656152 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.660219 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.655537 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.643618 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.647616 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.644171 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.645669 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.654951 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.647790 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.640480 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.630019 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.617785 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.621494 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.621494 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.609166 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.575734 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.561175 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.549115 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210117]      |-->isPositionLimit: axis index(5), -1.533000 < -1.536093 <1.483000
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+WARNING:3915-[20260106210117] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.533336 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.543799 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.550203 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.552409 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.553159 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.560643 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.575385 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.591232 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.607786 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.623236 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.633718 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.637965 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.640101 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.640890 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.648333 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.648333 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.648552 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.635704 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.626163 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.626341 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.628277 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.631377 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.629958 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.624851 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210121]      |-->isPositionLimit: axis index(5), -1.533000 < -1.617573 <1.483000
+WARNING:3915-[20260106210121] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210122]      |-->isPositionLimit: axis index(5), -1.533000 < -1.613220 <1.483000
+WARNING:3915-[20260106210122] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210122]      |-->isPositionLimit: axis index(5), -1.533000 < -1.612134 <1.483000
+WARNING:3915-[20260106210122] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210122]      |-->isPositionLimit: axis index(5), -1.533000 < -1.609759 <1.483000
+WARNING:3915-[20260106210122] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210122]      |-->isPositionLimit: axis index(5), -1.533000 < -1.605768 <1.483000
+WARNING:3915-[20260106210122] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210122]      |-->isPositionLimit: axis index(5), -1.533000 < -1.596783 <1.483000
+WARNING:3915-[20260106210122] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210122]      |-->isPositionLimit: axis index(5), -1.533000 < -1.586679 <1.483000
+WARNING:3915-[20260106210122] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210122]      |-->isPositionLimit: axis index(5), -1.533000 < -1.570017 <1.483000
+WARNING:3915-[20260106210122] ServoCartesian: Kine_Inverse failure
+ERROR:3915-[20260106210122]      |-->isPositionLimit: axis index(5), -1.533000 < -1.548165 <1.483000
+WARNING:3915-[20260106210122] ServoCartesian: Kine_Inverse failure
+INFO:3915-[20260106210229] TCPConcurrentServer: client disconnect (56)
+INFO:3915-[20260106210229] TCPConcurrentServer: client disconnect (57)
+INFO:3915-[20260106210234] Controller stop run!

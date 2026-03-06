@@ -65,7 +65,7 @@ robot_group:
         jm: 0.0000000000000000e+00
       axis:
         id: 0
-        initial_offset: -5.5520517141536052e-01
+        initial_offset: -3.1477765136409643e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
@@ -123,7 +123,7 @@ robot_group:
         jm: 0.0000000000000000e+00
       axis:
         id: 1
-        initial_offset: 7.3652649423340586e+00
+        initial_offset: 4.7110707156451115e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
@@ -181,7 +181,7 @@ robot_group:
         jm: 8.2288399311521553e-03
       axis:
         id: 2
-        initial_offset: -2.3836863021252381e+00
+        initial_offset: -3.1053044205763807e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
@@ -239,7 +239,7 @@ robot_group:
         jm: -7.4657325881386238e-02
       axis:
         id: 3
-        initial_offset: 2.0836013104951090e+00
+        initial_offset: 3.1224418621910406e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
@@ -297,7 +297,7 @@ robot_group:
         jm: -1.9483640972769087e-02
       axis:
         id: 4
-        initial_offset: -1.9091829012225492e+00
+        initial_offset: -3.1417604327384754e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
@@ -355,7 +355,7 @@ robot_group:
         jm: -1.3048741685751479e-02
       axis:
         id: 5
-        initial_offset: 5.7066482154327058e-01
+        initial_offset: 3.1772577069081414e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00
@@ -413,7 +413,7 @@ robot_group:
         jm: -5.8928776837832757e-02
       axis:
         id: 6
-        initial_offset: 3.9861212199816642e+00
+        initial_offset: 3.0946384604106130e+00
         initial_offset2: 0.0000000000000000e+00
         sensor_offset: 0.0000000000000000e+00
         sensor_offset2: 0.0000000000000000e+00

@@ -1,0 +1,1005 @@
+INFO:11397-[20260302030842] verison: 12.2.1
+INFO:11397-[20260302030842] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:11397-[20260302030842] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:11397-[20260302030842] Start system initialize!
+INFO:11397-[20260302030842] USE JOINT SENSOR
+INFO:11397-[20260302030842] OUT MULTITURN ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:11397-[20260302030842] group init existing problem. Some fields are not found!
+WARNING:11397-[20260302030842] dof num is 7
+WARNING:11397-[20260302030842] control:7,state:7,mode:7
+WARNING:11397-[20260302030842] ac_position:7,ac_velocity:7,ac_torque:7,ac_position2:0,ac_velocity2:0,ac_sensor_torque:7,ac_sensor_torque2:0,ac_mode:0,ErrorCode:7,FollowingErrorActualValue:0
+WARNING:11397-[20260302030842] position:7,velocity:7,torque:7,VelocityOffset:7,TorqueOffset:7,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:11397-[20260302030842] /////////////////////////////////////////////////////////////////
+INFO:11397-[20260302030842] fd_ecat_in_name: /ecat_in
+INFO:11397-[20260302030842] fd_ecat_out_name: /ecat_out
+INFO:11397-[20260302030842] /////////////////////////////////////////////////////////////////
+INFO:11397-[20260302030842] state: Statusword
+INFO:11397-[20260302030842] control: Controlword
+INFO:11397-[20260302030842] mode: Modes of Operation
+INFO:11397-[20260302030842] ac_position: Position Actual Value
+INFO:11397-[20260302030842] ac_velocity: Velocity Actual Value
+INFO:11397-[20260302030842] ac_torque: Torque Actual Value
+INFO:11397-[20260302030842] ac_position2: 
+INFO:11397-[20260302030842] ac_velocity2: 
+INFO:11397-[20260302030842] ac_sensor_torque: Torque sensor
+INFO:11397-[20260302030842] ac_sensor_torque2: 
+INFO:11397-[20260302030842] ac_mode: Modes of Operation Display
+INFO:11397-[20260302030842] ErrorCode: Error Code
+INFO:11397-[20260302030842] FollowingErrorActualValue: 
+INFO:11397-[20260302030842] position: Target Position
+INFO:11397-[20260302030842] velocity: Target Velocity
+INFO:11397-[20260302030842] torque: Target Torque
+INFO:11397-[20260302030842] VelocityOffset: Velocity Offset
+INFO:11397-[20260302030842] TorqueOffset: Torque Offset
+INFO:11397-[20260302030842] TorqueMaxLimit: 
+INFO:11397-[20260302030842] TorqueMinLimit: 
+INFO:11397-[20260302030842] ec_di: 
+INFO:11397-[20260302030842] ec_do: 
+INFO:11397-[20260302030842] ec_ai: 
+INFO:11397-[20260302030842] ec_ao: 
+INFO:11397-[20260302030842] ec_li: 
+INFO:11397-[20260302030842] ec_lo: 
+INFO:11397-[20260302030842] Number of fields: 26
+INFO:11397-[20260302030842] busyTs: 1000000 ns
+INFO:11397-[20260302030842] /////////////////////////////////////////////////////////////////
+INFO:11397-[20260302030842] ec_device1/robot0: 
+INFO:11397-[20260302030842] DOF: 7
+INFO:11397-[20260302030842] 0_state: 80
+INFO:11397-[20260302030842] 0_control: 80
+INFO:11397-[20260302030842] 0_mode: 96
+INFO:11397-[20260302030842] 0_ac_position: 0
+INFO:11397-[20260302030842] 0_ac_velocity: 32
+INFO:11397-[20260302030842] 0_ac_torque: 64
+INFO:11397-[20260302030842] 0_ac_current: -999999
+INFO:11397-[20260302030842] 0_ac_position2: -999999
+INFO:11397-[20260302030842] 0_ac_velocity2: -999999
+INFO:11397-[20260302030842] 0_ac_sensor_torque: 112
+INFO:11397-[20260302030842] 0_ac_sensor_torque2: -999999
+INFO:11397-[20260302030842] 0_ac_mode: -999999
+INFO:11397-[20260302030842] 0_ErrorCode: 96
+INFO:11397-[20260302030842] 0_FollowingErrorActualValue: -999999
+INFO:11397-[20260302030842] 0_position: 0
+INFO:11397-[20260302030842] 0_velocity: 32
+INFO:11397-[20260302030842] 0_torque: 64
+INFO:11397-[20260302030842] 0_VelocityOffset: 128
+INFO:11397-[20260302030842] 0_TorqueOffset: 112
+INFO:11397-[20260302030842] 0_TorqueMaxLimit: -999999
+INFO:11397-[20260302030842] 0_TorqueMinLimit: -999999
+INFO:11397-[20260302030842] 1_state: 224
+INFO:11397-[20260302030842] 1_control: 240
+INFO:11397-[20260302030842] 1_mode: 256
+INFO:11397-[20260302030842] 1_ac_position: 144
+INFO:11397-[20260302030842] 1_ac_velocity: 176
+INFO:11397-[20260302030842] 1_ac_torque: 208
+INFO:11397-[20260302030842] 1_ac_current: -999999
+INFO:11397-[20260302030842] 1_ac_position2: -999999
+INFO:11397-[20260302030842] 1_ac_velocity2: -999999
+INFO:11397-[20260302030842] 1_ac_sensor_torque: 256
+INFO:11397-[20260302030842] 1_ac_sensor_torque2: -999999
+INFO:11397-[20260302030842] 1_ac_mode: -999999
+INFO:11397-[20260302030842] 1_ErrorCode: 240
+INFO:11397-[20260302030842] 1_FollowingErrorActualValue: -999999
+INFO:11397-[20260302030842] 1_position: 160
+INFO:11397-[20260302030842] 1_velocity: 192
+INFO:11397-[20260302030842] 1_torque: 224
+INFO:11397-[20260302030842] 1_VelocityOffset: 288
+INFO:11397-[20260302030842] 1_TorqueOffset: 272
+INFO:11397-[20260302030842] 1_TorqueMaxLimit: -999999
+INFO:11397-[20260302030842] 1_TorqueMinLimit: -999999
+INFO:11397-[20260302030842] 2_state: 368
+INFO:11397-[20260302030842] 2_control: 400
+INFO:11397-[20260302030842] 2_mode: 416
+INFO:11397-[20260302030842] 2_ac_position: 288
+INFO:11397-[20260302030842] 2_ac_velocity: 320
+INFO:11397-[20260302030842] 2_ac_torque: 352
+INFO:11397-[20260302030842] 2_ac_current: -999999
+INFO:11397-[20260302030842] 2_ac_position2: -999999
+INFO:11397-[20260302030842] 2_ac_velocity2: -999999
+INFO:11397-[20260302030842] 2_ac_sensor_torque: 400
+INFO:11397-[20260302030842] 2_ac_sensor_torque2: -999999
+INFO:11397-[20260302030842] 2_ac_mode: -999999
+INFO:11397-[20260302030842] 2_ErrorCode: 384
+INFO:11397-[20260302030842] 2_FollowingErrorActualValue: -999999
+INFO:11397-[20260302030842] 2_position: 320
+INFO:11397-[20260302030842] 2_velocity: 352
+INFO:11397-[20260302030842] 2_torque: 384
+INFO:11397-[20260302030842] 2_VelocityOffset: 448
+INFO:11397-[20260302030842] 2_TorqueOffset: 432
+INFO:11397-[20260302030842] 2_TorqueMaxLimit: -999999
+INFO:11397-[20260302030842] 2_TorqueMinLimit: -999999
+INFO:11397-[20260302030842] 3_state: 512
+INFO:11397-[20260302030842] 3_control: 560
+INFO:11397-[20260302030842] 3_mode: 576
+INFO:11397-[20260302030842] 3_ac_position: 432
+INFO:11397-[20260302030842] 3_ac_velocity: 464
+INFO:11397-[20260302030842] 3_ac_torque: 496
+INFO:11397-[20260302030842] 3_ac_current: -999999
+INFO:11397-[20260302030842] 3_ac_position2: -999999
+INFO:11397-[20260302030842] 3_ac_velocity2: -999999
+INFO:11397-[20260302030842] 3_ac_sensor_torque: 544
+INFO:11397-[20260302030842] 3_ac_sensor_torque2: -999999
+INFO:11397-[20260302030842] 3_ac_mode: -999999
+INFO:11397-[20260302030842] 3_ErrorCode: 528
+INFO:11397-[20260302030842] 3_FollowingErrorActualValue: -999999
+INFO:11397-[20260302030842] 3_position: 480
+INFO:11397-[20260302030842] 3_velocity: 512
+INFO:11397-[20260302030842] 3_torque: 544
+INFO:11397-[20260302030842] 3_VelocityOffset: 608
+INFO:11397-[20260302030842] 3_TorqueOffset: 592
+INFO:11397-[20260302030842] 3_TorqueMaxLimit: -999999
+INFO:11397-[20260302030842] 3_TorqueMinLimit: -999999
+INFO:11397-[20260302030842] 4_state: 656
+INFO:11397-[20260302030842] 4_control: 720
+INFO:11397-[20260302030842] 4_mode: 736
+INFO:11397-[20260302030842] 4_ac_position: 576
+INFO:11397-[20260302030842] 4_ac_velocity: 608
+INFO:11397-[20260302030842] 4_ac_torque: 640
+INFO:11397-[20260302030842] 4_ac_current: -999999
+INFO:11397-[20260302030842] 4_ac_position2: -999999
+INFO:11397-[20260302030842] 4_ac_velocity2: -999999
+INFO:11397-[20260302030842] 4_ac_sensor_torque: 688
+INFO:11397-[20260302030842] 4_ac_sensor_torque2: -999999
+INFO:11397-[20260302030842] 4_ac_mode: -999999
+INFO:11397-[20260302030842] 4_ErrorCode: 672
+INFO:11397-[20260302030842] 4_FollowingErrorActualValue: -999999
+INFO:11397-[20260302030842] 4_position: 640
+INFO:11397-[20260302030842] 4_velocity: 672
+INFO:11397-[20260302030842] 4_torque: 704
+INFO:11397-[20260302030842] 4_VelocityOffset: 768
+INFO:11397-[20260302030842] 4_TorqueOffset: 752
+INFO:11397-[20260302030842] 4_TorqueMaxLimit: -999999
+INFO:11397-[20260302030842] 4_TorqueMinLimit: -999999
+INFO:11397-[20260302030842] 5_state: 800
+INFO:11397-[20260302030842] 5_control: 880
+INFO:11397-[20260302030842] 5_mode: 896
+INFO:11397-[20260302030842] 5_ac_position: 720
+INFO:11397-[20260302030842] 5_ac_velocity: 752
+INFO:11397-[20260302030842] 5_ac_torque: 784
+INFO:11397-[20260302030842] 5_ac_current: -999999
+INFO:11397-[20260302030842] 5_ac_position2: -999999
+INFO:11397-[20260302030842] 5_ac_velocity2: -999999
+INFO:11397-[20260302030842] 5_ac_sensor_torque: 832
+INFO:11397-[20260302030842] 5_ac_sensor_torque2: -999999
+INFO:11397-[20260302030842] 5_ac_mode: -999999
+INFO:11397-[20260302030842] 5_ErrorCode: 816
+INFO:11397-[20260302030842] 5_FollowingErrorActualValue: -999999
+INFO:11397-[20260302030842] 5_position: 800
+INFO:11397-[20260302030842] 5_velocity: 832
+INFO:11397-[20260302030842] 5_torque: 864
+INFO:11397-[20260302030842] 5_VelocityOffset: 928
+INFO:11397-[20260302030842] 5_TorqueOffset: 912
+INFO:11397-[20260302030842] 5_TorqueMaxLimit: -999999
+INFO:11397-[20260302030842] 5_TorqueMinLimit: -999999
+INFO:11397-[20260302030842] 6_state: 944
+INFO:11397-[20260302030842] 6_control: 1040
+INFO:11397-[20260302030842] 6_mode: 1056
+INFO:11397-[20260302030842] 6_ac_position: 864
+INFO:11397-[20260302030842] 6_ac_velocity: 896
+INFO:11397-[20260302030842] 6_ac_torque: 928
+INFO:11397-[20260302030842] 6_ac_current: -999999
+INFO:11397-[20260302030842] 6_ac_position2: -999999
+INFO:11397-[20260302030842] 6_ac_velocity2: -999999
+INFO:11397-[20260302030842] 6_ac_sensor_torque: 976
+INFO:11397-[20260302030842] 6_ac_sensor_torque2: -999999
+INFO:11397-[20260302030842] 6_ac_mode: -999999
+INFO:11397-[20260302030842] 6_ErrorCode: 960
+INFO:11397-[20260302030842] 6_FollowingErrorActualValue: -999999
+INFO:11397-[20260302030842] 6_position: 960
+INFO:11397-[20260302030842] 6_velocity: 992
+INFO:11397-[20260302030842] 6_torque: 1024
+INFO:11397-[20260302030842] 6_VelocityOffset: 1088
+INFO:11397-[20260302030842] 6_TorqueOffset: 1072
+INFO:11397-[20260302030842] 6_TorqueMaxLimit: -999999
+INFO:11397-[20260302030842] 6_TorqueMinLimit: -999999
+INFO:11397-[20260302030842] /////////////////////////////////////////////////////////////////
+INFO:11397-[20260302030842] /////////////////////////////////////////////////////////////////
+INFO:11397-[20260302030842] /////////////////////////////////////////////////////////////////
+INFO:11397-[20260302030842] system_init:simulation_switch
+NOTICE:11397-[20260302030842] Device is running
+INFO:11397-[20260302030842] system_init:GetRobotSimulationState
+INFO:11397-[20260302030842] system_init:initSystemTimer2
+INFO:11397-[20260302030842] InitRobot
+INFO:11397-[20260302030842] Hardware Match
+NOTICE:11397-[20260302030842] Real machine running mode
+INFO:11397-[20260302030842] init_robot_teach
+INFO:11397-[20260302030842] set_robot_index
+INFO:11397-[20260302030842] set_addition_index
+INFO:11397-[20260302030842] get_addition_num
+INFO:11397-[20260302030842] get_robot_num
+INFO:11397-[20260302030842] start teach server port 6666
+INFO:11397-[20260302030842] start teach command server port 6667
+INFO:11397-[20260302030842] start teach feedback server port 6668
+INFO:11397-[20260302030842] UploadPlugIn: Plugin num:1, Start upload plugin
+INFO:11397-[20260302030842] UploadPlugIn: Upload Plugin "libJEServer_ethan.so"
+INFO:11397-[20260302030842] UploadPlugIn: Upload Plugin"libJEServer_ethan.so" finish
+INFO:11397-[20260302030842] initialize finish
+INFO:11397-[20260302030848] TCPConcurrentServer: client connect (55)
+INFO:11397-[20260302030848] TCPConcurrentServer: client connect (56)
+NOTICE:11397-[20260302030848] Teach feedback clock(0) cycle time is 200 ms
+INFO:11397-[20260302030849] get_data_robjoint_all
+INFO:11397-[20260302030849] get_data_robpose_all
+INFO:11397-[20260302030849] get_data_wobj_all
+INFO:11397-[20260302030849] get_data_user_all
+INFO:11397-[20260302030849] get_data_tool_all
+INFO:11397-[20260302030849] get_data_payload_all
+INFO:11397-[20260302030849] get_data_zone_all
+INFO:11397-[20260302030849] get_data_addition_all
+INFO:11397-[20260302030849] get_data_speed_all
+INFO:11397-[20260302030849] get_robot_data_path
+INFO:11397-[20260302030850] get_robot_index
+INFO:11397-[20260302030850] get_robot_run_type
+INFO:11397-[20260302030850] get_robot_run_type
+INFO:11397-[20260302030850] get_robot_teach_velocity
+INFO:11397-[20260302030850] get_teach_move_type
+INFO:11397-[20260302030851] get_robot_run_type
+INFO:11397-[20260302030851] get_robot_teach_velocity
+INFO:11397-[20260302030851] get_teach_move_type
+INFO:11397-[20260302030851] get_robot_tool
+INFO:11397-[20260302030851] get_robot_wobj
+INFO:11397-[20260302030852] get_robot_teach_coordinate
+INFO:11397-[20260302030852] set_robot_index
+INFO:11397-[20260302030852] get_robot_tool
+INFO:11397-[20260302030852] get_robot_wobj
+INFO:11397-[20260302030857] set_robot_teach_velocity
+INFO:11397-[20260302030857] get_robot_teach_velocity
+INFO:11397-[20260302030901] robot_goto_joint
+ERROR:11397-[20260302030901] movej: robot not power, can't run
+INFO:11397-[20260302030902] robot_teach_stop
+INFO:11397-[20260302030903] device_teach_enable
+INFO:11397-[20260302030904] robot_goto_joint
+INFO:11397-[20260302030910] robot_teach_stop
+INFO:11397-[20260302030913] robot_goto_joint
+INFO:11397-[20260302030916] robot_teach_stop
+INFO:11397-[20260302030919] robot_goto_joint
+INFO:11397-[20260302030923] robot_teach_stop
+INFO:11397-[20260302030927] set_robot_teach_coordinate
+INFO:11397-[20260302030933] robot_teach_cartesian
+INFO:11397-[20260302030933] robot_teach_stop
+INFO:11397-[20260302030934] robot_teach_cartesian
+INFO:11397-[20260302030934] robot_teach_stop
+INFO:11397-[20260302030936] robot_teach_cartesian
+INFO:11397-[20260302030936] robot_teach_stop
+INFO:11397-[20260302030937] robot_teach_cartesian
+INFO:11397-[20260302030937] robot_teach_stop
+INFO:11397-[20260302030938] robot_teach_cartesian
+INFO:11397-[20260302030939] robot_teach_stop
+INFO:11397-[20260302030939] robot_teach_cartesian
+INFO:11397-[20260302030941] robot_teach_stop
+INFO:11397-[20260302030944] robot_teach_cartesian
+INFO:11397-[20260302030944] robot_teach_stop
+INFO:11397-[20260302030945] robot_teach_cartesian
+INFO:11397-[20260302030946] robot_teach_stop
+INFO:11397-[20260302030947] robot_teach_cartesian
+INFO:11397-[20260302030948] robot_teach_stop
+INFO:11397-[20260302030949] robot_teach_cartesian
+INFO:11397-[20260302030949] robot_teach_stop
+INFO:11397-[20260302030950] robot_teach_cartesian
+INFO:11397-[20260302030950] robot_teach_stop
+INFO:11397-[20260302030953] robot_teach_cartesian
+INFO:11397-[20260302030953] robot_teach_stop
+INFO:11397-[20260302030954] robot_teach_cartesian
+INFO:11397-[20260302030955] robot_teach_stop
+INFO:11397-[20260302030955] robot_teach_cartesian
+INFO:11397-[20260302030955] robot_teach_stop
+INFO:11397-[20260302030956] robot_teach_cartesian
+INFO:11397-[20260302030956] robot_teach_stop
+INFO:11397-[20260302030957] robot_teach_cartesian
+INFO:11397-[20260302030957] robot_teach_stop
+INFO:11397-[20260302031008] robot_teach_cartesian
+INFO:11397-[20260302031008] robot_teach_stop
+INFO:11397-[20260302031009] robot_teach_cartesian
+INFO:11397-[20260302031009] robot_teach_stop
+INFO:11397-[20260302031011] robot_teach_cartesian
+INFO:11397-[20260302031011] robot_teach_stop
+INFO:11397-[20260302031012] robot_teach_cartesian
+INFO:11397-[20260302031012] robot_teach_stop
+INFO:11397-[20260302031012] robot_teach_cartesian
+INFO:11397-[20260302031012] robot_teach_stop
+INFO:11397-[20260302031015] robot_teach_cartesian
+INFO:11397-[20260302031015] robot_teach_stop
+INFO:11397-[20260302031016] robot_teach_cartesian
+INFO:11397-[20260302031016] robot_teach_stop
+INFO:11397-[20260302031030] robot_teach_cartesian
+INFO:11397-[20260302031030] robot_teach_stop
+INFO:11397-[20260302031032] robot_teach_cartesian
+INFO:11397-[20260302031032] robot_teach_stop
+INFO:11397-[20260302031032] robot_teach_cartesian
+INFO:11397-[20260302031032] robot_teach_stop
+INFO:11397-[20260302031033] robot_teach_cartesian
+INFO:11397-[20260302031033] robot_teach_stop
+INFO:11397-[20260302031034] robot_teach_cartesian
+INFO:11397-[20260302031034] robot_teach_stop
+INFO:11397-[20260302031036] robot_teach_cartesian
+INFO:11397-[20260302031036] robot_teach_stop
+INFO:11397-[20260302031037] robot_teach_cartesian
+INFO:11397-[20260302031037] robot_teach_stop
+INFO:11397-[20260302031038] robot_teach_cartesian
+INFO:11397-[20260302031038] robot_teach_stop
+INFO:11397-[20260302031039] robot_teach_cartesian
+INFO:11397-[20260302031039] robot_teach_stop
+INFO:11397-[20260302031039] robot_teach_cartesian
+INFO:11397-[20260302031039] robot_teach_stop
+INFO:11397-[20260302031040] robot_teach_cartesian
+INFO:11397-[20260302031040] robot_teach_stop
+INFO:11397-[20260302031040] robot_teach_cartesian
+INFO:11397-[20260302031040] robot_teach_stop
+INFO:11397-[20260302031041] robot_teach_cartesian
+INFO:11397-[20260302031041] robot_teach_stop
+INFO:11397-[20260302031041] robot_teach_cartesian
+INFO:11397-[20260302031042] robot_teach_stop
+INFO:11397-[20260302031042] robot_teach_cartesian
+ERROR:11397-[20260302031043]      |-->isPositionLimit: axis index(1), -1.850000 < -1.850025 <1.800000
+ERROR:11397-[20260302031043] CartesianSpaceLineExecution: robot(0) inverse kinematic solve error!
+INFO:11397-[20260302031043] robot_teach_stop
+INFO:11397-[20260302031043] robot_teach_cartesian
+INFO:11397-[20260302031044] robot_teach_stop
+INFO:11397-[20260302031046] device_error_clear
+INFO:11397-[20260302031047] robot_teach_cartesian
+INFO:11397-[20260302031047] robot_teach_stop
+INFO:11397-[20260302031048] robot_teach_cartesian
+INFO:11397-[20260302031048] robot_teach_stop
+INFO:11397-[20260302031048] robot_teach_cartesian
+INFO:11397-[20260302031049] robot_teach_stop
+INFO:11397-[20260302031049] robot_teach_cartesian
+INFO:11397-[20260302031049] robot_teach_stop
+INFO:11397-[20260302031050] robot_teach_cartesian
+INFO:11397-[20260302031051] robot_teach_stop
+INFO:11397-[20260302031052] robot_teach_cartesian
+INFO:11397-[20260302031052] robot_teach_stop
+INFO:11397-[20260302031054] robot_teach_cartesian
+INFO:11397-[20260302031054] robot_teach_stop
+INFO:11397-[20260302031056] robot_teach_cartesian
+INFO:11397-[20260302031056] robot_teach_stop
+INFO:11397-[20260302031057] robot_teach_cartesian
+INFO:11397-[20260302031057] robot_teach_stop
+INFO:11397-[20260302031058] robot_teach_cartesian
+INFO:11397-[20260302031058] robot_teach_stop
+INFO:11397-[20260302031103] robot_teach_cartesian
+INFO:11397-[20260302031103] robot_teach_stop
+INFO:11397-[20260302031103] robot_teach_cartesian
+INFO:11397-[20260302031104] robot_teach_stop
+INFO:11397-[20260302031104] robot_teach_cartesian
+INFO:11397-[20260302031105] robot_teach_stop
+INFO:11397-[20260302031105] robot_teach_cartesian
+INFO:11397-[20260302031105] robot_teach_stop
+INFO:11397-[20260302031108] robot_teach_cartesian
+INFO:11397-[20260302031108] robot_teach_stop
+INFO:11397-[20260302031109] robot_teach_cartesian
+INFO:11397-[20260302031109] robot_teach_stop
+INFO:11397-[20260302031117] robot_teach_cartesian
+INFO:11397-[20260302031117] robot_teach_stop
+INFO:11397-[20260302031119] robot_teach_cartesian
+INFO:11397-[20260302031119] robot_teach_stop
+INFO:11397-[20260302031119] robot_teach_cartesian
+INFO:11397-[20260302031119] robot_teach_stop
+INFO:11397-[20260302031122] robot_teach_cartesian
+INFO:11397-[20260302031122] robot_teach_stop
+INFO:11397-[20260302031123] robot_teach_cartesian
+ERROR:11397-[20260302031123]      |-->isPositionLimit: axis index(1), -1.850000 < -1.850032 <1.800000
+ERROR:11397-[20260302031123] CartesianSpaceLineExecution: robot(0) inverse kinematic solve error!
+INFO:11397-[20260302031123] robot_teach_stop
+INFO:11397-[20260302031138] device_error_clear
+INFO:11397-[20260302031143] robot_teach_cartesian
+ERROR:11397-[20260302031143]      |-->isPositionLimit: axis index(1), -1.850000 < -1.850002 <1.800000
+ERROR:11397-[20260302031143] CartesianSpaceLineExecution: robot(0) inverse kinematic solve error!
+INFO:11397-[20260302031143] robot_teach_stop
+INFO:11397-[20260302031146] device_error_clear
+INFO:11397-[20260302031152] robot_teach_cartesian
+INFO:11397-[20260302031152] robot_teach_stop
+INFO:11397-[20260302031153] robot_teach_cartesian
+INFO:11397-[20260302031154] robot_teach_stop
+INFO:11397-[20260302031155] robot_teach_cartesian
+INFO:11397-[20260302031155] robot_teach_stop
+INFO:11397-[20260302031158] robot_teach_cartesian
+INFO:11397-[20260302031158] robot_teach_stop
+INFO:11397-[20260302031158] robot_teach_cartesian
+INFO:11397-[20260302031159] robot_teach_stop
+INFO:11397-[20260302031200] robot_teach_cartesian
+INFO:11397-[20260302031200] robot_teach_stop
+INFO:11397-[20260302031202] robot_teach_cartesian
+INFO:11397-[20260302031202] robot_teach_stop
+INFO:11397-[20260302031202] robot_teach_cartesian
+INFO:11397-[20260302031203] robot_teach_stop
+INFO:11397-[20260302031203] robot_teach_cartesian
+INFO:11397-[20260302031203] robot_teach_stop
+INFO:11397-[20260302031204] robot_teach_cartesian
+INFO:11397-[20260302031204] robot_teach_stop
+INFO:11397-[20260302031205] robot_teach_cartesian
+INFO:11397-[20260302031205] robot_teach_stop
+INFO:11397-[20260302031206] robot_teach_cartesian
+INFO:11397-[20260302031206] robot_teach_stop
+INFO:11397-[20260302031239] robot_goto_cartesian
+INFO:11397-[20260302031239] robot_teach_stop
+INFO:11397-[20260302031240] robot_goto_cartesian
+INFO:11397-[20260302031240] robot_teach_stop
+INFO:11397-[20260302031240] robot_goto_cartesian
+INFO:11397-[20260302031240] robot_teach_stop
+INFO:11397-[20260302031241] robot_goto_cartesian
+INFO:11397-[20260302031241] robot_teach_stop
+INFO:11397-[20260302031241] robot_goto_cartesian
+INFO:11397-[20260302031241] robot_teach_stop
+INFO:11397-[20260302031242] robot_goto_cartesian
+INFO:11397-[20260302031242] robot_teach_stop
+INFO:11397-[20260302031242] robot_goto_cartesian
+INFO:11397-[20260302031243] robot_teach_stop
+INFO:11397-[20260302031243] robot_goto_cartesian
+INFO:11397-[20260302031243] robot_teach_stop
+INFO:11397-[20260302031244] robot_goto_cartesian
+INFO:11397-[20260302031245] robot_teach_stop
+INFO:11397-[20260302031245] robot_goto_cartesian
+INFO:11397-[20260302031245] robot_teach_stop
+INFO:11397-[20260302031250] robot_goto_joint
+INFO:11397-[20260302031250] robot_teach_stop
+INFO:11397-[20260302031251] robot_goto_joint
+INFO:11397-[20260302031251] robot_teach_stop
+INFO:11397-[20260302031251] robot_goto_joint
+INFO:11397-[20260302031252] robot_teach_stop
+INFO:11397-[20260302031252] robot_goto_joint
+INFO:11397-[20260302031252] robot_teach_stop
+INFO:11397-[20260302031252] robot_goto_joint
+INFO:11397-[20260302031313] robot_goto_joint
+INFO:11397-[20260302031314] robot_teach_stop
+INFO:11397-[20260302031314] robot_goto_joint
+INFO:11397-[20260302031314] robot_teach_stop
+INFO:11397-[20260302031314] robot_goto_joint
+INFO:11397-[20260302031318] robot_teach_stop
+INFO:11397-[20260302031321] robot_goto_joint
+INFO:11397-[20260302031323] robot_teach_stop
+INFO:11397-[20260302031334] robot_goto_joint
+INFO:11397-[20260302031337] robot_teach_stop
+INFO:11397-[20260302031347] set_robot_teach_coordinate
+INFO:11397-[20260302031348] robot_teach_joint
+INFO:11397-[20260302031348] robot_teach_stop
+INFO:11397-[20260302031350] robot_teach_joint
+INFO:11397-[20260302031356] robot_teach_stop
+INFO:11397-[20260302031357] robot_teach_joint
+INFO:11397-[20260302031358] robot_teach_stop
+INFO:11397-[20260302031358] robot_teach_joint
+INFO:11397-[20260302031359] robot_teach_stop
+INFO:11397-[20260302031400] robot_teach_joint
+INFO:11397-[20260302031400] robot_teach_stop
+INFO:11397-[20260302031401] robot_teach_joint
+INFO:11397-[20260302031402] robot_teach_stop
+INFO:11397-[20260302031402] robot_teach_joint
+INFO:11397-[20260302031403] robot_teach_stop
+INFO:11397-[20260302031404] robot_teach_joint
+INFO:11397-[20260302031405] robot_teach_stop
+INFO:11397-[20260302031406] robot_teach_joint
+INFO:11397-[20260302031406] robot_teach_stop
+INFO:11397-[20260302031409] robot_teach_joint
+INFO:11397-[20260302031410] robot_teach_stop
+INFO:11397-[20260302031410] robot_teach_joint
+INFO:11397-[20260302031411] robot_teach_stop
+INFO:11397-[20260302031411] robot_teach_joint
+INFO:11397-[20260302031411] robot_teach_stop
+INFO:11397-[20260302031413] robot_teach_joint
+INFO:11397-[20260302031414] robot_teach_stop
+INFO:11397-[20260302031415] robot_teach_joint
+INFO:11397-[20260302031417] robot_teach_stop
+INFO:11397-[20260302031417] robot_teach_joint
+INFO:11397-[20260302031418] robot_teach_stop
+INFO:11397-[20260302031418] robot_teach_joint
+INFO:11397-[20260302031419] robot_teach_stop
+INFO:11397-[20260302031419] robot_teach_joint
+INFO:11397-[20260302031420] robot_teach_stop
+INFO:11397-[20260302031421] robot_teach_joint
+INFO:11397-[20260302031421] robot_teach_stop
+INFO:11397-[20260302031424] robot_teach_joint
+INFO:11397-[20260302031424] robot_teach_stop
+INFO:11397-[20260302031425] robot_teach_joint
+INFO:11397-[20260302031425] robot_teach_stop
+INFO:11397-[20260302031427] robot_teach_joint
+INFO:11397-[20260302031427] robot_teach_stop
+INFO:11397-[20260302031428] robot_teach_joint
+INFO:11397-[20260302031428] robot_teach_stop
+INFO:11397-[20260302031428] robot_teach_joint
+INFO:11397-[20260302031428] robot_teach_stop
+INFO:11397-[20260302031429] robot_teach_joint
+INFO:11397-[20260302031429] robot_teach_stop
+INFO:11397-[20260302031432] robot_teach_joint
+INFO:11397-[20260302031432] robot_teach_stop
+INFO:11397-[20260302031436] set_robot_teach_coordinate
+INFO:11397-[20260302031439] robot_teach_cartesian
+INFO:11397-[20260302031439] robot_teach_stop
+INFO:11397-[20260302031441] robot_teach_cartesian
+INFO:11397-[20260302031441] robot_teach_stop
+INFO:11397-[20260302031441] robot_teach_cartesian
+INFO:11397-[20260302031442] robot_teach_stop
+INFO:11397-[20260302031442] robot_teach_cartesian
+INFO:11397-[20260302031442] robot_teach_stop
+INFO:11397-[20260302031445] robot_teach_cartesian
+INFO:11397-[20260302031445] robot_teach_stop
+INFO:11397-[20260302031449] robot_teach_cartesian
+INFO:11397-[20260302031449] robot_teach_stop
+INFO:11397-[20260302031450] robot_teach_cartesian
+INFO:11397-[20260302031450] robot_teach_stop
+INFO:11397-[20260302031451] robot_teach_cartesian
+INFO:11397-[20260302031452] robot_teach_stop
+INFO:11397-[20260302031453] robot_teach_cartesian
+INFO:11397-[20260302031453] robot_teach_stop
+INFO:11397-[20260302031454] robot_teach_cartesian
+INFO:11397-[20260302031454] robot_teach_stop
+INFO:11397-[20260302031455] robot_teach_cartesian
+INFO:11397-[20260302031455] robot_teach_stop
+INFO:11397-[20260302031457] robot_teach_cartesian
+INFO:11397-[20260302031457] robot_teach_stop
+INFO:11397-[20260302031512] save_robot_current_joint_data "R0_P2"
+INFO:11397-[20260302031525] save_robot_current_cartesian_data "R0_P2"
+INFO:11397-[20260302031525] get_data_robpose name:R0_P2
+INFO:11397-[20260302031538] robot_goto_joint
+INFO:11397-[20260302031538] robot_teach_stop
+INFO:11397-[20260302031538] robot_goto_joint
+INFO:11397-[20260302031538] robot_teach_stop
+INFO:11397-[20260302031539] robot_goto_joint
+INFO:11397-[20260302031539] robot_teach_stop
+INFO:11397-[20260302031540] robot_goto_joint
+INFO:11397-[20260302031541] robot_teach_stop
+INFO:11397-[20260302031541] robot_goto_joint
+INFO:11397-[20260302031541] robot_teach_stop
+INFO:11397-[20260302031541] robot_goto_joint
+INFO:11397-[20260302031542] robot_teach_stop
+INFO:11397-[20260302031542] robot_goto_joint
+INFO:11397-[20260302031550] robot_teach_stop
+INFO:11397-[20260302031553] robot_goto_joint
+INFO:11397-[20260302031603] robot_teach_stop
+INFO:11397-[20260302031616] robot_teach_cartesian
+INFO:11397-[20260302031616] robot_teach_stop
+INFO:11397-[20260302031617] robot_teach_cartesian
+INFO:11397-[20260302031619] robot_teach_stop
+INFO:11397-[20260302031621] robot_teach_cartesian
+INFO:11397-[20260302031621] robot_teach_stop
+INFO:11397-[20260302031622] robot_teach_cartesian
+INFO:11397-[20260302031624] robot_teach_stop
+INFO:11397-[20260302031628] robot_teach_cartesian
+INFO:11397-[20260302031628] robot_teach_stop
+INFO:11397-[20260302031629] robot_teach_cartesian
+INFO:11397-[20260302031630] robot_teach_stop
+INFO:11397-[20260302031632] robot_teach_cartesian
+INFO:11397-[20260302031632] robot_teach_stop
+INFO:11397-[20260302031633] robot_teach_cartesian
+INFO:11397-[20260302031633] robot_teach_stop
+INFO:11397-[20260302031634] robot_teach_cartesian
+INFO:11397-[20260302031634] robot_teach_stop
+INFO:11397-[20260302031635] robot_teach_cartesian
+INFO:11397-[20260302031635] robot_teach_stop
+INFO:11397-[20260302031636] robot_teach_cartesian
+INFO:11397-[20260302031636] robot_teach_stop
+INFO:11397-[20260302031636] robot_teach_cartesian
+ERROR:11397-[20260302031636]      |-->isPositionLimit: axis index(1), -1.850000 < -1.850042 <1.800000
+ERROR:11397-[20260302031636] CartesianSpaceLineExecution: robot(0) inverse kinematic solve error!
+INFO:11397-[20260302031636] robot_teach_stop
+INFO:11397-[20260302031639] device_error_clear
+INFO:11397-[20260302031641] robot_teach_cartesian
+INFO:11397-[20260302031641] robot_teach_stop
+INFO:11397-[20260302031641] robot_teach_cartesian
+INFO:11397-[20260302031644] robot_teach_stop
+INFO:11397-[20260302031645] robot_teach_cartesian
+INFO:11397-[20260302031646] robot_teach_stop
+INFO:11397-[20260302031646] robot_teach_cartesian
+INFO:11397-[20260302031647] robot_teach_stop
+INFO:11397-[20260302031648] robot_teach_cartesian
+INFO:11397-[20260302031649] robot_teach_stop
+INFO:11397-[20260302031657] set_robot_teach_coordinate
+INFO:11397-[20260302031659] set_robot_teach_coordinate
+INFO:11397-[20260302031701] robot_teach_joint
+INFO:11397-[20260302031701] robot_teach_stop
+INFO:11397-[20260302031702] robot_teach_joint
+INFO:11397-[20260302031707] robot_teach_stop
+INFO:11397-[20260302031715] set_robot_teach_coordinate
+INFO:11397-[20260302031719] robot_teach_cartesian
+INFO:11397-[20260302031719] robot_teach_stop
+INFO:11397-[20260302031720] robot_teach_cartesian
+INFO:11397-[20260302031721] robot_teach_stop
+INFO:11397-[20260302031725] robot_teach_cartesian
+INFO:11397-[20260302031725] robot_teach_stop
+INFO:11397-[20260302031727] robot_teach_cartesian
+INFO:11397-[20260302031727] robot_teach_stop
+INFO:11397-[20260302031728] robot_teach_cartesian
+INFO:11397-[20260302031728] robot_teach_stop
+INFO:11397-[20260302031728] robot_teach_cartesian
+INFO:11397-[20260302031728] robot_teach_stop
+INFO:11397-[20260302031729] robot_teach_cartesian
+INFO:11397-[20260302031729] robot_teach_stop
+INFO:11397-[20260302031730] robot_teach_cartesian
+INFO:11397-[20260302031730] robot_teach_stop
+INFO:11397-[20260302031731] robot_teach_cartesian
+INFO:11397-[20260302031731] robot_teach_stop
+INFO:11397-[20260302031733] robot_teach_cartesian
+INFO:11397-[20260302031733] robot_teach_stop
+INFO:11397-[20260302031733] robot_teach_cartesian
+INFO:11397-[20260302031733] robot_teach_stop
+INFO:11397-[20260302031734] robot_teach_cartesian
+INFO:11397-[20260302031734] robot_teach_stop
+INFO:11397-[20260302031734] robot_teach_cartesian
+INFO:11397-[20260302031735] robot_teach_stop
+INFO:11397-[20260302031736] robot_teach_cartesian
+INFO:11397-[20260302031736] robot_teach_stop
+INFO:11397-[20260302031737] robot_teach_cartesian
+INFO:11397-[20260302031737] robot_teach_stop
+INFO:11397-[20260302031737] robot_teach_cartesian
+INFO:11397-[20260302031738] robot_teach_stop
+INFO:11397-[20260302031738] robot_teach_cartesian
+INFO:11397-[20260302031738] robot_teach_stop
+INFO:11397-[20260302031739] robot_teach_cartesian
+INFO:11397-[20260302031739] robot_teach_stop
+INFO:11397-[20260302031741] robot_teach_cartesian
+INFO:11397-[20260302031741] robot_teach_stop
+INFO:11397-[20260302031742] robot_teach_cartesian
+INFO:11397-[20260302031742] robot_teach_stop
+INFO:11397-[20260302031743] robot_teach_cartesian
+INFO:11397-[20260302031745] robot_teach_stop
+INFO:11397-[20260302031745] robot_teach_cartesian
+INFO:11397-[20260302031745] robot_teach_stop
+INFO:11397-[20260302031747] robot_teach_cartesian
+INFO:11397-[20260302031747] robot_teach_stop
+INFO:11397-[20260302031748] robot_teach_cartesian
+INFO:11397-[20260302031748] robot_teach_stop
+INFO:11397-[20260302031749] robot_teach_cartesian
+INFO:11397-[20260302031749] robot_teach_stop
+INFO:11397-[20260302031749] robot_teach_cartesian
+INFO:11397-[20260302031749] robot_teach_stop
+INFO:11397-[20260302031750] robot_teach_cartesian
+INFO:11397-[20260302031750] robot_teach_stop
+INFO:11397-[20260302031756] robot_teach_cartesian
+INFO:11397-[20260302031756] robot_teach_stop
+INFO:11397-[20260302031757] robot_teach_cartesian
+INFO:11397-[20260302031757] robot_teach_stop
+INFO:11397-[20260302031758] robot_teach_cartesian
+INFO:11397-[20260302031758] robot_teach_stop
+INFO:11397-[20260302031759] robot_teach_cartesian
+INFO:11397-[20260302031759] robot_teach_stop
+INFO:11397-[20260302031800] robot_teach_cartesian
+INFO:11397-[20260302031800] robot_teach_stop
+INFO:11397-[20260302031800] robot_teach_cartesian
+INFO:11397-[20260302031800] robot_teach_stop
+INFO:11397-[20260302031801] robot_teach_cartesian
+INFO:11397-[20260302031801] robot_teach_stop
+INFO:11397-[20260302031801] robot_teach_cartesian
+INFO:11397-[20260302031802] robot_teach_stop
+INFO:11397-[20260302031802] robot_teach_cartesian
+INFO:11397-[20260302031802] robot_teach_stop
+INFO:11397-[20260302031803] robot_teach_cartesian
+INFO:11397-[20260302031803] robot_teach_stop
+INFO:11397-[20260302031805] robot_teach_cartesian
+INFO:11397-[20260302031805] robot_teach_stop
+INFO:11397-[20260302031806] robot_teach_cartesian
+INFO:11397-[20260302031807] robot_teach_stop
+INFO:11397-[20260302031807] robot_teach_cartesian
+INFO:11397-[20260302031807] robot_teach_stop
+INFO:11397-[20260302031809] robot_teach_cartesian
+INFO:11397-[20260302031809] robot_teach_stop
+INFO:11397-[20260302031821] robot_teach_cartesian
+INFO:11397-[20260302031821] robot_teach_stop
+INFO:11397-[20260302031825] robot_teach_cartesian
+INFO:11397-[20260302031825] robot_teach_stop
+INFO:11397-[20260302031826] robot_teach_cartesian
+INFO:11397-[20260302031827] robot_teach_stop
+INFO:11397-[20260302031827] robot_teach_cartesian
+INFO:11397-[20260302031828] robot_teach_stop
+INFO:11397-[20260302031828] robot_teach_cartesian
+INFO:11397-[20260302031828] robot_teach_stop
+INFO:11397-[20260302031829] robot_teach_cartesian
+INFO:11397-[20260302031829] robot_teach_stop
+INFO:11397-[20260302031831] robot_teach_cartesian
+INFO:11397-[20260302031831] robot_teach_stop
+INFO:11397-[20260302031831] robot_teach_cartesian
+INFO:11397-[20260302031833] robot_teach_stop
+INFO:11397-[20260302031835] robot_teach_cartesian
+INFO:11397-[20260302031835] robot_teach_stop
+INFO:11397-[20260302031837] robot_teach_cartesian
+INFO:11397-[20260302031837] robot_teach_stop
+INFO:11397-[20260302031838] robot_teach_cartesian
+INFO:11397-[20260302031838] robot_teach_stop
+INFO:11397-[20260302031854] set_robot_teach_coordinate
+INFO:11397-[20260302031856] robot_teach_joint
+INFO:11397-[20260302031856] robot_teach_stop
+INFO:11397-[20260302031856] robot_teach_joint
+INFO:11397-[20260302031856] robot_teach_stop
+INFO:11397-[20260302031858] robot_teach_joint
+INFO:11397-[20260302031859] robot_teach_stop
+INFO:11397-[20260302031900] robot_teach_joint
+INFO:11397-[20260302031900] robot_teach_stop
+INFO:11397-[20260302031906] set_robot_teach_coordinate
+INFO:11397-[20260302031908] robot_teach_cartesian
+INFO:11397-[20260302031909] robot_teach_stop
+INFO:11397-[20260302031910] robot_teach_cartesian
+INFO:11397-[20260302031910] robot_teach_stop
+INFO:11397-[20260302031913] robot_teach_cartesian
+INFO:11397-[20260302031913] robot_teach_stop
+INFO:11397-[20260302031915] robot_teach_cartesian
+INFO:11397-[20260302031915] robot_teach_stop
+INFO:11397-[20260302031915] robot_teach_cartesian
+INFO:11397-[20260302031915] robot_teach_stop
+INFO:11397-[20260302031918] robot_teach_cartesian
+INFO:11397-[20260302031918] robot_teach_stop
+INFO:11397-[20260302031929] robot_teach_cartesian
+INFO:11397-[20260302031929] robot_teach_stop
+INFO:11397-[20260302031953] set_robot_teach_coordinate
+INFO:11397-[20260302031955] set_robot_teach_coordinate
+INFO:11397-[20260302031957] robot_teach_joint
+INFO:11397-[20260302031957] robot_teach_stop
+INFO:11397-[20260302031957] robot_teach_joint
+INFO:11397-[20260302031958] robot_teach_stop
+INFO:11397-[20260302031958] robot_teach_joint
+INFO:11397-[20260302032004] robot_teach_stop
+INFO:11397-[20260302032004] robot_teach_joint
+INFO:11397-[20260302032005] robot_teach_stop
+INFO:11397-[20260302032007] robot_teach_joint
+INFO:11397-[20260302032007] robot_teach_stop
+INFO:11397-[20260302032014] set_robot_teach_coordinate
+INFO:11397-[20260302032021] robot_teach_cartesian
+INFO:11397-[20260302032021] robot_teach_stop
+INFO:11397-[20260302032024] robot_teach_cartesian
+INFO:11397-[20260302032024] robot_teach_stop
+INFO:11397-[20260302032027] robot_teach_cartesian
+INFO:11397-[20260302032028] robot_teach_stop
+INFO:11397-[20260302032030] robot_teach_cartesian
+INFO:11397-[20260302032030] robot_teach_stop
+INFO:11397-[20260302032050] save_robot_current_joint_data "R0_P3"
+INFO:11397-[20260302032055] save_robot_current_cartesian_data "R0_D3"
+INFO:11397-[20260302032055] get_data_robpose name:R0_D3
+INFO:11397-[20260302032104] robot_goto_joint
+INFO:11397-[20260302032104] robot_teach_stop
+INFO:11397-[20260302032104] robot_goto_joint
+INFO:11397-[20260302032105] robot_teach_stop
+INFO:11397-[20260302032105] robot_goto_joint
+INFO:11397-[20260302032105] robot_teach_stop
+INFO:11397-[20260302032105] robot_goto_joint
+INFO:11397-[20260302032106] robot_teach_stop
+INFO:11397-[20260302032112] robot_goto_joint
+INFO:11397-[20260302032114] robot_teach_stop
+INFO:11397-[20260302032124] robot_goto_cartesian
+INFO:11397-[20260302032124] robot_teach_stop
+INFO:11397-[20260302032124] robot_goto_cartesian
+INFO:11397-[20260302032125] robot_teach_stop
+INFO:11397-[20260302032152] robot_teach_stop
+INFO:11397-[20260302032152] robot_goto_joint
+INFO:11397-[20260302032153] robot_teach_stop
+INFO:11397-[20260302032159] set_robot_teach_coordinate
+INFO:11397-[20260302032201] robot_teach_cartesian
+INFO:11397-[20260302032201] robot_teach_stop
+INFO:11397-[20260302032201] robot_teach_cartesian
+INFO:11397-[20260302032203] robot_teach_stop
+ERROR:11397-[20260302032203]      |-->isPositionLimit: axis index(5), -1.603000 < -1.603240 <1.553000
+ERROR:11397-[20260302032203] CartesianSpaceLineExecution: robot(0) inverse kinematic solve error!
+INFO:11397-[20260302032205] device_error_clear
+INFO:11397-[20260302032211] robot_goto_cartesian
+INFO:11397-[20260302032211] robot_teach_stop
+INFO:11397-[20260302032212] robot_goto_cartesian
+INFO:11397-[20260302032212] robot_teach_stop
+INFO:11397-[20260302032212] robot_goto_cartesian
+INFO:11397-[20260302032212] robot_teach_stop
+INFO:11397-[20260302032213] robot_goto_cartesian
+INFO:11397-[20260302032213] robot_teach_stop
+INFO:11397-[20260302032214] robot_goto_cartesian
+INFO:11397-[20260302032214] robot_teach_stop
+INFO:11397-[20260302032219] robot_goto_joint
+INFO:11397-[20260302032219] robot_teach_stop
+INFO:11397-[20260302032219] robot_goto_joint
+INFO:11397-[20260302032219] robot_teach_stop
+INFO:11397-[20260302032221] robot_goto_joint
+INFO:11397-[20260302032221] robot_teach_stop
+INFO:11397-[20260302032231] robot_teach_cartesian
+INFO:11397-[20260302032231] robot_teach_stop
+INFO:11397-[20260302032232] robot_teach_cartesian
+INFO:11397-[20260302032233] robot_teach_stop
+ERROR:11397-[20260302032233]      |-->isPositionLimit: axis index(5), -1.603000 < -1.603220 <1.553000
+ERROR:11397-[20260302032233] CartesianSpaceLineExecution: robot(0) inverse kinematic solve error!
+INFO:11397-[20260302032235] device_error_clear
+INFO:11397-[20260302032241] robot_goto_cartesian
+INFO:11397-[20260302032242] robot_teach_stop
+INFO:11397-[20260302032242] robot_goto_cartesian
+INFO:11397-[20260302032243] robot_teach_stop
+INFO:11397-[20260302032243] robot_goto_cartesian
+INFO:11397-[20260302032243] robot_teach_stop
+INFO:11397-[20260302032243] robot_goto_cartesian
+INFO:11397-[20260302032244] robot_teach_stop
+INFO:11397-[20260302032244] robot_goto_cartesian
+INFO:11397-[20260302032244] robot_teach_stop
+INFO:11397-[20260302032244] robot_goto_cartesian
+INFO:11397-[20260302032245] robot_teach_stop
+INFO:11397-[20260302032245] robot_goto_cartesian
+INFO:11397-[20260302032246] robot_goto_cartesian
+INFO:11397-[20260302032246] robot_teach_stop
+INFO:11397-[20260302032247] robot_goto_cartesian
+INFO:11397-[20260302032247] robot_teach_stop
+INFO:11397-[20260302032247] robot_goto_cartesian
+INFO:11397-[20260302032247] robot_teach_stop
+INFO:11397-[20260302032249] robot_goto_cartesian
+INFO:11397-[20260302032249] robot_teach_stop
+INFO:11397-[20260302032249] robot_goto_cartesian
+INFO:11397-[20260302032250] robot_teach_stop
+INFO:11397-[20260302032250] robot_goto_cartesian
+INFO:11397-[20260302032250] robot_teach_stop
+INFO:11397-[20260302032251] robot_goto_cartesian
+INFO:11397-[20260302032251] robot_teach_stop
+INFO:11397-[20260302032251] robot_goto_cartesian
+INFO:11397-[20260302032252] robot_teach_stop
+INFO:11397-[20260302032403] robot_goto_joint
+INFO:11397-[20260302032403] robot_teach_stop
+INFO:11397-[20260302032404] robot_goto_joint
+INFO:11397-[20260302032404] robot_teach_stop
+INFO:11397-[20260302032407] robot_goto_joint
+INFO:11397-[20260302032407] robot_teach_stop
+INFO:11397-[20260302032408] robot_goto_joint
+INFO:11397-[20260302032408] robot_teach_stop
+INFO:11397-[20260302032408] robot_goto_joint
+INFO:11397-[20260302032417] robot_teach_stop
+INFO:11397-[20260302032428] robot_goto_joint
+INFO:11397-[20260302032438] robot_teach_stop
+INFO:11397-[20260302032443] robot_teach_cartesian
+INFO:11397-[20260302032443] robot_teach_stop
+INFO:11397-[20260302032443] robot_teach_cartesian
+INFO:11397-[20260302032444] robot_teach_stop
+INFO:11397-[20260302032506] robot_goto_joint
+INFO:11397-[20260302032512] robot_teach_stop
+INFO:11397-[20260302032535] save_robot_current_joint_data "R0_P5"
+INFO:11397-[20260302032540] save_robot_current_cartesian_data "R0_D5"
+INFO:11397-[20260302032540] get_data_robpose name:R0_D5
+INFO:11397-[20260302032554] robot_teach_cartesian
+ERROR:11397-[20260302032556]      |-->isPositionLimit: axis index(5), -1.603000 < -1.603188 <1.553000
+ERROR:11397-[20260302032556] CartesianSpaceLineExecution: robot(0) inverse kinematic solve error!
+INFO:11397-[20260302032556] robot_teach_stop
+INFO:11397-[20260302032558] device_error_clear
+INFO:11397-[20260302032559] robot_teach_cartesian
+INFO:11397-[20260302032559] robot_teach_stop
+INFO:11397-[20260302032559] robot_teach_cartesian
+INFO:11397-[20260302032559] robot_teach_stop
+INFO:11397-[20260302032607] save_robot_current_joint_data "R0_P4"
+INFO:11397-[20260302032611] save_robot_current_cartesian_data "R0_D4"
+INFO:11397-[20260302032612] get_data_robpose name:R0_D4
+INFO:11397-[20260302032638] robot_goto_joint
+INFO:11397-[20260302032643] robot_teach_stop
+INFO:11397-[20260302032647] robot_teach_cartesian
+INFO:11397-[20260302032648] robot_teach_stop
+ERROR:11397-[20260302032648]      |-->isPositionLimit: axis index(5), -1.603000 < -1.603119 <1.553000
+ERROR:11397-[20260302032648] CartesianSpaceLineExecution: robot(0) inverse kinematic solve error!
+INFO:11397-[20260302032648] robot_teach_cartesian
+INFO:11397-[20260302032648] robot_teach_stop
+INFO:11397-[20260302032650] device_error_clear
+INFO:11397-[20260302032651] robot_teach_cartesian
+INFO:11397-[20260302032651] robot_teach_stop
+INFO:11397-[20260302032652] robot_teach_cartesian
+INFO:11397-[20260302032652] robot_teach_stop
+INFO:11397-[20260302032700] save_robot_current_joint_data "R0_P3"
+INFO:11397-[20260302032705] save_robot_current_cartesian_data "R0_D3"
+INFO:11397-[20260302032705] get_data_robpose name:R0_D3
+INFO:11397-[20260302032743] robot_goto_joint
+INFO:11397-[20260302032744] robot_teach_stop
+INFO:11397-[20260302032744] robot_goto_joint
+INFO:11397-[20260302032745] robot_teach_stop
+INFO:11397-[20260302032745] robot_goto_joint
+INFO:11397-[20260302032746] robot_teach_stop
+INFO:11397-[20260302032746] robot_goto_joint
+INFO:11397-[20260302032746] robot_teach_stop
+INFO:11397-[20260302032747] robot_goto_joint
+INFO:11397-[20260302032748] robot_goto_joint
+INFO:11397-[20260302032758] robot_goto_joint
+INFO:11397-[20260302032802] robot_teach_stop
+INFO:11397-[20260302032805] robot_goto_joint
+INFO:11397-[20260302032816] robot_teach_stop
+INFO:11397-[20260302032818] robot_goto_joint
+INFO:11397-[20260302032820] robot_teach_stop
+INFO:11397-[20260302032823] robot_goto_joint
+INFO:11397-[20260302032825] robot_teach_stop
+INFO:11397-[20260302032836] robot_goto_joint
+INFO:11397-[20260302032843] robot_teach_stop
+INFO:11397-[20260302032844] robot_goto_joint
+INFO:11397-[20260302032846] robot_teach_stop
+INFO:11397-[20260302032901] robot_goto_joint
+INFO:11397-[20260302032903] robot_teach_stop
+INFO:11397-[20260302032916] robot_goto_joint
+INFO:11397-[20260302032916] robot_teach_stop
+INFO:11397-[20260302032921] robot_goto_joint
+INFO:11397-[20260302032921] robot_teach_stop
+INFO:11397-[20260302032924] robot_goto_joint
+INFO:11397-[20260302032925] robot_teach_stop
+INFO:11397-[20260302032925] robot_goto_joint
+INFO:11397-[20260302032925] robot_teach_stop
+INFO:11397-[20260302032925] robot_goto_joint
+INFO:11397-[20260302032926] robot_teach_stop
+INFO:11397-[20260302032926] robot_goto_joint
+INFO:11397-[20260302032926] robot_teach_stop
+INFO:11397-[20260302032926] robot_goto_joint
+INFO:11397-[20260302032926] robot_teach_stop
+INFO:11397-[20260302032926] robot_goto_joint
+INFO:11397-[20260302032926] robot_teach_stop
+INFO:11397-[20260302032927] robot_goto_joint
+INFO:11397-[20260302032927] robot_teach_stop
+INFO:11397-[20260302032927] robot_goto_joint
+INFO:11397-[20260302032927] robot_teach_stop
+INFO:11397-[20260302032927] robot_goto_joint
+INFO:11397-[20260302032927] robot_teach_stop
+INFO:11397-[20260302032928] robot_goto_joint
+INFO:11397-[20260302032928] robot_teach_stop
+INFO:11397-[20260302032928] robot_goto_joint
+INFO:11397-[20260302032928] robot_teach_stop
+INFO:11397-[20260302032928] robot_goto_joint
+INFO:11397-[20260302032928] robot_teach_stop
+INFO:11397-[20260302032928] robot_goto_joint
+INFO:11397-[20260302032928] robot_teach_stop
+INFO:11397-[20260302032929] robot_goto_joint
+INFO:11397-[20260302032929] robot_teach_stop
+INFO:11397-[20260302032929] robot_goto_joint
+INFO:11397-[20260302032929] robot_teach_stop
+INFO:11397-[20260302032929] robot_goto_joint
+INFO:11397-[20260302032930] robot_teach_stop
+INFO:11397-[20260302032930] robot_goto_joint
+INFO:11397-[20260302032930] robot_teach_stop
+INFO:11397-[20260302032930] robot_goto_joint
+INFO:11397-[20260302032930] robot_teach_stop
+INFO:11397-[20260302032931] robot_goto_joint
+INFO:11397-[20260302032931] robot_teach_stop
+INFO:11397-[20260302032932] robot_goto_joint
+INFO:11397-[20260302032932] robot_teach_stop
+INFO:11397-[20260302032932] robot_goto_joint
+INFO:11397-[20260302032934] robot_teach_stop
+INFO:11397-[20260302032934] robot_goto_joint
+INFO:11397-[20260302032935] robot_teach_stop
+INFO:11397-[20260302032940] robot_goto_joint
+INFO:11397-[20260302032940] robot_teach_stop
+INFO:11397-[20260302032940] robot_goto_joint
+INFO:11397-[20260302032941] robot_teach_stop
+INFO:11397-[20260302032941] robot_goto_joint
+INFO:11397-[20260302032942] robot_teach_stop
+INFO:11397-[20260302032942] robot_goto_joint
+INFO:11397-[20260302032943] robot_teach_stop
+INFO:11397-[20260302032944] robot_goto_joint
+INFO:11397-[20260302032944] robot_teach_stop
+INFO:11397-[20260302032948] robot_goto_joint
+INFO:11397-[20260302032949] robot_teach_stop
+INFO:11397-[20260302032955] set_robot_teach_coordinate
+INFO:11397-[20260302032957] robot_teach_joint
+INFO:11397-[20260302033003] robot_teach_stop
+INFO:11397-[20260302033003] robot_teach_joint
+INFO:11397-[20260302033009] robot_teach_stop
+INFO:11397-[20260302033011] robot_goto_joint
+INFO:11397-[20260302033011] robot_teach_stop
+INFO:11397-[20260302033012] robot_goto_joint
+INFO:11397-[20260302033014] robot_teach_stop
+INFO:11397-[20260302033014] robot_goto_joint
+INFO:11397-[20260302033015] robot_teach_stop
+INFO:11397-[20260302033015] robot_goto_joint
+INFO:11397-[20260302033015] robot_teach_stop
+INFO:11397-[20260302033015] robot_goto_joint
+INFO:11397-[20260302033015] robot_teach_stop
+INFO:11397-[20260302033015] robot_goto_joint
+INFO:11397-[20260302033015] robot_teach_stop
+INFO:11397-[20260302033015] robot_goto_joint
+INFO:11397-[20260302033015] robot_teach_stop
+INFO:11397-[20260302033015] robot_goto_joint
+INFO:11397-[20260302033016] robot_teach_stop
+INFO:11397-[20260302033017] robot_goto_joint
+INFO:11397-[20260302033017] robot_teach_stop
+INFO:11397-[20260302033017] robot_goto_joint
+INFO:11397-[20260302033017] robot_teach_stop
+INFO:11397-[20260302033017] robot_goto_joint
+INFO:11397-[20260302033017] robot_teach_stop
+INFO:11397-[20260302033017] robot_goto_joint
+INFO:11397-[20260302033017] robot_teach_stop
+INFO:11397-[20260302033017] robot_goto_joint
+INFO:11397-[20260302033018] robot_teach_stop
+INFO:11397-[20260302033018] robot_goto_joint
+INFO:11397-[20260302033018] robot_teach_stop
+INFO:11397-[20260302033018] robot_goto_joint
+INFO:11397-[20260302033018] robot_teach_stop
+INFO:11397-[20260302033018] robot_goto_joint
+INFO:11397-[20260302033018] robot_teach_stop
+INFO:11397-[20260302033019] robot_goto_joint
+INFO:11397-[20260302033019] robot_teach_stop
+INFO:11397-[20260302033019] robot_goto_joint
+INFO:11397-[20260302033019] robot_teach_stop
+INFO:11397-[20260302033019] robot_goto_joint
+INFO:11397-[20260302033020] robot_teach_stop
+INFO:11397-[20260302033020] robot_goto_joint
+INFO:11397-[20260302033021] robot_teach_stop
+INFO:11397-[20260302033021] robot_goto_joint
+INFO:11397-[20260302033023] robot_teach_stop
+INFO:11397-[20260302033024] robot_goto_joint
+INFO:11397-[20260302033024] robot_teach_stop
+INFO:11397-[20260302033024] robot_goto_joint
+INFO:11397-[20260302033024] robot_teach_stop
+INFO:11397-[20260302033027] device_teach_disenable
+INFO:11397-[20260302033032] TCPConcurrentServer: client disconnect (55)
+INFO:11397-[20260302033032] TCPConcurrentServer: client disconnect (56)
+INFO:11397-[20260302033037] Controller stop run!
